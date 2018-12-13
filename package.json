@@ -5,7 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "scss": "node-sass --watch ./public/styles/scss -o ./public/styles/css"
+=======
+    "start": "nodemon express_server.js"
+>>>>>>> feature/sun-burst-graph
   },
   "repository": {
     "type": "git",
@@ -25,10 +29,19 @@
   "dependencies": {
     "bootstrap": "^4.1.3",
     "cheerio": "^1.0.0-rc.2",
+<<<<<<< HEAD
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-reload": "^1.1.0",
     "moment": "^2.23.0",
+=======
+    "compression": "^1.7.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.7",
+>>>>>>> feature/sun-burst-graph
     "puppeteer": "^1.11.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",

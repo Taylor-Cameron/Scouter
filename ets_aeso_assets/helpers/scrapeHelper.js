@@ -27,6 +27,7 @@ module.exports.getAssetTables = function(html) {
 
   // Gas is split into simple cycle, cogeneration, combined cycle
   outObj[gasAssetNodeTitle] = treeIterationHelper.iterateThroughGas(gasAssetNode, gasAssetNodeTitle);
+
   return outObj;
 };
 
