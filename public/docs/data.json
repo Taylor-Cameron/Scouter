@@ -1,0 +1,537 @@
+{
+  "name": "TOTAL",
+  "children": [
+    {
+      "name": "COAL",
+      "children": [
+        {
+          "name": "Battle River #3 (BR3)",
+          "size": 0
+        },
+        {
+          "name": "Battle River #4 (BR4)",
+          "size": 50
+        },
+        {
+          "name": "Battle River #5 (BR5)",
+          "size": 141
+        },
+        {
+          "name": "Genesee #1 (GN1)",
+          "size": 401
+        },
+        {
+          "name": "Genesee #2 (GN2)",
+          "size": 398
+        },
+        {
+          "name": "Genesee #3 (GN3)",
+          "size": 462
+        },
+        {
+          "name": "H.R. Milner (HRM)",
+          "size": 101
+        },
+        {
+          "name": "Keephills #1 (KH1)",
+          "size": 384
+        },
+        {
+          "name": "Keephills #2 (KH2)",
+          "size": 396
+        },
+        {
+          "name": "Keephills #3 (KH3)",
+          "size": 460
+        },
+        {
+          "name": "Sheerness #1 (SH1)",
+          "size": 374
+        },
+        {
+          "name": "Sheerness #2 (SH2)",
+          "size": 367
+        },
+        {
+          "name": "Sundance #3 (SD3)",
+          "size": 0
+        },
+        {
+          "name": "Sundance #4 (SD4)",
+          "size": 157
+        },
+        {
+          "name": "Sundance #5 (SD5)",
+          "size": 0
+        },
+        {
+          "name": "Sundance #6 (SD6)",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name": "HYDRO",
+      "children": [
+        {
+          "name": "Bighorn Hydro (BIG)",
+          "size": 30
+        },
+        {
+          "name": "Bow River Hydro (BOW1)",
+          "size": 80
+        },
+        {
+          "name": "Brazeau Hydro (BRA)",
+          "size": 22
+        },
+        {
+          "name": "CUPC Oldman River (OMRH)",
+          "size": 3
+        },
+        {
+          "name": "Chin Chute (CHIN)",
+          "size": 0
+        },
+        {
+          "name": "Dickson Dam (DKSN)",
+          "size": 5
+        },
+        {
+          "name": "Irrican Hydro (ICP1)",
+          "size": 0
+        },
+        {
+          "name": "Raymond Reservoir (RYMD)",
+          "size": 0
+        },
+        {
+          "name": "Taylor Hydro (TAY1)",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "name": "WIND",
+      "children": [
+        {
+          "name": "Ardenville Wind (ARD1)*",
+          "size": 57
+        },
+        {
+          "name": "BUL1 Bull Creek (BUL1)*",
+          "size": 12
+        },
+        {
+          "name": "BUL2 Bull Creek (BUL2)*",
+          "size": 15
+        },
+        {
+          "name": "Blackspring Ridge (BSR1)*",
+          "size": 290
+        },
+        {
+          "name": "Blue Trail Wind (BTR1)*",
+          "size": 53
+        },
+        {
+          "name": "Castle River #1 (CR1)*",
+          "size": 19
+        },
+        {
+          "name": "Castle Rock Wind Farm (CRR1)*",
+          "size": 76
+        },
+        {
+          "name": "Cowley Ridge (CRE3)*",
+          "size": 14
+        },
+        {
+          "name": "Enmax Taber (TAB1)*",
+          "size": 67
+        },
+        {
+          "name": "Ghost Pine (NEP1)*",
+          "size": 73
+        },
+        {
+          "name": "Halkirk Wind Power Facility (HAL1)*",
+          "size": 137
+        },
+        {
+          "name": "Kettles Hill (KHW1)*",
+          "size": 59
+        },
+        {
+          "name": "McBride Lake Windfarm (AKE1)*",
+          "size": 65
+        },
+        {
+          "name": "Oldman 2 Wind Farm 1 (OWF1)*",
+          "size": 32
+        },
+        {
+          "name": "Soderglen Wind  (GWW1)*",
+          "size": 0
+        },
+        {
+          "name": "Summerview 1 (IEW1)*",
+          "size": 56
+        },
+        {
+          "name": "Summerview 2 (IEW2)*",
+          "size": 61
+        },
+        {
+          "name": "Suncor Chin Chute (SCR3)*",
+          "size": 27
+        },
+        {
+          "name": "Suncor Magrath (SCR2)*",
+          "size": 0
+        },
+        {
+          "name": "Wintering Hills (SCR4)*",
+          "size": 77
+        }
+      ]
+    },
+    {
+      "name": "BIOMASS AND OTHER",
+      "children": [
+        {
+          "name": "APF Athabasca (AFG1)*",
+          "size": 74
+        },
+        {
+          "name": "Brooks Solar (BSC1)",
+          "size": 3
+        },
+        {
+          "name": "Cancarb Medicine Hat (CCMH)",
+          "size": 35
+        },
+        {
+          "name": "DAI1 Daishowa (DAI1)",
+          "size": 47
+        },
+        {
+          "name": "Gold Creek Facility (GOC1)",
+          "size": 0
+        },
+        {
+          "name": "Grande Prairie EcoPower (GPEC)",
+          "size": 13
+        },
+        {
+          "name": "NRGreen (NRG3)",
+          "size": 12
+        },
+        {
+          "name": "Slave Lake (SLP1)*",
+          "size": 3
+        },
+        {
+          "name": "Weldwood #1 (WWD1)*",
+          "size": 36
+        },
+        {
+          "name": "Westlock (WST1)",
+          "size": 13
+        },
+        {
+          "name": "Weyerhaeuser (WEY1)",
+          "size": 41
+        },
+        {
+          "name": "Whitecourt Power (EAGL)",
+          "size": 22
+        }
+      ]
+    },
+    {
+      "name": "GAS",
+      "children": [
+        {
+          "name": "Simple Cycle",
+          "children": [
+            {
+              "name": "AB Newsprint (ANC1)",
+              "size": 54
+            },
+            {
+              "name": "AltaGas Bantry (ALP1)",
+              "size": 7
+            },
+            {
+              "name": "AltaGas Parkland (ALP2)",
+              "size": 10
+            },
+            {
+              "name": "Bellshill (BHL1)",
+              "size": 0
+            },
+            {
+              "name": "Carson Creek (GEN5)",
+              "size": 13
+            },
+            {
+              "name": "Cloverbar #1 (ENC1)",
+              "size": 40
+            },
+            {
+              "name": "Cloverbar #2 (ENC2)",
+              "size": 34
+            },
+            {
+              "name": "Cloverbar #3 (ENC3)",
+              "size": 63
+            },
+            {
+              "name": "Crossfield Energy Centre #1 (CRS1)",
+              "size": 0
+            },
+            {
+              "name": "Crossfield Energy Centre #2 (CRS2)",
+              "size": 0
+            },
+            {
+              "name": "Crossfield Energy Centre #3 (CRS3)",
+              "size": 0
+            },
+            {
+              "name": "Drywood (DRW1)",
+              "size": 0
+            },
+            {
+              "name": "High River (MFG1)*",
+              "size": 0
+            },
+            {
+              "name": "House Mountain (HSM1)",
+              "size": 1
+            },
+            {
+              "name": "Judy Creek (GEN6)",
+              "size": 12
+            },
+            {
+              "name": "Lethbridge Burdett (ME03)",
+              "size": 7
+            },
+            {
+              "name": "Lethbridge Coaldale (ME04)",
+              "size": 5
+            },
+            {
+              "name": "Lethbridge Taber (ME02)",
+              "size": 8
+            },
+            {
+              "name": "NPC1 Denis St. Pierre (NPC1)",
+              "size": 0
+            },
+            {
+              "name": "NPC2 JL Landry (NPC2)",
+              "size": 9
+            },
+            {
+              "name": "Northern Prairie Power Project (NPP1)",
+              "size": 76
+            },
+            {
+              "name": "Poplar Hill #1 (PH1)",
+              "size": 40
+            },
+            {
+              "name": "Rainbow #5 (RB5)",
+              "size": 45
+            },
+            {
+              "name": "Ralston (NAT1)",
+              "size": 18
+            },
+            {
+              "name": "Valley View 1 (VVW1)",
+              "size": 0
+            },
+            {
+              "name": "Valley View 2 (VVW2)",
+              "size": 0
+            },
+            {
+              "name": "West Cadotte (WCD1)",
+              "size": 20
+            }
+          ]
+        },
+        {
+          "name": "Cogeneration",
+          "children": [
+            {
+              "name": "ATCO Scotford Upgrader (APS1)",
+              "size": 156
+            },
+            {
+              "name": "Air Liquide Scotford #1 (ALS1)",
+              "size": 80
+            },
+            {
+              "name": "AltaGas Harmattan (HMT1)",
+              "size": 38
+            },
+            {
+              "name": "Base Plant (SCR1)",
+              "size": 34
+            },
+            {
+              "name": "Bear Creek 1 (BCRK)",
+              "size": 60
+            },
+            {
+              "name": "Bear Creek 2 (BCR2)",
+              "size": 29
+            },
+            {
+              "name": "BuckLake (PW01)",
+              "size": 5
+            },
+            {
+              "name": "CNRL Horizon (CNR5)*",
+              "size": 196
+            },
+            {
+              "name": "Camrose (CRG1)*",
+              "size": 0
+            },
+            {
+              "name": "Carseland Cogen (TC01)",
+              "size": 75
+            },
+            {
+              "name": "Christina Lake (CL01)",
+              "size": 97
+            },
+            {
+              "name": "Dow Hydrocarbon (DOWG)",
+              "size": 195
+            },
+            {
+              "name": "Edson (TLM2)",
+              "size": 10
+            },
+            {
+              "name": "Firebag (SCR6)",
+              "size": 432
+            },
+            {
+              "name": "Fort Hills (FH1)",
+              "size": 185
+            },
+            {
+              "name": "Foster Creek (EC04)",
+              "size": 79
+            },
+            {
+              "name": "Joffre #1 (JOF1)",
+              "size": 381
+            },
+            {
+              "name": "Kearl (IOR3)",
+              "size": 29
+            },
+            {
+              "name": "Lindbergh (PEC1)*",
+              "size": 3
+            },
+            {
+              "name": "MEG1 Christina Lake (MEG1)",
+              "size": 166
+            },
+            {
+              "name": "MacKay River (MKRC)",
+              "size": 192
+            },
+            {
+              "name": "Mahkeses (IOR1)",
+              "size": 163
+            },
+            {
+              "name": "Muskeg River (MKR1)",
+              "size": 179
+            },
+            {
+              "name": "Nabiye (IOR2)*",
+              "size": 169
+            },
+            {
+              "name": "Nexen Inc #2 (NX02)",
+              "size": 179
+            },
+            {
+              "name": "Poplar Creek (SCR5)",
+              "size": 340
+            },
+            {
+              "name": "Primrose #1 (PR1)",
+              "size": 83
+            },
+            {
+              "name": "Rainbow Lake #1 (RL1)",
+              "size": 42
+            },
+            {
+              "name": "Redwater Cogen (TC02)",
+              "size": 0
+            },
+            {
+              "name": "Shell Caroline (SHCG)*",
+              "size": 0
+            },
+            {
+              "name": "Syncrude #1 (SCL1)*",
+              "size": 352
+            },
+            {
+              "name": "U of C Generator (UOC1)*",
+              "size": 13
+            },
+            {
+              "name": "University of Alberta (UOA1)*",
+              "size": 11
+            }
+          ]
+        },
+        {
+          "name": "Combined Cycle",
+          "children": [
+            {
+              "name": "Cavalier (EC01)",
+              "size": 79
+            },
+            {
+              "name": "ENMAX Calgary Energy Centre (CAL1)",
+              "size": 256
+            },
+            {
+              "name": "Fort Nelson (FNG1)",
+              "size": 65
+            },
+            {
+              "name": "Medicine Hat #1 (CMH1)",
+              "size": 199
+            },
+            {
+              "name": "Nexen Inc #1 (NX01)",
+              "size": 53
+            },
+            {
+              "name": "Shepard (EGC1)",
+              "size": 622
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

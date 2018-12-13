@@ -1,9 +1,9 @@
 body {
 background-color: #E9E7F6;
 font-family: "Helvetica Neue", sans-serif;
-color: #465865; 
+color: #465865;
 font-size: 16px;
-  font-weight: 300;    
+  font-weight: 300;
 }
 
 table tr td {
@@ -16,8 +16,8 @@ table tr td {
   margin-right: 15px;
   margin-top: 20px;
   padding:20px 0 0 0;
-}	
-  
+}
+
   .block {
     height: 630px;
     background: #ffffff;
@@ -40,14 +40,14 @@ table tr td {
   box-shadow: 0px 0px 30px 0px rgba(8, 8, 8, 0.1);
 	background:rgba(255,255,255,0.97);
   height: 70px;
-	width: 100%;	
+	width: 100%;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 998;
 }
 
-#date { 
+#date {
   flex: 1;
   text-align: center
 }
@@ -78,7 +78,7 @@ table tr td {
 .summary-box .title {
   width: 100%;
   font-size:16px;
-  color: #465865; 
+  color: #465865;
   display:table;
   text-align: center;
   padding-top: 20px;
@@ -89,7 +89,7 @@ table tr td {
   text-align:center;
   display:table;
   font-size: 22px;
-  color: #465865; 
+  color: #465865;
   padding-top: 18px;
 }
 
@@ -134,7 +134,7 @@ table tr td {
 
 td.energy-source-title {
   font-size: 18px;
-  color: #465865; 
+  color: #465865;
 }
 
 td.energy-source-values {
@@ -275,7 +275,7 @@ flex: 1;
 }
 
 .power-plant-breakdown-table-div {
--webkit-overflow-scrolling: touch;		
+-webkit-overflow-scrolling: touch;
 }
 
 .power-plant-breakdown-summary {
@@ -349,7 +349,7 @@ flex: 1;
 
 td.power-plant-name-data {
   height: 44px;
-  line-height: 33px; 
+  line-height: 33px;
   text-transform: uppercase;
   width: 50%;
   font-size: 14px;
@@ -374,4 +374,16 @@ td.power-plant-capability-data {
   width: 25%;
   font-size: 16px;
   text-align: center;
+}
+
+/*********Sunburst*********/
+
+.sunburst-wrapper{
+  height: 630px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 98%;
+  padding-top: 85px;
+  padding-right: 25px;
 }
