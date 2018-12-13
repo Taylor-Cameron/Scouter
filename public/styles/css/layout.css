@@ -1,5 +1,5 @@
 body {
-background-color: #E9E7F6;
+background-color: lightgray;
 font-family: "Helvetica Neue", sans-serif;
 color: #465865;
 font-size: 16px;
@@ -145,6 +145,16 @@ td.energy-source-values {
   width:40px;
 }
 
+td.energy-source-icon {
+	width: 50px;
+}
+
+
+td.energy-source-icon img {
+	width: 30px;
+}
+
+
 .td.energy-source-disclosure img {
   width: 15px;
   height: 15px;
@@ -186,7 +196,7 @@ color: #5E5A5F;
 }
 
 .gas{
-  color: #FFE66D;
+  color: #CE632D;
 }
 
 .wind{
@@ -194,7 +204,7 @@ color: #5E5A5F;
 }
 
 .biofuel{
-  color: #CE632D;
+  color: #FFE66D;
 }
 
 #coal{
@@ -206,7 +216,7 @@ color: #5E5A5F;
 }
 
 #gas{
-  color: #FFE66D;
+  color: #CE632D;
 }
 
 #wind{
@@ -214,7 +224,7 @@ color: #5E5A5F;
 }
 
 #biofuel{
-  color: #CE632D;
+  color: #FFE66D;
 }
 
 
@@ -227,7 +237,7 @@ color: #5E5A5F;
 }
 
 #gas-bar {
-  background-color: #FFE66D
+  background-color: #CE632D;
 }
 
 #wind-bar {
@@ -235,7 +245,7 @@ color: #5E5A5F;
 }
 
 #biofuel-bar {
-  background-color: #CE632D;
+  background-color: #FFE66D;
 }
 
 /*IMPORT SUMMARY*/
