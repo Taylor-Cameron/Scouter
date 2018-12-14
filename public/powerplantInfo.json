@@ -1,0 +1,501 @@
+{
+  "name": "COAL",
+  "children": [
+    {
+      "name": "Battle River #3",
+      "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
+      "Info": "Battle river power station has been in operation since 1969, and is one section of a three unit station. And has a maximum capacity of 149 megawatts.,",
+      "owner": "atco power",
+      "website": "atcopower.com"
+    },
+    {
+      "name": "Battle River #4",
+      "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
+      "Info": "Battle river power station has been in operation since 1975, and is one section of a three unit station. And has a maximum capacity of 155 megawatts.",
+      "owner": "atco power",
+      "website": "atcopower.com"
+    },
+    {
+      "name": "Battle River #5",
+      "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
+      "Info": " Battle river power station has been in operation since 1981, and is one section of a three unit station. And has a maximum capacity of 385 megawatts.",
+      "owner": "atco power",
+      "website": "atcopower.com"
+    },
+    {
+      "name": "Genesee #1",
+      "location": "Warburg, AB T0C 2T0",
+      "Info": "Genesee power station unit 1 has been in operation since 1994, and is one section of a 2 unit station. It has a maximum capacity of 400 megawatts. They also have a comprehensive land reclamation plan in place to return mined land back in to agricultural space.",
+      "owner": "capital power",
+      "website": "capitalpower.com"
+    },
+    {
+      "name": "Genesee #2",
+      "location": "Warburg, AB T0C 2T0",
+      "Info": "Genesee power station unit 2 has been in operation since 1994, and is one section of a 2 unit station. It has a maximum capacity of 400 megawatts. They also have a comprehensive land reclamation plan in place to return mined land back in to agricultural space.",
+      "owner": "capital power",
+      "website": "capitalpower.com"
+    },
+    {
+      "name": "Genesee #3",
+      "location": "Warburg, AB T0C 2T0",
+      "Info": "Genesee power station unit 3 has been in operation since 2005, and is one of the most advanced, fuel-efficient, and environmentally-progressive coal-fired facilities in Canada. It has a maximum capacity of 466 megawatts. It is also Canada's first power generation facility to use supercritical combustion technology for greater fuel efficiency and lower emissions.",
+      "owner": "capital power and Transalta",
+      "website": "capitalpower.com transalta.com",
+    },
+    {
+      "name": "H.R. Milner",
+      "location": "Greenview No. 16, AB",
+      "Info": "Has been in operation since 1972, and uses a dual fuel steam turbine generator capable of burning both natural gas and coal. It has a maximum capacity of 144 megawatts.",
+      "owner": "maxim power",
+      "website": "maximpowercorp.com"
+    },
+    {
+      "name": "Keephills #1",
+      "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
+      "Info": "Keephills #1 has been in operation since 1983 and is one part of a 3 unit station. It has a maximum capacity of 395 megawatts",
+      "owner": " Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "Keephills #2",
+      "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
+      "Info": "Keephills #2 has been in operation since 1983 and is one part of a 3 unit station. It has a maximum capacity of 395 megawatts",
+      "owner": " Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "Keephills #3",
+      "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
+      "Info": "Keephills #3 has been in operation since 2011, and is one of Canada’s largest and cleanest coal-fired facilities and one of the most advanced facilities of its kind in the world. And was built to replace the previously existing Wabamun 4 station",
+      "owner": "capital power and Transalta",
+      "website": "capitalpower.com transalta.com"
+    },
+    {
+      "name": "Sheerness #1",
+      "location": "Veterans Memorial Hwy, Sunnynook, AB T0J 3J0",
+      "Info": "It has been in operation since 1986, and is one part of a two unit station. It has a maximum capacity of 400 megawatts, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
+      "owner": "atco power and Transalta",
+      "website": "transalta.com atcopower.com"
+    },
+    {
+      "name": "Sheerness #2",
+      "location": "Veterans Memorial Hwy, Sunnynook, AB T0J 3J0",
+      "Info": "It has been in operation since 1990, and is one part of a two unit station. It has a maximum capacity of 400 megawatts, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
+      "owner": "atco power and Transalta",
+      "website": "transalta.com atcopower.com"
+    },
+    {
+      "name": "Sundance #3",
+      "location": "Parkland County, AB T0E 0V0",
+      "Info": "Was built in 1976 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 368 megawatts.",
+      "owner": " Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "Sundance #4",
+      "location": "Parkland County, AB T0E 0V0",
+      "Info": "Was built in 1977 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 406 megawatts.",
+      "owner": " Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "Sundance #5",
+      "location": "Parkland County, AB T0E 0V0",
+      "Info": "Was built in 1978 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 406 megawatts.",
+      "owner": "Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "Sundance #3",
+      "location": "Parkland County, AB T0E 0V0",
+      "Info": "Was built in 1980 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 401 megawatts.",
+      "owner": "Transalta",
+      "website": "transalta.com"
+    }
+  ]
+}
+{
+  "name": "HYDRO",
+  "children": [
+    {
+      "name": "Bighorn Hydro",
+      "location": "Nordegg, AB",
+      "info": "Has been in operation since 1972, and is primarily used to introduce hydro power within minutes, balancing out shortages due to unexpected outages, or providing power at times of high demand. It has a maximum
+      capicity of 120 megawatts.",
+      "owner": "Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "Bow River Hydro",
+      "location": "Calgary, AB",
+      "info": "Was built in 1954, and is primarily used to introduce hydro power within minutes, balancing out shortages due to unexpected outages, or providing power at times of high demand. It has a maximum
+      capicity of 320 megawatts.",
+      "owner": "Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "Brazeau Hydro",
+      "location": "Drayton Valley, AB",
+      "info": "Was built in 1965 and is Transalta's biggest hydro plant. it is primarily used to introduce hydro power within minutes, balancing out shortages due to unexpected outages, or providing power at times of high demand. It has a maximum
+      capacity of 350 megawatts",
+      "owner": "Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "CUPC Oldman River",
+      "location": "Brockett, Alberta",
+      "info": "Was built is 2003 and was selected by Alberta Environment to develop the project at the existing dam site near Pincher Creek
+      . it has a maximum capacity of 32",
+      "owner": "Atco power",
+      "website": "atcpower.com"
+    },
+    {
+      "name": "Chin Chute",
+      "location": "Taber, Alberta",
+      "info": "a small scale irrigation pipe turbine, with a maximum capacity of 15 megawatts.",
+      "owner": "Acciona",
+      "website": "acciona.ca"
+    },
+    {
+      "name": "Dickson Dam",
+      "location": "Red Deer County, AB",
+      "info": "It was built in 1992, the dam was created to control for floods and low winter flows, to improve quality of the river, to create a recreational resource and to provide a reliable, year-round water supply sufficient for future industrial, regional and municipal growth.
+      it has a maximum capacity of 15 megawatts.",
+      "owner": "government of Alberta",
+      "website": "alberta.ca"
+    },
+    {
+      "name": "Irrican Hydro",
+      "location": "Calgary, AB",
+      "info": "It was built in 1896, and is a small scale run-of-canal hydro plant in southern Alberta on the St. Mary’s Irrigation System.",
+      "owner": "Klohn Crippen Berger",
+      "website": "klohn.com"
+    },
+    {
+      "name": "Raymond Reservoir",
+      "location": "Warner County No. 5, AB T0K 2S0",
+      "info": "A small hydro plant located beside the Raymond Reservoir, it was built in 1994. And has
+      a maximum capacity of 21 megawatts.",
+      "owner": "Irrican Power",
+      "website": ""
+    },
+    {
+      "name": "Taylor Hydro",
+      "location": "Magrath, AB",
+      "info": "It was built in 2000, and operates during the six-month irrigation season each year from April to October.
+      it has a maximum capcity of 14 megawatts.",
+      "owner": "Transalta",
+      "website": "transalta.com"
+    },
+  ]
+},
+{
+  "name": "WIND",
+  "children": [
+    {
+      "name": "Ardenville Wind (ARD1)*",
+      "location": "Fort Macleod, AB",
+      "info": " It was built in 2010 and is comprised on 23 80m wind turbines.
+      It has a maximum capacity of 167 megawatts",
+      "owner": "Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "BUL1 Bull Creek (BUL1)*",
+      "location": "13",
+      "info": "1",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "BUL2 Bull Creek (BUL2)*",
+      "location": "16",
+      "info": "0",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Blackspring Ridge (BSR1)*",
+      "location": "300",
+      "info": "295",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Blue Trail Wind (BTR1)*",
+      "location": "66",
+      "info": "39",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Castle River #1 (CR1)*",
+      "location": "39",
+      "info": "35",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Castle Rock Wind Farm (CRR1)*",
+      "location": "77",
+      "info": "76",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Cowley Ridge (CRE3)*",
+      "location": "20",
+      "info": "8",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Enmax Taber (TAB1)*",
+      "location": "81",
+      "info": "78",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Ghost Pine (NEP1)*",
+      "location": "82",
+      "info": "65",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Halkirk Wind Power Facility (HAL1)*",
+      "location": "150",
+      "info": "143",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Kettles Hill (KHW1)*",
+      "location": "63",
+      "info": "49",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "McBride Lake Windfarm (AKE1)*",
+      "location": "73",
+      "info": "61",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Oldman 2 Wind Farm 1 (OWF1)*",
+      "location": "46",
+      "info": "36",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Soderglen Wind  (GWW1)*",
+      "location": "71",
+      "info": "68",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Summerview 1 (IEW1)*",
+      "location": "66",
+      "info": "28",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Summerview 2 (IEW2)*",
+      "location": "66",
+      "info": "35",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Suncor Chin Chute (SCR3)*",
+      "location": "30",
+      "info": "29",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Suncor Magrath (SCR2)*",
+      "location": "30",
+      "info": "9",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Wintering Hills (SCR4)*",
+      "location": "88",
+      "info": "73",
+      "owner": "0",
+      "website":
+    }
+  ]
+},
+{
+  "name": "BIOMASS AND OTHER",
+  "children": [
+    {
+      "name": "APF Athabasca",
+      "location": "131",
+      "info": "74",
+      "owner": "10",
+      "website":
+    },
+    {
+      "name": "Brooks Solar",
+      "location": "15",
+      "info": "0",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Cancarb Medicine Hat",
+      "location": "42",
+      "info": "33",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "DAI1 Daishowa",
+      "location": "52",
+      "info": "44",
+      "owner": "12",
+      "website":
+    },
+    {
+      "name": "Gold Creek Facility",
+      "location": "5",
+      "info": "0",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Grande Prairie EcoPower",
+      "location": "27",
+      "info": "13",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "NRGreen",
+      "location": "16",
+      "info": "12",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Slave Lake",
+      "location": "9",
+      "info": "3",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Weldwood #1",
+      "location": "50",
+      "info": "38",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Westlock",
+      "location": "18",
+      "info": "13",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Weyerhaeuser",
+      "location": "48",
+      "info": "44",
+      "owner": "0",
+      "website":
+    },
+    {
+      "name": "Whitecourt Power",
+      "location": "25",
+      "info": "24",
+      "owner": "0",
+      "website":
+    }
+  ]
+}
+"BIOMASS AND OTHER": [
+  {
+    "ASSET": "APF Athabasca (AFG1)*",
+    "MC": "131",
+    "TNG": "74",
+    "DCR": "10"
+  },
+  {
+    "ASSET": "Brooks Solar (BSC1)",
+    "MC": "15",
+    "TNG": "0",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "Cancarb Medicine Hat (CCMH)",
+    "MC": "42",
+    "TNG": "33",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "DAI1 Daishowa (DAI1)",
+    "MC": "52",
+    "TNG": "44",
+    "DCR": "12"
+  },
+  {
+    "ASSET": "Gold Creek Facility (GOC1)",
+    "MC": "5",
+    "TNG": "0",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "Grande Prairie EcoPower (GPEC)",
+    "MC": "27",
+    "TNG": "13",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "NRGreen (NRG3)",
+    "MC": "16",
+    "TNG": "12",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "Slave Lake (SLP1)*",
+    "MC": "9",
+    "TNG": "3",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "Weldwood #1 (WWD1)*",
+    "MC": "50",
+    "TNG": "38",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "Westlock (WST1)",
+    "MC": "18",
+    "TNG": "13",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "Weyerhaeuser (WEY1)",
+    "MC": "48",
+    "TNG": "44",
+    "DCR": "0"
+  },
+  {
+    "ASSET": "Whitecourt Power (EAGL)",
+    "MC": "25",
+    "TNG": "24",
+    "DCR": "0"
+  }
+]
