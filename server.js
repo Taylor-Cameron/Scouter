@@ -23,8 +23,6 @@ app.use(function(err, req, res, next) {
       .send('Oops! Something isn\'t right here! Please go back to the previous page');
 });
 
-// MOMENT JS
-
 
 // Port listener
 app.listen(PORT, () => {
