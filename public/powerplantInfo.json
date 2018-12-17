@@ -461,135 +461,153 @@
   "name": "GAS",
   "children": [
     {
-      "name": "Simple Cycle",
-      "children": [
+      "name": "Simple Cycle", "children": [
         {
           "name": "AB Newsprint",
+<<<<<<< HEAD
           "location": "TODO:",
           "info": "TODO:",
           "owner": "TODO:",
           "website": "TODO:"
+=======
+          "location": "Whitecourt, AB",
+          "info": "This facility has a generating capacity of 65 MW.",
+          "owner": "Alberta Newsprint Company", 
+          "website": "www.albertanewsprint.com"
+>>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
         },
         {
           "name": "AltaGas Bantry",
           "location": "Brooks, AB",
-          "info": "Bantry uses natural gas fired electrical peaking generators and total maximum capacity of 7 megawatts",
+          "info": "Bantry uses natural gas fired electrical peaking generators and total maximum capacity of 7MW",
           "owner": "AltaGas",
           "website": "www.altagas.ca"
         },
         {
           "name": "AltaGas Parkland",
           "location": "Parkland/Nanton, AB",
-          "info": "Parkland ses natural gas fired electrical peaking generators and total maximum capacity of 10 megawatts",
+          "info": "Parkland ses natural gas fired electrical peaking generators and total maximum capacity of 10MW",
           "owner": "AltaGas",
           "website": "www.altagas.ca"
         },
         {
           "name": "Bellshill Power Centre",
           "location": "Galahad, AB",
-          "info": "Built in 2015 with a total capacity of 5.6  megawatts.",
+          "info": "Built in 2015 with a total capacity of 5.6 MW.",
           "owner": "Genalta Power",
           "website": "www.genaltapower.com"
         },
         {
           "name": "Carson Creek",
           "location": "Whitecourt, AB",
-          "info": "Carson Creek is a 15 megawatts simple cycle gas turbine that operates during peak demand periods.",
+          "info": "Carson Creek is a 15MW simple cycle gas turbine that operates during peak demand periods.",
           "owner": "Genalta Power",
           "website": "genaltapower.com"
         },
         {
           "name": "Clover Bar Evergy Centre - Unit 1",
           "location": "Edmonton Alberta",
-          "info": "One of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243 megawatts.",
+          "info": "One of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243MW.",
           "owner": "Capital Power",
           "website": "capitalpower.com"
         },
         {
           "name": "Clover Bar Evergy Centre - Unit 2",
           "location": "Edmonton, AB",
-          "info": "One of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243 megawatts.",
+          "info": "One of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243MW.",
           "owner": "Capital Power",
           "website": "capitalpower.com"
         },
         {
           "name": "Clover Bar Evergy Centre - Unit 3",
           "location": "Edmonton, AB",
-          "info": "One of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243 megawatts.",
+          "info": "One of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243MW.",
           "owner": "Capital Power",
           "website": "capitalpower.com"
         },
         {
           "name": "Crossfield Energy Centre #1",
           "location": "48",
-          "info": "Built in 2009, all three centres have a combined total capacity of 120 megawatts.",
+          "info": "Built in 2009, all three centres have a combined total capacity of 120MW.",
           "owner": "Enmax",
           "website": "enmax.com"
         },
         {
           "name": "Crossfield Energy Centre #2",
           "location": "48",
-          "info": "Built in 2009, all three centres have a combined total capacity of 120 megawatts.",
+          "info": "Built in 2009, all three centres have a combined total capacity of 120MW.",
           "owner": "Enmax",
           "website": "www.enmax.com"
         },
         {
           "name": "Crossfield Energy Centre #3",
           "location": "Rockyview, AB",
-          "info": "Built in 2009, all three centres have a combined total capacity of 120 megawatts.",
+          "info": "Built in 2009, all three centres have a combined total capacity of 120MW.",
           "owner": "Enmax",
           "website": "www.enmax.com"
         },
         {
           "name": "Drywood",
           "location": "Drywood, AB",
-          "info": "Built in 2000 with a total capacity of 6 megawatts.",
+          "info": "Built in 2000 with a total capacity of 6MW.",
           "owner": "TransAlta",
           "website": "www.transalta.com"
         },
         {
           "name": "High River",
+<<<<<<< HEAD
           "location": "TODO:",
           "info": "TODO:",
           "owner": "TODO:",
           "website": "TODO:"
+=======
+          "location": "High River, AB",
+          "info": "This facaility has a capacity of approximately 500 MW.",
+          "owner": "TransCanada",
+          "website": "www.transcanada.com"
+>>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
         },
         {
           "name": "House Mountain Distributed Generation Facility",
           "location": "Swan Hill, AB",
+<<<<<<< HEAD
           "info": "A 6 megawatt natural gas-fired power facility ",
+=======
+          "info": "A 6 megawatt (MW) natural gas-fired power facility ",
+>>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
           "owner": "Atco",
           "website": "atcopower.com"
         },
         {
           "name": "Judy Creek",
           "location": "Whitecourt, AB",
-          "info": "A 15 megawatts simple cycle gas faciliy that operates during peak hours.",
+          "info": "A 15MW simple cycle gas faciliy that operates during peak hours.",
           "owner": "Genalta Power",
           "website": "genaltapower.com"
         },
         {
           "name": "Lethbridge Burdett",
           "location": "Lethbridge, AB",
-          "info": "Built in 2001 with a capacity of 7 megawatts.",
+          "info": "Built in 2001 with a capacity of 7MW.",
           "owner": "Maxim Power",
           "website": "www.maximpowercorp.com"
         },
         {
           "name": "Lethbridge Coaldale",
           "location": "Coaldale, AB",
-          "info": "Built in 2001 with a capacity of 6 megawatts.",
+          "info": "Built in 2001 with a capacity of 6MW.",
           "owner": "Maxim Power",
           "website": "www.maximpowercorp.com"
         },
         {
           "name": "Lethbridge Taber",
           "location": "Lethbridge, AB",
-          "info": "Built in 2001 with a capacity of 8 megawatts.",
+          "info": "Built in 2001 with a capacity of 8MW.",
           "owner": "Maxim Power",
           "website": "www.maximpowercorp.com"
         },
         {
+<<<<<<< HEAD
           "name": "NPC1 Denis St. Pierre",
           "location": "Lethbridge, AB",
           "info": "TODO:",
@@ -602,11 +620,26 @@
           "info": "TODO:",
           "owner": "TODO:",
           "website": "TODO:"
+=======
+  
+          "name": "NPC1 Denis St. Pierre (NPC1)",
+          "location": "n/a",
+          "info": "n/a",
+          "owner": "n/a",
+          "website": "n/a"
+        },
+        {
+          "name": "NPC2 JL Landry (NPC2)",
+          "location": "n/a",
+          "info": "n/a",
+          "owner": "n/a",
+          "website": "n/a"
+>>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
         },
         {
           "name": "Northern Prairie Power Project",
           "location": "Grand Prairie, AB",
-          "info": "A natural gas plant with a capacity of 85 megawatts",
+          "info": "A natural gas plant with a capacity of 85MW",
           "owner": "Constellation Energy",
           "website": "www.constellation.com"
         },
@@ -625,30 +658,38 @@
           "website": "www.atcopower.com"
         },
         {
+<<<<<<< HEAD
           "name": "Ralston",
           "location": "TODO:",
           "info": "TODO:",
           "owner": "TODO:",
           "website": "TODO:"
+=======
+          "name": "Ralston (NAT1)",
+          "location": "Ralston, AB",
+          "info": "This plant has a maximum capacity of 20 MW.",
+          "owner": "n/a",
+          "website": "n/a"
+>>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
         },
         {
           "name": "Valley View 1",
           "location": "Valley View, AB",
-          "info": "The two generation plants have a combined total capacity of 90 megawatts.",
+          "info": "The two generation plants have a combined total capacity of 90MW.",
           "owner": "Atco Power",
           "website": "www.atcopower.com"
         },
         {
           "name": "Valley View 2",
           "location": "Valley View, AB",
-          "info": "The two generation plants have a combined total capacity of 90 megawatts.",
+          "info": "The two generation plants have a combined total capacity of 90MW.",
           "owner": "Atco Power",
           "website": "www.atcopower.com"
         },
         {
           "name": "West Cadotte",
           "location": "Peace River, AB",
-          "info": "A total capacity of 4 megawatts",
+          "info": "A total capacity of 4MW",
           "owner": "Genalta Power",
           "website": "www.genaltapower.com"
         },
