@@ -3,11 +3,11 @@
   {
     "name": "Simple Cycle", "children": [
       {
-        "name": "AB Newsprint (ANC1)",
-        "location": "TODO:",
-        "info": "TODO:",
-        "owner": "TODO:", 
-        "website": "TODO:"
+        "name": "AB Newsprint",
+        "location": "Whitecourt, AB",
+        "info": "This facility has a generating capacity of 65 MW.",
+        "owner": "Alberta Newsprint Company", 
+        "website": "www.albertanewsprint.com"
       },
       {
         "name": "AltaGas Bantry",
@@ -87,11 +87,11 @@
         "website": "www.transalta.com"
       },
       {
-        "name": "High River (MFG1)*",
-        "location": "TODO:",
-        "info": "TODO:",
-        "owner": "TODO:",
-        "website": "TODO:"
+        "name": "High River",
+        "location": "High River, AB",
+        "info": "This facaility has a capacity of approximately 500 MW.",
+        "owner": "TransCanada",
+        "website": "www.transcanada.com"
       },
       {
         "name": "House Mountain Distributed Generation Facility",
@@ -129,18 +129,19 @@
         "website": "www.maximpowercorp.com"
       },
       {
+
         "name": "NPC1 Denis St. Pierre (NPC1)",
-        "location": "Lethbridge, AB",
-        "info": "TODO:",
-        "owner": "TODO:",
-        "website": "TODO:"
+        "location": "n/a",
+        "info": "n/a",
+        "owner": "n/a",
+        "website": "n/a"
       },
       {
         "name": "NPC2 JL Landry (NPC2)",
-        "location": "TODO:",
-        "info": "TODO:",
-        "owner": "TODO:",
-        "website": "TODO:"
+        "location": "n/a",
+        "info": "n/a",
+        "owner": "n/a",
+        "website": "n/a"
       },
       {
         "name": "Northern Prairie Power Project",
@@ -165,10 +166,10 @@
       },
       {
         "name": "Ralston (NAT1)",
-        "location": "TODO:",
-        "info": "TODO:",
-        "owner": "TODO:",
-        "website": "TODO:"
+        "location": "Ralston, AB",
+        "info": "This plant has a maximum capacity of 20 MW.",
+        "owner": "n/a",
+        "website": "n/a"
       },
       {
         "name": "Valley View 1",
