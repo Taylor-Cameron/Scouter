@@ -464,7 +464,7 @@
       "name": "Simple Cycle",
       "children": [
         {
-          "name": "AB Newsprint (ANC1)",
+          "name": "AB Newsprint",
           "location": "TODO:",
           "info": "TODO:",
           "owner": "TODO:",
@@ -548,7 +548,7 @@
           "website": "www.transalta.com"
         },
         {
-          "name": "High River (MFG1)*",
+          "name": "High River",
           "location": "TODO:",
           "info": "TODO:",
           "owner": "TODO:",
@@ -557,7 +557,7 @@
         {
           "name": "House Mountain Distributed Generation Facility",
           "location": "Swan Hill, AB",
-          "info": "A 6 megawatt ( megawatts) natural gas-fired power facility ",
+          "info": "A 6 megawatt natural gas-fired power facility ",
           "owner": "Atco",
           "website": "atcopower.com"
         },
@@ -583,21 +583,21 @@
           "website": "www.maximpowercorp.com"
         },
         {
-          "name": "Lethbridge Taber (ME02)",
+          "name": "Lethbridge Taber",
           "location": "Lethbridge, AB",
           "info": "Built in 2001 with a capacity of 8 megawatts.",
           "owner": "Maxim Power",
           "website": "www.maximpowercorp.com"
         },
         {
-          "name": "NPC1 Denis St. Pierre (NPC1)",
+          "name": "NPC1 Denis St. Pierre",
           "location": "Lethbridge, AB",
           "info": "TODO:",
           "owner": "TODO:",
           "website": "TODO:"
         },
         {
-          "name": "NPC2 JL Landry (NPC2)",
+          "name": "NPC2 JL Landry",
           "location": "TODO:",
           "info": "TODO:",
           "owner": "TODO:",
@@ -625,7 +625,7 @@
           "website": "www.atcopower.com"
         },
         {
-          "name": "Ralston (NAT1)",
+          "name": "Ralston",
           "location": "TODO:",
           "info": "TODO:",
           "owner": "TODO:",
@@ -646,11 +646,315 @@
           "website": "www.atcopower.com"
         },
         {
-          "name": "West Cadotte (WCD1)",
+          "name": "West Cadotte",
           "location": "Peace River, AB",
           "info": "A total capacity of 4 megawatts",
           "owner": "Genalta Power",
           "website": "www.genaltapower.com"
+        },
+        {
+          "name":"Cogeneration", "children": [
+            {
+              "name": "ATCO Scotford Upgrader",
+              "location": "",
+              "info": "constructed to provide steam and electricity to meet the thermal and power needs of the Athabasca Oilsands Upgrader. two thirds of the power is used for the
+              oilsands, with the surplus being sold to Alberta Power pool. with a maximum capacity of 195 megawatts.",
+              "owner": "Atco power",
+              "website": "atcopower.com"
+            },
+            {
+              "name": "Air Liquide Scotford #1",
+              "location": "Fort Saskatchewan, Alberta",
+              "info": "A gas power plant, with a maximum capacity of 96 megawatts.",
+              "owner": "6",
+              "website": ""
+            },
+            {
+              "name": "AltaGas Harmattan",
+              "location": "Sundre, Alberta",
+              "info": "The Harmattan Gas Processing Complex processes and extracts gas. It is one of the largest gas plants in Alberta.
+              And has a maximum capacity of 45 megawatts.",
+              "owner": "Altagas",
+              "website": "altagas.ca"
+            },
+            {
+              "name": "Base Plant",
+              "location": "Wood Buffalo, AB",
+              "info": "Located at Suncor's oilsands, it has a maximum capacity of 50 megawatts.",
+              "owner": "Suncor",
+              "website": "suncor.com"
+            },
+            {
+              "name": "Bear Creek 1",
+              "location": "Grande Praire, Alberta",
+              "info": "Is a combined-cycle cogeneration with steam augmentation from a wood waste boiler.
+              It has a maximum capacity of 64 megawatts.",
+              "owner": "TransCanada",
+              "website": "transcanada.com"
+            },
+            {
+              "name": "Bear Creek 2",
+              "location": "Grande Praire, Alberta",
+              "info": "Is a combined-cycle cogeneration with steam augmentation from a wood waste boiler.
+              It has a maximum capacity of 64 megawatts.",
+              "owner": "TransCanada",
+              "website": "transcanada.com"
+            },
+            {
+              "name": "BuckLake",
+              "location": " Drayton Valley, Alberta",
+              "info": "Built in 1961, The Plant receives its raw gas from numerous wells connected by an extensive network of
+              pipelines.and with a maximum capacity of 5 megawatts",
+              "owner": "Keyera",
+              "website": "keyera.com"
+            },
+            {
+              "name": "CNRL Horizon",
+              "location": "Fort McMurray, Alberta",
+              "info": "Has a maximum capacity of 203 megawatts.",
+              "owner": "Canadian Natural Ressources",
+              "website": "cnrl.com"
+            },
+            {
+              "name": "Camrose",
+              "location": "Camrose, Alberta",
+              "info": "Has a maximum capacity of 10 megawatts.",
+              "owner": "Camrose Energy",
+              "website": "camroseenergy.com"
+            },
+            {
+              "name": "Carseland Cogen",
+              "location": "Carseland, Alberta",
+              "info": "A cogeneration plant that supplies Alberta with up to 95 megawatts.",
+              "owner": "TransCanada",
+              "website": "transcanada.com"
+            },
+            {
+              "name": "Christina Lake",
+              "location": "Christina Lake, Alberta",
+              "info": "Using cogeneration it has a maximum capacity of 100 megawatts.",
+              "owner": "Cenovus",
+              "website": "cenovus.com"
+            },
+            {
+              "name": "Dow Hydrocarbon",
+              "location": "Prentiss, Alberta",
+              "info": "with the main focus being on turning crude oil and natural gas based raw material into basic chemical building blocks and intermediate products for Dow's downstream derivative partners.
+              Has a maximum capacity of 326 megawatts.",
+              "owner": "Dow",
+              "website": "dow.com"
+            },
+            {
+              "name": "Edson",
+              "location": "Edson, Alberta",
+              "info": "In the process of being improved upon, this plant will eventually be able to produce 900 megawatts of power. but at the moment
+              has a maximum capacity of 13 megawatts.",
+              "owner": "Cascade Power",
+              "website": "cascadepower.com"
+            },
+            {
+              "name": "Firebag",
+              "location": "Fort McMurray, Alberta",
+              "info": "Built in 2003, the firebag plant has a maximum capacity of 473 megawatts. and is one on the few power plants
+              located north of the 56th parallel.",
+              "owner": "Suncor",
+              "website": "suncor.com"
+            },
+            {
+              "name": "Fort Hills",
+              "location": "Fort McMurray, Alberta",
+              "info": "capable of sustaining a production of 14,500 tonnes of oil sand per hour, and with a maximum capacity of 199 megawatts.
+              Fort Hills is located on the Athabasca oil sands.",
+              "owner": "Suncor",
+              "website": "suncor.com"
+            },
+            {
+              "name": "Foster Creek",
+              "location": "Cold Lake, Alberta",
+              "info": "As Cenovus's first oil sand project, they make use of technology called steam-assisted gravity drainage (SAGD), to drill and pump the oil to the surface.
+              it has a maximum capacity of 98 megawatts.",
+              "owner": "Cenovus",
+              "website": "cenovus.com"
+            },
+            {
+              "name": "Joffre #1",
+              "location": "Red Deer, Alberta",
+              "info": "Is a natural gas-fired cogeneration plant to meet the substantial steam and electric energy needs of NOVA’s world-class petrochemical facility,
+              selling excess power in the Alberta power pool. has a maximum capacity of 474 megawatts.",
+              "owner": "Atco Power",
+              "website": "atcopower.com"
+            },
+            {
+              "name": "Kearl",
+              "location": "Wood Buffalo, Alberta",
+              "info": "The Kearl oilsands are located near the Athanbasca oilsands, and has a maximum capacity of 84 megawatts.",
+              "owner": "Imperial Oil",
+              "website": "imperialoil.com"
+            },
+            {
+              "name": "Lindbergh",
+              "location": "Cold Lake, Alberta",
+              "info": "Built in 2012 as a steam injection pilot project. it has a maximum capacity of 16 megawatts.",
+              "owner": "Pengrowth",
+              "website": "pengrowth.com"
+            },
+            {
+              "name": "MEG1 Christina Lake",
+              "location": "Fort McMurray, Alberta",
+              "info": "A Canadian oil sands company focused on sustainable in situ development and production in the Southern Athabasca region of Alberta.
+              Has a maximum capacity of 202 megawatts.",
+              "owner": "Meg Energy",
+              "website": "megenergy.com"
+            },
+            {
+              "name": "MacKay River",
+              "location": "Fort McMurray, Alberta",
+              "info": "MacKay River is an industrial cogeneration project that is situated on Suncor’s MacKay River oilsands development.
+              it has a maximum capacity of 207 megawatts.",
+              "owner": "transCanada",
+              "website": "transcanada.com"
+            },
+            {
+              "name": "Mahkeses",
+              "location": "Cold Lake, Alberta",
+              "info": "Opened for production in the 1960's it is one Canada's oldest power plants and one of the largest thermal in-situ heavy oil operations in the world. it has
+              a maximum capacity of 180 megawatts.",
+              "owner": "Imperial Oil",
+              "website": "imperialoil.com"
+            },
+            {
+              "name": "Muskeg River",
+              "location": "Fort McMurray, Alberta",
+              "info": "Is a  cogeneration plant provides steam and electricity to meet the requirements of the Muskeg River Mine. Any electricity generated and not used at the mine is sold into the Power Pool of Alberta.
+              it has a maximum capacity of 202 megawatts.",
+              "owner": "Atco Power and Sask power",
+              "website": "atcopower.com"
+            },
+            {
+              "name": "Nabiye",
+              "location": "Cold Lake, Alberta",
+              "info": "Built in 2004, as a part of Imperial Oil 13 phase bitimun production. it has a maximum capacity of 195 megawatts.",
+              "owner": "Imperial Oil",
+              "website": "imperialoil.com"
+            },
+            {
+              "name": "Nexen Inc #2",
+              "location": "Rocky View No. 44, Alberta",
+              "info": "Has a maximum capacity of 220 megawatts.",
+              "owner": "Nexen Inc.",
+              "website": "nexencnoocltd.com"
+            },
+            {
+              "name": "Poplar Creek",
+              "location": "Fort McMurray, Alberta",
+              "info": "Poplar Creek is gas-fired turbines at Suncor’s oil sands site near Fort McMurray. TransAlta provides Suncor with centralized monitoring, diagnostics and technical support to maximize performance and reliability of plant equipment.
+              it has a maximum capacity of 376 megawatts.",
+              "owner": "Transalta",
+              "website": "transalta.com"
+            },
+            {
+              "name": "Primrose #1",
+              "location": "Primrose, Alberta",
+              "info": "Primrose has a maximum capacity of 100 megawatts and was Alberta’s first independent power project on stream in 1998 in the newly deregulated market.",
+              "owner": "Atco Power",
+              "website": "atcopower.com"
+            },
+            {
+              "name": "Rainbow Lake #1",
+              "location": "rainbow lake",
+              "info": "has since been decommissioned as of November 2016",
+              "owner": "Atco power",
+              "website": "atcopower.com"
+            },
+            {
+              "name": "Redwater Cogen",
+              "location": "Redwater, Alberta",
+              "info": "The plant is customized to use a blend of natural gas and regeneration gas, a product of Williams Energy’s fractionation business, to fuel the gas turbine, and has
+              a maximum capacity of 46 megawatts.",
+              "owner": "TransCanada",
+              "website": "transcanada.com"
+            },
+            {
+              "name": "Shell Caroline",
+              "location": "Clearwater County, Alberta",
+              "info": "Is part of the Shell Caroline Complex, and has a maximum capacity of 19 megawatts.",
+              "owner": "Shell",
+              "website": "Shell.ca"
+            },
+            {
+              "name": "Syncrude #1",
+              "location": "Fort McMurray, Alberta",
+              "info": " As one of the biggest operators in Canada's Oil sands it creates up to 510 megawatts of power for Alberta.",
+              "owner": "Syncrude",
+              "website": "syncrude.ca"
+            },
+            {
+              "name": "U of C Generator",
+              "location": "Calgary, Alberta",
+              "info": "The university cogeneration plant will allow for the university to cut its CO2 emissions by half.
+              and has a maximum capacity of 12 megawatts.",
+              "owner": "University of Calgary",
+              "website": "ucalgary.ca"
+            },
+            {
+              "name": "University of Alberta",
+              "location": "Edmonton, Alberta",
+              "info": "Has a maximum capacity of 39 megawatts, and is used to heat the campus buildings.",
+              "owner": "University of Alberta",
+              "website": "ualberta.ca"
+            }
+          ]
+        },
+        {
+          "name": "Combined Cycle", "children": [
+            {
+              "name": "ENMAX Calgary Energy Centre",
+              "location": "Calgary, Alberta",
+              "info": "The Calgary Energy Center is a combined cycle powerplant located on the northeast corner of Calgary Alberta. Powered by a single Westinghouse W502-FD2 combustion turbine.
+              and has a maximum capacity of 320 megawatts.",
+              "owner": "Enmax",
+              "website": "enmax.com"
+            },
+            {
+              "name": "Cavalier",
+              "location": "Strathmore, Alberta",
+              "info": "The Cavalier Energy Centre and the Balzac Facility are part of a larger generation portfolio intended to help meet the growing electricity needs of our customers across Alberta.
+              And has a maximum capacity of 120 megawatts.",
+              "owner": "Enmax",
+              "website": "enmax.com"
+            },
+            {
+              "name": "Fort Nelson",
+              "location": "Fort Nelson, British Colombia",
+              "info": "Another of BC Hydro's alternative energy sources is thermal generation. This involves burning fuel to produce hot gases or steam to drive gas or steam turbines that are connected to generators.
+              with a maximum capacity of 73 megawatts being sent to Alberta.",
+              "owner": "BCHydro",
+              "website": "bchydro.com"
+            },
+            {
+              "name": "Medicine Hat #1",
+              "location": "Medicine Hat, Alberta",
+              "info": "Opened in 2017, it is used to supply power to the city. it has a maximum capacity of 255 megawatts.",
+              "owner": "medicine hat municipal government",
+              "website": "medicinehat.ca"
+            },
+            {
+              "name": "Nexen Inc #1",
+              "location": "",
+              "info": "The Balzac Power Station is a natural gas-fired combined cycle, power generation facility capable of producing up to 120 megawatts, approximately enough to power
+              100,000 residential homes",
+              "owner": "Nexen Energy",
+              "website": "nexencnoocltd.com"
+            },
+            {
+              "name": "Shepard",
+              "location": "Calgary, Alberta",
+              "info": "Shepard is now fully operational and is Alberta's largest natural gas-fuelled power facility. it
+              has a maximum capacity of 860 megawatts.",
+              "owner": "Enmax",
+              "website": "enmax.com"
+            }
+          ]
         }
       ]
     }
