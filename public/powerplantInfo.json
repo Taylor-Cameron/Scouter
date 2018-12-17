@@ -364,161 +364,96 @@
   "children": [
     {
       "name": "APF Athabasca",
-      "location": "131",
-      "info": "74",
-      "owner": "10",
-      "website":
+      "location": "Athabasca, Alberta",
+      "info": "Was built in 1993 and continued operation until 2012, it had a maximum capacity of 131 megawatts.
+      and is a biomass plant.",
+      "owner": "Alberta Pacific Forest",
+      "website": "alpac.com"
     },
     {
       "name": "Brooks Solar",
-      "location": "15",
-      "info": "0",
-      "owner": "0",
-      "website":
+      "location": "Newell County, Alberta",
+      "info": "Built in 2017, Brooks 1 will include 50,000 solar panels, and will be western Canada's first
+      utility scale solar project. It will have to maximum capacity of 15 megawatts.",
+      "owner": "Elemental Energy",
+      "website": "elementalenergy.ca"
     },
     {
       "name": "Cancarb Medicine Hat",
-      "location": "42",
-      "info": "33",
-      "owner": "0",
-      "website":
+      "location": "Medicine hat, Alberta",
+      "info": "Cancarb is a leader in the development and manufacturing of Thermal Carbon black. The plant has a
+      maximum capacity of 42 megawatts.",
+      "owner": "Cancarb",
+      "website": "cancarb.com"
     },
     {
       "name": "DAI1 Daishowa",
-      "location": "52",
-      "info": "44",
-      "owner": "12",
-      "website":
+      "location": "",
+      "info": "As a branch of Diashowa pulp factory, it is a biomass plant.
+      And it has a maximum capacity of 52 megawatts.",
+      "owner": "Daishowa-Marubeni",
+      "website": "dmi.ca"
     },
     {
       "name": "Gold Creek Facility",
-      "location": "5",
-      "info": "0",
-      "owner": "0",
-      "website":
+      "location": "Grovedale, Alberta",
+      "info": "Built in 1999, it is a waste heat generation facility, and has a maximum capacity of 5 megawatts.",
+      "owner": "Maxim power",
+      "website": "maximpower.com"
     },
     {
       "name": "Grande Prairie EcoPower",
-      "location": "27",
-      "info": "13",
-      "owner": "0",
-      "website":
+      "location": "Grande Praire, Alberta",
+      "info": "Built in 2005, it is a biomass plant, and has a maximum capacity of 25 megawatts.",
+      "owner": "Transalta",
+      "website": "transaltarenewables.com"
     },
     {
       "name": "NRGreen",
-      "location": "16",
-      "info": "12",
-      "owner": "0",
-      "website":
+      "location": " Whitecourt, Alberta",
+      "info": "Operating as a heat recovery plant, it works along the alliance pipline, and works in conjunction with 5 other similar plants.
+      it has a maximum capacity of 16 megawatts.",
+      "owner": "NRGreen power",
+      "website": "alliancepipeline.com"
     },
     {
       "name": "Slave Lake",
-      "location": "9",
-      "info": "3",
-      "owner": "0",
-      "website":
+      "location": "Slave Lake, Alberta ",
+      "info": "With the use of methane production from the pulp production, the slave lake pulp mill is able to create
+      up to 6 megawatts of power.",
+      "owner": "West Fraser",
+      "website": "westfraser.com"
     },
     {
       "name": "Weldwood #1",
-      "location": "50",
-      "info": "38",
-      "owner": "0",
-      "website":
+      "location": "La crete, Alberta",
+      "info": "Using wood waste from surrounding lumber mills, the biomass plant will have a maximum capacity of
+      50 megawatts.",
+      "owner": "Mustus Energy",
+      "website": "Mustusenergy.ca"
     },
     {
       "name": "Westlock",
       "location": "18",
-      "info": "13",
-      "owner": "0",
-      "website":
+      "info": "Built in 1997, it utilizes used woody biomass material to create a maximum of 46 megawatts.",
+      "owner": "Fortistar",
+      "website": "fortistar.com"
     },
     {
       "name": "Weyerhaeuser",
-      "location": "48",
-      "info": "44",
-      "owner": "0",
-      "website":
+      "location": "Grande Praire, Alberta",
+      "info": "Built as a section of the Grande Praire pul mill, it utilizes the waste from the mill, to create power from biomass.
+      It has a maximum capacity of 48 megawatts.",
+      "owner": "Weyerhaeuser",
+      "website": "weyerhaeuser.com"
     },
     {
       "name": "Whitecourt Power",
-      "location": "25",
-      "info": "24",
-      "owner": "0",
-      "website":
+      "location": "Whitecourt, Alberta",
+      "info": "Built in 2012, Whitecourt powers biomass plant has earned the federal governments EcoLogo designation.
+      It has a maximum capacity of 25 megawatts.",
+      "owner": "Capstone Infrastructures",
+      "website": "capstoneinfrastructure.com"
     }
   ]
 }
-"BIOMASS AND OTHER": [
-  {
-    "ASSET": "APF Athabasca (AFG1)*",
-    "MC": "131",
-    "TNG": "74",
-    "DCR": "10"
-  },
-  {
-    "ASSET": "Brooks Solar (BSC1)",
-    "MC": "15",
-    "TNG": "0",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "Cancarb Medicine Hat (CCMH)",
-    "MC": "42",
-    "TNG": "33",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "DAI1 Daishowa (DAI1)",
-    "MC": "52",
-    "TNG": "44",
-    "DCR": "12"
-  },
-  {
-    "ASSET": "Gold Creek Facility (GOC1)",
-    "MC": "5",
-    "TNG": "0",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "Grande Prairie EcoPower (GPEC)",
-    "MC": "27",
-    "TNG": "13",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "NRGreen (NRG3)",
-    "MC": "16",
-    "TNG": "12",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "Slave Lake (SLP1)*",
-    "MC": "9",
-    "TNG": "3",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "Weldwood #1 (WWD1)*",
-    "MC": "50",
-    "TNG": "38",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "Westlock (WST1)",
-    "MC": "18",
-    "TNG": "13",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "Weyerhaeuser (WEY1)",
-    "MC": "48",
-    "TNG": "44",
-    "DCR": "0"
-  },
-  {
-    "ASSET": "Whitecourt Power (EAGL)",
-    "MC": "25",
-    "TNG": "24",
-    "DCR": "0"
-  }
-]
