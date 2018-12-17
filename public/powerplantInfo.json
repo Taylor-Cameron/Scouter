@@ -194,145 +194,168 @@
   "name": "WIND",
   "children": [
     {
-      "name": "Ardenville Wind (ARD1)*",
+      "name": "Ardenville Wind",
       "location": "Fort Macleod, AB",
-      "info": " It was built in 2010 and is comprised on 23 80m wind turbines.
+      "info": " It was built in 2010 and is comprised of 23 80m wind turbines.
       It has a maximum capacity of 167 megawatts",
       "owner": "Transalta",
       "website": "transalta.com"
     },
     {
-      "name": "BUL1 Bull Creek (BUL1)*",
-      "location": "13",
-      "info": "1",
+      "name": "BUL1 Bull Creek",
+      "location": "Provost, Alberta",
+      "info": "It was built in 2015 and is comprised of 17 GE wind turbines, with a
+      combined maximum capacity of 29 megawatts.",
+      "owner": "BluEarth renewables inc.",
+      "website": "blueearthrenewables.com"
+    },
+    {
+      "name": "BUL2 Bull Creek",
+      "location": "Provost, Alberta",
+      "info": "It was built in 2015 and is comprised of 17 GE wind turbines, with a
+      combined maximum capacity of 29 megawatts.",
+      "owner": "BluEarth renewables inc.",
+      "website": "blueearthrenewables.com"
+    },
+    {
+      "name": "Blackspring Ridge",
+      "location": "Vulcan County, Alberta",
+      "info": "It was built in 2014 and is comprised of 166 turbines, and is the
+      largest investment of renewable energy in western Canada. And a maimum
+      capacity of 300 megawatts.",
+      "owner": "EDF Renewables and Enbridge",
+      "website": ["edf-re.ca", "enbridge.com" ]
+    },
+    {
+      "name": "Blue Trail Wind",
+      "location": "Fort Macleod, Alberta",
+      "info": "Blue Trail was built in 2009, and is comprised of 22, 3 megawatt towers. It has a
+      total maximum capacity of 167 megawatts.",
+      "owner": "Transalta",
+      "website": "transaltarenewables.com"
+    },
+    {
+      "name": "Castle River #1",
+      "location": "Pincher Creek, Alberta",
+      "info": "Castle River began operating in 1997 with more units being installed between 2000 and 2001. It is comprised of
+      60 turbines and seven addition turbnes located nearby. With a total
+      maximum capacity of 44 megawatts.",
+      "owner": "Transalta",
+      "website": "transaltarenewables.com"
+    },
+    {
+      "name": "Castle Rock Wind Farm",
+      "location": "Pincher Creek, Alberta",
+      "info": " Began operation in 2012, and is comprised of 33 turbines, with a total maximum capacity of 77
+      megawatts.  Castle Rok Wind Farm will allow for over 130,000 tonnes of CO2 to be avoided.",
+      "owner": "Enel Green Power",
+      "website": "enelgreenpower.com"
+    },
+    {
+      "name": "Cowley Ridge",
+      "location": "Pincher Creek, Alberta",
+      "info": "Cowley Ridge wind farm was decommissioned in the spring of 2016.",
       "owner": "0",
       "website":
     },
     {
-      "name": "BUL2 Bull Creek (BUL2)*",
-      "location": "16",
-      "info": "0",
+      "name": "Enmax Taber",
+      "location": "Taber, Alberta",
+      "info": "The Taber Wind farm has been in operation since 2007,
+      it is comprised of 37 Enercon turibines, which is one of the most sofisticated turbine in the world.
+      It has a total maximum capacity of 81 megawatts.",
+      "owner": "Enmax",
+      "website": "enmax.com"
+    },
+    {
+      "name": "Ghost Pine",
+      "location": "Kneehill County, Alberta",
+      "info": "Ghost Pine Wind farm was built in 2010, it is comprised of 51 turbines, capable
+      of generating enough power for 24,300 homes. it has a total maximum capacity of 82 megawatts.",
+      "owner": "EDF Renewables",
+      "website": "nexteraenergyresources.com"
+    },
+    {
+      "name": "Halkirk Wind Power Facility",
+      "location": "Halkirk, Alberta",
+      "info": "Built in 2012, it is comprised of 83 Vestas-Canadian Wind Technology Inc. turbines.
+      it has a total maximum capacity of 150 megawatts.",
+      "owner": "Capital Power",
+      "website": "capitalpower.com"
+    },
+    {
+      "name": "Kettles Hill",
+      "location": "Pincher Creek, Alberta",
+      "info": "Built in 2 phases spread over 2016 and 2017. it contains 35 turbines. with a
+      total maximum capacity of 63 megawatts.",
+      "owner": "Enmax",
+      "website": "enmax.com"
+    },
+    {
+      "name": "McBride Lake Windfarm",
+      "location": "Fort Macleod, Alberta",
+      "info": "Built in 2003, it has 114 Vesta turbines. and creates enough electricity,
+      to reduce carbon dioxide emmissions by 164,500 tonnes annually. It has a total
+      maximum capacity of 75 megawatts.",
+      "owner": "Transalta",
+      "website": "transalta.com"
+    },
+    {
+      "name": "Oldman 2 Wind Farm 1",
+      "location": "Pincher Creek, Alberta",
+      "info": "Built in 2004, Ownership transitioned over to IKEA group in 2014,
+      as part of their initiative to has a carbon footprint of zero.
+      it has a total maximum capacity to 46 megawatts.",
       "owner": "0",
       "website":
     },
     {
-      "name": "Blackspring Ridge (BSR1)*",
-      "location": "300",
-      "info": "295",
-      "owner": "0",
-      "website":
+      "name": "Soderglen Wind",
+      "location": "Fort Macleod, Alberta",
+      "info": "Built in 2006, it is compirsed of  47 turbines, each 65 metres tall.
+      it has a total maximum capacity of 71 megawatts.",
+      "owner": "Transalta",
+      "website": "transaltarenewables.com"
     },
     {
-      "name": "Blue Trail Wind (BTR1)*",
-      "location": "66",
-      "info": "39",
-      "owner": "0",
-      "website":
+      "name": "Summerview 1",
+      "location": "Pincher Creek, Alberta",
+      "info": "Built in 2004, it is comprised of 33 67 metre turbines.
+      it has a total maximum capacity of 66 megawatts. and an active contract until 2033.",
+      "owner": "Transalta",
+      "website": "transaltarenewables.com"
     },
     {
-      "name": "Castle River #1 (CR1)*",
-      "location": "39",
-      "info": "35",
-      "owner": "0",
-      "website":
+      "name": "Summerview 2",
+      "location": "Pincher Creek, Alberta",
+      "info": "Built in 2010, it is unit 2 of 2 for the summerview project. Comprised of 22
+      turbines, it has a total maximum capacity of 66 megawatts.",
+      "owner": "Transalta",
+      "website": "transaltarenewables.com"
     },
     {
-      "name": "Castle Rock Wind Farm (CRR1)*",
-      "location": "77",
-      "info": "76",
-      "owner": "0",
-      "website":
+      "name": "Suncor Chin Chute",
+      "location": "Taber, Alberta",
+      "info": "Built in 2006, and with 20 turbines. The Chin Chute wind farm has the
+      capability of generating power of 11,000 homes. and has a total maximum capacity of 30 megawatts.",
+      "owner": "suncor Energy Products, Inc., Enbridge Inc., and Acciona",
+      "website": "acciona.ca"
     },
     {
-      "name": "Cowley Ridge (CRE3)*",
-      "location": "20",
-      "info": "8",
-      "owner": "0",
-      "website":
+      "name": "Suncor Magrath",
+      "location": "Magrath, Alberta",
+      "info": "Built in 2004, with 20 turbines. it is capable of offsetting 70,000
+      tonnes of carbon dioxide per year. And has a maximum capacity of 30 megawatts.",
+      "owner": "Suncor Energy Products, Inc., Enbridge Inc., and Acciona",
+      "website": "suncor.com"
     },
     {
-      "name": "Enmax Taber (TAB1)*",
-      "location": "81",
-      "info": "78",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Ghost Pine (NEP1)*",
-      "location": "82",
-      "info": "65",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Halkirk Wind Power Facility (HAL1)*",
-      "location": "150",
-      "info": "143",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Kettles Hill (KHW1)*",
-      "location": "63",
-      "info": "49",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "McBride Lake Windfarm (AKE1)*",
-      "location": "73",
-      "info": "61",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Oldman 2 Wind Farm 1 (OWF1)*",
-      "location": "46",
-      "info": "36",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Soderglen Wind  (GWW1)*",
-      "location": "71",
-      "info": "68",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Summerview 1 (IEW1)*",
-      "location": "66",
-      "info": "28",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Summerview 2 (IEW2)*",
-      "location": "66",
-      "info": "35",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Suncor Chin Chute (SCR3)*",
-      "location": "30",
-      "info": "29",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Suncor Magrath (SCR2)*",
-      "location": "30",
-      "info": "9",
-      "owner": "0",
-      "website":
-    },
-    {
-      "name": "Wintering Hills (SCR4)*",
-      "location": "88",
-      "info": "73",
-      "owner": "0",
-      "website":
+      "name": "Wintering Hills",
+      "location": "Drumheller, Alberta",
+      "info": "Built in 2011, Wintering Hills is comprised of 55 turbines. And has a
+      total maximum capacity of 88 megawatts.",
+      "owner": "Teck",
+      "website": "teck.com"
     }
   ]
 },
