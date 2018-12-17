@@ -464,17 +464,10 @@
       "name": "Simple Cycle", "children": [
         {
           "name": "AB Newsprint",
-<<<<<<< HEAD
-          "location": "TODO:",
-          "info": "TODO:",
-          "owner": "TODO:",
-          "website": "TODO:"
-=======
           "location": "Whitecourt, AB",
           "info": "This facility has a generating capacity of 65 MW.",
-          "owner": "Alberta Newsprint Company", 
+          "owner": "Alberta Newsprint Company",
           "website": "www.albertanewsprint.com"
->>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
         },
         {
           "name": "AltaGas Bantry",
@@ -555,26 +548,15 @@
         },
         {
           "name": "High River",
-<<<<<<< HEAD
-          "location": "TODO:",
-          "info": "TODO:",
-          "owner": "TODO:",
-          "website": "TODO:"
-=======
           "location": "High River, AB",
           "info": "This facaility has a capacity of approximately 500 MW.",
           "owner": "TransCanada",
           "website": "www.transcanada.com"
->>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
         },
         {
           "name": "House Mountain Distributed Generation Facility",
           "location": "Swan Hill, AB",
-<<<<<<< HEAD
-          "info": "A 6 megawatt natural gas-fired power facility ",
-=======
           "info": "A 6 megawatt (MW) natural gas-fired power facility ",
->>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
           "owner": "Atco",
           "website": "atcopower.com"
         },
@@ -607,21 +589,7 @@
           "website": "www.maximpowercorp.com"
         },
         {
-<<<<<<< HEAD
-          "name": "NPC1 Denis St. Pierre",
-          "location": "Lethbridge, AB",
-          "info": "TODO:",
-          "owner": "TODO:",
-          "website": "TODO:"
-        },
-        {
-          "name": "NPC2 JL Landry",
-          "location": "TODO:",
-          "info": "TODO:",
-          "owner": "TODO:",
-          "website": "TODO:"
-=======
-  
+
           "name": "NPC1 Denis St. Pierre (NPC1)",
           "location": "n/a",
           "info": "n/a",
@@ -634,7 +602,6 @@
           "info": "n/a",
           "owner": "n/a",
           "website": "n/a"
->>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
         },
         {
           "name": "Northern Prairie Power Project",
@@ -658,19 +625,11 @@
           "website": "www.atcopower.com"
         },
         {
-<<<<<<< HEAD
-          "name": "Ralston",
-          "location": "TODO:",
-          "info": "TODO:",
-          "owner": "TODO:",
-          "website": "TODO:"
-=======
           "name": "Ralston (NAT1)",
           "location": "Ralston, AB",
           "info": "This plant has a maximum capacity of 20 MW.",
           "owner": "n/a",
           "website": "n/a"
->>>>>>> 3a7bad28ba28f6e4752d5e33ec39b48cb6f4e932
         },
         {
           "name": "Valley View 1",
