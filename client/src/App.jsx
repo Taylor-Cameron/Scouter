@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
 import SummaryContainer from './SummaryContainer';
-import BreakdownContainer from './BreakDownContainer';
+import BreakdownContainer from './BreakdownContainer.jsx';
 import PlantBreakdown from './PlantBreakdown.jsx';
-// import SunburstGraph from './SunburstGraph';
+ import SunburstGraph from './SunburstGraph';
+import Disclaimer from './Disclaimer';
 
 class App extends Component {
   constructor() {
@@ -30,14 +31,16 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Header date={this.state.response.TIMESTAMP}/>
-      <div className='content-wrapper'>
-      <SummaryContainer />
-      <BreakdownContainer coalData={this.state.response * 100 } />
-      <PlantBreakdown />
-      </div>
-      {/* <SunburstGraph /> */}
-
+        <Header date={this.state.response.TIMESTAMP}/>
+        <div className='content-wrapper'>
+          <SummaryContainer />
+          <BreakdownContainer coalData={this.state.response * 100 } />
+          <PlantBreakdown />
+        </div>
+        <div className='second-row'>
+      <SunburstGraph />
+      <Disclaimer />
+        </div>
       </div>
     );
   }
