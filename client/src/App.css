@@ -29,6 +29,13 @@ body {
     padding-top: 45px;
     justify-content: center;
   }
+
+  .second-row {
+    display: flex;
+    padding-top: 45px;
+    justify-content: center;
+  }
+
   /**************HEADER**************/
 
   .header {
@@ -409,4 +416,10 @@ body {
     padding-top: 30px;
     padding-right: 25px;
     padding-left: 30px;
+  }
+
+/*********Disclaimer*********/
+  .discalimer {
+    align-content: center;
+    display: flex;
   }
