@@ -1,72 +1,84 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import Sunburst from 'react-sunburst-d3-v4';
 
-class SunburstGraph extends Component {
+const DIVERGING_COLOR_SCALE = ['#00939C', '#85C4C8', '#EC9370', '#C22E00'];
+const data = {
+    "name": "TOTAL", "children": [
+        {
+            "name": "COAL", "children": [
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+            ]
+        },
+        {
+            "name": "COAL", "children": [
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+            ]
+        },
+        {
+            "name": "COAL", "children": [
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+                { "name": "COAL", "size": 34 },
+            ]
+        },
+        {
+            "name": "COAL", "children": [
+                {
+                    "name": "TEST", "children": [
+                        { "name": "COAL", "size": 34 },
+                        { "name": "COAL", "size": 34 },
+                        { "name": "COAL", "size": 34 },
+                        { "name": "COAL", "size": 34 },
+                        { "name": "COAL", "size": 34 },
+                        { "name": "COAL", "size": 34 },
+                    ]
+                }
+            ]
+        },
 
+
+    ]
+}
+class SunBurstGraph extends Component {
+    onSelect(event) {
+        console.log(event);
+    }
     render() {
-        return(
-        <div className="sunburst-wrapper">
-            <div className="block">
-                <script>
-                    const width = 500,
-                            height = 700,
-                            radius = (Math.min(width, height) / 2) - 10;
-                        const formatNumber = d3.format(",d");
-                        const x = d3.scaleLinear()
-                        .range([0, 2 * Math.PI]);
-                        const y = d3.scaleSqrt()
-                        .range([0, radius]);
-                        const light = ['#CE632D', '#FFDB00', '#266B6B', '#093B6A', '#5E5A5F', '#fff'];
-                        const mid = ['#5E5A5F', '#093B6A', '#CE632D', '#CE632D', '#CE632D'];
-                        const palettes = [light, mid];
-                        const firstPalette = palettes
-                            .map(d => d.reverse())
-                            .reduce((a, b) => a.concat(b));
-                        const color = d3.scaleOrdinal(firstPalette);
-                
-                        const partition = d3.partition();
-                        const arc = d3.arc()
-                        .startAngle(function (d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
-                        .endAngle(function (d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
-                        .innerRadius(function (d) { return Math.max(0, y(d.y0)); })
-                        .outerRadius(function (d) { return Math.max(0, y(d.y1)); });
-                        const svg = d3.select(".sunburst-wrapper .block").append("svg")
-                        .attr("width", width)
-                        .attr("height", height)
-                        .append("g")
-                        .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
-                        d3.json("docs/data.json", function (error, xyz) {
-                        if (error) throw error;
-                
-                        root = d3.hierarchy(xyz);
-                        root.sum(function (d) { return d.size; });
-                        svg.selectAll("path")
-                            .data(partition(root).descendants())
-                            .enter().append("path")
-                            .attr("d", arc)
-                            .style('stroke', '#fff')
-                            .style("fill", function (d) { return color((d.children ? d : d.parent).data.name); })
-                            .on("click", click)
-                            .append("title")
-                            .text(function (d) { return d.data.name + "\n" + formatNumber(d.value) + " TNG"; });
-                
-                        function click(d) {
-                            svg.transition()
-                            .duration(750)
-                            .tween("scale", function () {
-                                const xd = d3.interpolate(x.domain(), [d.x0, d.x1]),
-                                yd = d3.interpolate(y.domain(), [d.y0, 1]),
-                                yr = d3.interpolate(y.range(), [d.y0 ? 20 : 0, radius]);
-                                return function (t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); };
-                            })
-                            .selectAll("path")
-                            .attrTween("d", function (d) { return function () { return arc(d); }; });
-                        }
-                    });
-                </script>
+
+        return (
+            <div className="sunburst-wrapper">
+                <div className="block">
+                    <Sunburst
+                        data={data}
+                        colorType={'category'}
+                        colorRange={DIVERGING_COLOR_SCALE}
+                        style={{ stroke: '#fff' }}
+                        onSelect={this.onSelect}
+                        scale="linear"
+                        tooltipContent={<div class="sunburstTooltip" style="position:absolute; color:'black'; z-index:10; background: #e2e2e2; padding: 5px; text-align: center;" />}
+                        tooltip
+                        tooltipPosition="right"
+                        keyId="anagraph"
+                        width="700"
+                        height="600"
+                    />
+                </div>
             </div>
-        </div>
-        )
+        );
     }
 }
 
-export default SunburstGraph;
+export default SunBurstGraph;

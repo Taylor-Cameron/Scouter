@@ -5,32 +5,32 @@ body {
   font-size: 16px;
     font-weight: 300;
   }
-  
+
   table tr td {
     padding: 5px 8px;
     line-height: 20px;
   }
-  
+
   .row {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 20px;
     padding:20px 0 0 0;
   }
-  
+
     .block {
       height: 630px;
       background: #ffffff;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
-  
+
   .content-wrapper {
     display: flex;
     padding-top: 45px;
     justify-content: center;
   }
   /**************HEADER**************/
-  
+
   .header {
     position: fixed;
     display: flex;
@@ -45,18 +45,18 @@ body {
     right: 0;
     z-index: 998;
   }
-  
+
   #date {
     flex: 1;
     text-align: center
   }
-  
+
   .header .refresh {
     align-self: center;
     padding: 0 40px 0 0;
     border: none;
   }
-  
+
   /**************SUMMARY BOX**************/
   .summary-container {
     display: flex;
@@ -65,7 +65,7 @@ body {
     width: 225px;
     padding-right: 25px;
   }
-  
+
   .summary-box {
     height: 150px;
     width: 100%;
@@ -73,7 +73,7 @@ body {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     margin: 10px;
   }
-  
+
   .summary-box .title {
     width: 100%;
     font-size:16px;
@@ -82,7 +82,7 @@ body {
     text-align: center;
     padding-top: 20px;
   }
-  
+
   .summary-box .value {
     width: 100%;
     text-align:center;
@@ -91,7 +91,7 @@ body {
     color: #465865;
     padding-top: 18px;
   }
-  
+
   .summary-box .value-level {
     width: 100%;
     font-size:14px;
@@ -100,14 +100,14 @@ body {
     text-align:center;
     color: #465865;
   }
-  
-  
+
+
   /**************BREAKDOWN TABLE**************/
   .breakdown-container {
     flex: 1;
     width: 600px;
   }
-  
+
   .breakdown-table-title {
     font-size: 16px;
     text-align: center;
@@ -118,53 +118,53 @@ body {
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
   }
-  
+
   .energy-source-breakdown-table-header {
     font-size: 16px;
     line-height: 41px;
     padding: 5px 0px 4px 10px;
     margin: 0px;
   }
-  
+
   .energy-source-breakdown-standard-cell {
     height:80px;
     font-size: 16px;
     cursor: pointer;
   }
-  
+
   td.energy-source-title {
     font-size: 18px;
     color: #465865;
   }
-  
+
   td.energy-source-values {
     width:95%;
   }
-  
+
   .td.energy-source-disclosure {
     width:40px;
   }
-  
+
   td.energy-source-icon {
     width: 50px;
   }
-  
-  
+
+
   td.energy-source-icon img {
     width: 30px;
   }
-  
-  
+
+
   .td.energy-source-disclosure img {
     width: 15px;
     height: 15px;
     float: right;
   }
-  
+
   .energy-source-selected td{
     background-color: #fafafa;
   }
-  
+
   .bar-background {
     position:relative;
     width: 100%;
@@ -175,7 +175,7 @@ body {
     background-color:#DBDBDB;
     z-index:1;
   }
-  
+
   .bar {
     position:relative;
     width: 5%;
@@ -190,104 +190,104 @@ body {
   .percentage {
     float: right;
   }
-  
+
   .coal{
   color: #5E5A5F;
   }
-  
+
   .hydro{
     color: #093B6A;
   }
-  
+
   .gas{
     color: #CE632D;
   }
-  
+
   .wind{
     color: #266B6B;
   }
-  
+
   .biofuel{
     color: #FFE66D;
   }
-  
+
   #coal{
     color: #5E5A5F;
   }
-  
+
   #hydro{
     color: #093B6A;
   }
-  
+
   #gas{
     color: #CE632D;
   }
-  
+
   #wind{
     color: #266B6B;
   }
-  
+
   #biofuel{
     color: #FFE66D;
   }
-  
+
   #coal-bar {
     background-color: #5E5A5F;
   }
-  
+
   #hydro-bar {
     background-color: #093B6A;
   }
-  
+
   #gas-bar {
     background-color: #CE632D;
   }
-  
+
   #wind-bar {
     background-color: #266B6B;
   }
-  
+
   #biofuel-bar {
     background-color: #FFE66D;
   }
-  
+
   /*IMPORT SUMMARY*/
-  
+
   .energy-source-breakdown-import-export-cell {
     font-size: 16px;
     cursor: pointer;
     height: 120px;
   }
-  
+
   .imports {
     color:#465865;
     float: right;
   }
-  
+
   .exports {
     color:#465865;
     float: right;
   }
-  
+
   .netImportExports {
     float: right;
   }
-  
+
   .import-export-summary {
     margin-left: 30px;
     margin-right: 30px;
   }
 
     .import-export-icon{
-    height: 70px; 
-    width: 70px; 
-    margin-top: 3px; 
-    margin-bottom: 2px; 
-    margin-left: auto; 
-    margin-right: auto; 
+    height: 70px;
+    width: 70px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
   }
-  
+
   /**************PLANT BREAKDOWN**************/
   .plant-container {
   flex: 1;
@@ -296,17 +296,17 @@ body {
   .power-plant-breakdown-table-header {
     height: 226px;
   }
-  
+
   .power-plant-breakdown-table-div {
   -webkit-overflow-scrolling: touch;
   }
-  
+
   .power-plant-breakdown-summary {
     background-color:#5E5A5F;
     height:132px;
     color:#ffffff;
   }
-  
+
   .power-plant-breakdown-summary-title {
     line-height: 50px;
     padding: 5px 0px 5px 0px;
@@ -314,7 +314,7 @@ body {
     text-transform: lowercase;
     font-size: 30px;
   }
-  
+
   .power-plant-breakdown-summary-bar-background {
     width: 70%;
     height: 10px;
@@ -323,7 +323,7 @@ body {
     background-color:#DBDBDB;
     z-index:1;
   }
-  
+
   .power-plant-breakdown-summary-bar {
     position:relative;
     width: 5%;
@@ -331,7 +331,7 @@ body {
     background-color:#ffffff;
     z-index:2;
   }
-  
+
   .power-plant-breakdown-summary-values {
     line-height: 40px;
     width: 70%;
@@ -340,21 +340,21 @@ body {
     height: 40px;
     font-size: 16px;
   }
-  
+
   .power-plant-column-header {
     line-height: 44px;
     height: 44px;
     border-bottom-style: solid;
     border-bottom:1pt solid #efeff4;
   }
-  
+
   .power-plant-breakdown-table tr:after {
     content: ' ';
     display: block;
     visibility: hidden;
     clear: both;
   }
-  
+
   .power-plant-breakdown-table thead th {
     height: 44px;
     line-height: 44px;
@@ -362,14 +362,14 @@ body {
     padding-left: 10px;
     text-transform: lowercase;
   }
-  
+
   .power-plant-breakdown-table tbody td{
     height: 44px;
     line-height: 44px;
     border-bottom:1pt solid #efeff4;
     vertical-align: middle;
   }
-  
+
   td.power-plant-name-data {
     height: 44px;
     line-height: 33px;
@@ -378,11 +378,11 @@ body {
     font-size: 14px;
     padding-left: 10px;
   }
-  
+
   td.power-plant-name-data a {
   font-weight: 200;
   }
-  
+
   td.power-plant-output-data {
     height: 44px;
     line-height: 33px;
@@ -390,7 +390,7 @@ body {
     font-size: 16px;
     text-align: center;
   }
-  
+
   td.power-plant-capability-data {
     height: 44px;
     line-height: 33px;
@@ -398,9 +398,9 @@ body {
     font-size: 16px;
     text-align: center;
   }
-  
+
   /*********Sunburst*********/
-  
+
   .sunburst-wrapper {
     align-content: center;
     display: flex;
@@ -410,4 +410,3 @@ body {
     padding-right: 25px;
     padding-left: 30px;
   }
-  
