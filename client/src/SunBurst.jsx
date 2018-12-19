@@ -40,7 +40,7 @@ class Sunburst extends React.Component {
       return tween;
     }
   }
-  update(root, firstBuild, svg, partition, hueDXScale, x, y, radius, arc, node, self) {  // eslint-disable-line
+  update(root, firstBuild, svg, partition, color, x, y, radius, arc, node, self) {  // eslint-disable-line
     if (firstBuild) {
       firstBuild = false; // eslint-disable-line
       function arcTweenZoom(d) { // eslint-disable-line
@@ -71,21 +71,7 @@ class Sunburst extends React.Component {
       }
       svg.selectAll('path').data(partition(root).descendants()).enter().append('path')
       .style('fill', (d) => {
-        let hue;
-        const current = d;
-        if (current.depth === 0) {
-          return '#33cccc';
-        }
-        if (current.depth <= 1) {
-          hue = hueDXScale(d.x0);
-          current.fill = d3.hsl(hue, 0.5, 0.6);
-          return current.fill;
-        }
-        current.fill = current.parent.fill.brighter(0.5);
-        const hsl = d3.hsl(current.fill);
-        hue = hueDXScale(current.x0);
-        const colorshift = hsl.h + (hue / 4);
-        return d3.hsl(colorshift, hsl.s, hsl.l);
+        return color((d.children ? d : d.parent).data.name);
       })
       .attr('stroke', '#fff')
       .attr('stroke-width', '1')
@@ -125,6 +111,12 @@ class Sunburst extends React.Component {
         gHeight = props.height,
         light = ['#CE632D', '#FFDB00', '#266B6B', '#093B6A', '#5E5A5F', '#fff'],
         mid = ['#5E5A5F', '#093B6A', '#CE632D', '#CE632D', '#CE632D'],
+        palettes = [light, mid],
+        firstPalette = palettes
+          .map(d => d.reverse())
+          .reduce((a, b) => a.concat(b)),
+        color = d3.scaleOrdinal(firstPalette),
+
         radius = (Math.min(gWidth, gHeight) / 2) - 10,
         svg = d3.select('svg').append('g').attr('transform', `translate(${gWidth / 2},${gHeight / 2})`),
         x = d3.scaleLinear().range([0, 2 * Math.PI]),
@@ -135,14 +127,11 @@ class Sunburst extends React.Component {
           .endAngle(d => Math.max(0, Math.min(2 * Math.PI, x(d.x1))))
           .innerRadius(d => Math.max(0, y(d.y0)))
           .outerRadius(d => Math.max(0, y(d.y1))),
-        hueDXScale = d3.scaleLinear()
-          .domain([0, 1])
-          .range([0, 360]),
         rootData = d3.hierarchy(props.data);
       const firstBuild = true;
       const node = rootData;
       rootData.sum(d => d.size);
-      self.update(rootData, firstBuild, svg, partition, hueDXScale, x, y, radius, arc, node, self); // GO!
+      self.update(rootData, firstBuild, svg, partition, color, x, y, radius, arc, node, self); // GO!
     }
   }
   render() {
