@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Sunburst from 'react-sunburst-d3-v4';
+import Sunburst from './SunBurst';
 
 const DIVERGING_COLOR_SCALE = ['#00939C', '#85C4C8', '#EC9370', '#C22E00'];
 const data = {
