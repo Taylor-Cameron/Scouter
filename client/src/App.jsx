@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
 import SummaryContainer from './SummaryContainer';
-import BreakdownContainer from './BreakDownContainer.jsx';
+import BreakdownContainer from './BreakdownContainer.jsx';
 import PlantBreakdown from './PlantBreakdown.jsx';
-import SunburstGraph from './SunburstGraph';
+//import SunburstGraph from './SunburstGraph';
 import Disclaimer from './Disclaimer';
 
 class App extends Component {
@@ -44,7 +44,7 @@ class App extends Component {
           <PlantBreakdown powerPlants={this.state[3]} generation={this.state[2]}/>
         </div>
         <div className='second-row'>
-          <SunburstGraph />
+          {/* <SunburstGraph /> */}
           <Disclaimer />
         </div>
       </div>

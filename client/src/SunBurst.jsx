@@ -123,8 +123,6 @@ class Sunburst extends React.Component {
       const self = this, // eslint-disable-line
         gWidth = props.width,
         gHeight = props.height,
-        light = ['#CE632D', '#FFDB00', '#266B6B', '#093B6A', '#5E5A5F', '#fff'],
-        mid = ['#5E5A5F', '#093B6A', '#CE632D', '#CE632D', '#CE632D'],
         radius = (Math.min(gWidth, gHeight) / 2) - 10,
         svg = d3.select('svg').append('g').attr('transform', `translate(${gWidth / 2},${gHeight / 2})`),
         x = d3.scaleLinear().range([0, 2 * Math.PI]),

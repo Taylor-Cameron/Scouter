@@ -24,7 +24,7 @@ class BreakdownContainer extends Component {
                       <div className="bar" id="coal-bar"></div>
                   </div>
                   <div>
-                          <span bind="coalPercentage">{this.props.generation.breakdownContainer[1].COAL * 100}</span>%
+                          <span bind="coalPercentage">{(this.props.generation.breakdownContainer[1].COAL * 100).toFixed(2)}</span>%
                   </div>
                   <div>
                       <span bind="coalOutput">0</span> MW
@@ -50,7 +50,7 @@ class BreakdownContainer extends Component {
                       <div className="bar" id="hydro-bar"></div>
                     </div>
                     <div>
-                          <span bind="hydroPercentage">{this.props.generation.breakdownContainer[3].HYDRO * 100}</span>%
+                          <span bind="hydroPercentage">{(this.props.generation.breakdownContainer[3].HYDRO * 100).toFixed(2)}</span>%
                     </div>
                     <div>
                       <span bind="hydroOutput">0</span> MW
@@ -76,7 +76,7 @@ class BreakdownContainer extends Component {
                       <div className="bar" id="gas-bar"></div>
                     </div>
                     <div>
-                          <span bind="gasPercentage">{this.props.generation.breakdownContainer[0].GAS * 100}</span>%
+                          <span bind="gasPercentage">{(this.props.generation.breakdownContainer[0].GAS * 100).toFixed(2)}</span>%
                     </div>
                     <div><span bind="gasOutput">0</span> MW</div>
                   </td>
@@ -100,7 +100,7 @@ class BreakdownContainer extends Component {
                       <div className="bar" id="wind-bar"></div>
                     </div>
                     <div>
-                          <span bind="windPercentage">{this.props.generation.breakdownContainer[2].WIND * 100}</span>%
+                          <span bind="windPercentage">{(this.props.generation.breakdownContainer[2].WIND * 100).toFixed(2)}</span>%
                     </div>
                     <div>
                       <span bind="windOutput">0</span> MW
@@ -131,7 +131,7 @@ class BreakdownContainer extends Component {
                     </div>
                     <div>
                       {/* TODO change name for "biomass and .." to "BIOMASS" */}
-                          <span bind="biofuelPercentage">{this.props.generation.breakdownContainer[4]['BIOMASS AND OTHER'] * 100}</span>%
+                          <span bind="biofuelPercentage">{(this.props.generation.breakdownContainer[4]['BIOMASS AND OTHER'] * 100).toFixed(2)}</span>%
                     </div>
                     <div>
                       <span bind="biofuelOutput">0</span> MW
