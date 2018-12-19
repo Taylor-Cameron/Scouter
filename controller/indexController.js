@@ -12,7 +12,7 @@ const getData = require('../server/lib/reactSchema').getData
 exports.render_homepage = async (req, res) => {
   [err, dbData] = await to(getData().then(function(data) {
     const outData = data;
-    res.json({express: JSON.stringify(outData)});
+    res.json({express: outData});
   }));
   if (err) throw new Error(err.stack);
 };
