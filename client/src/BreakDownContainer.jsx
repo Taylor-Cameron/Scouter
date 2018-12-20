@@ -11,16 +11,18 @@ class BreakdownContainer extends Component {
               <div className="block">
                   <div className="breakdown-table-title">GENERATION - FUEL TYPE
                   </div>
-                <table className="energy-source-breakdown-table" onClick={function (e) { console.log(e.target.id) }}>
-              <tbody id= "COAL">
-                  <tr id="COAL" className="energy-source-breakdown-standard-cell">
+                <table className="energy-source-breakdown-table">
+              <tbody>
+                    <tr id="COAL" className="energy-source-breakdown-standard-cell" onClick={this.props.button} >
                   <td className="energy-source-icon">
-                      <img
+                    <img
                       src={ require('./docs/coal.png') }
                       alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"
-                  />
+                    />
                   </td>
-                  <td className="energy-source-title">coal</td>
+                  <td className="energy-source-title">
+                    <p>Coal</p>
+                  </td>
                   <td className="energy-source-values">
                       <div className="bar-background">
                       <div className="bar" id="coal-bar"></div>
@@ -34,19 +36,22 @@ class BreakdownContainer extends Component {
                   </td>
                   <td className="energy-source-disclosure">
                   <img
-                      src={ require('./docs/arrow.png') }
-                      alt="arrow"
+                    id="COAL"
+                    src={ require('./docs/arrow.png') }
+                    alt="arrow"
                   />
                   </td>
               </tr>
-                <tr energytype="HYDRO" className="energy-source-breakdown-standard-cell">
+                    <tr id="HYDRO" className="energy-source-breakdown-standard-cell" onClick={this.props.button} >
                   <td className="energy-source-icon">
                     <img
                       src={ require('./docs/hydro.png') }
                       alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"
                     />
                   </td>
-                  <td className="energy-source-title">hydro</td>
+                  <td className="energy-source-title">
+                        <p>Hydro</p>
+                  </td>
                   <td className="energy-source-values">
                     <div className="bar-background">
                       <div className="bar" id="hydro-bar"></div>
@@ -58,21 +63,24 @@ class BreakdownContainer extends Component {
                       <span bind="hydroOutput">0</span> MW
                     </div>
                   </td>
-                  <td className="energy-source-disclosure">
+                      <td className="energy-source-disclosure">
                     <img
+                      id="HYDRO"
                       src={ require('./docs/arrow.png') }
                       alt="arrow"
                     />
                   </td>
                 </tr>
-                <tr energytype="GAS" className="energy-source-breakdown-standard-cell">
+                    <tr id="GAS" className="energy-source-breakdown-standard-cell" onClick={this.props.button} >
                   <td className="energy-source-icon">
                     <img
                       src={ require('./docs/gas.png') }
                       alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"
                     />
                   </td>
-                  <td className="energy-source-title">gas</td>
+                  <td className="energy-source-title">
+                    <p>Gas</p>
+                  </td>
                   <td className="energy-source-values">
                     <div className="bar-background">
                       <div className="bar" id="gas-bar"></div>
@@ -82,21 +90,24 @@ class BreakdownContainer extends Component {
                     </div>
                     <div><span bind="gasOutput">0</span> MW</div>
                   </td>
-                  <td className="energy-source-disclosure">
+                      <td className="energy-source-disclosure">
                     <img
+                      id="GAS"
                       src={ require('./docs/arrow.png') }
                       alt="arrow"
                     />
                   </td>
                 </tr>
-                <tr energytype="WIND" className="energy-source-breakdown-standard-cell">
+                    <tr id="WIND" className="energy-source-breakdown-standard-cell" onClick={this.props.button} >
                   <td className="energy-source-icon">
                     <img
                       src={ require('./docs/wind.png') }
                       alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"
                     />
                   </td>
-                  <td className="energy-source-title">wind</td>
+                  <td className="energy-source-title">
+                    <p>Wind</p>
+                  </td>
                   <td className="energy-source-values">
                     <div className="bar-background">
                       <div className="bar" id="wind-bar"></div>
@@ -108,25 +119,25 @@ class BreakdownContainer extends Component {
                       <span bind="windOutput">0</span> MW
                     </div>
                   </td>
-                  <td className="energy-source-disclosure">
+                      <td className="energy-source-disclosure">
                     <img
+                      id="WIND"
                       src={ require('./docs/arrow.png') }
                       alt="arrow"
                     />
                   </td>
                 </tr>
 
-                <tr
-                  energytype="BIOFUEL"
-                  className="energy-source-breakdown-standard-cell"
-                >
+                <tr id="BIOFUEL" className="energy-source-breakdown-standard-cell" onClick={this.props.button}>
                   <td className="energy-source-icon">
                     <img
                       src={ require('./docs/bio.png') }
                       alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"
                     />
                   </td>
-                  <td className="energy-source-title">biofuel</td>
+                  <td className="energy-source-title">
+                    <p>Biofuel</p>
+                  </td>
                   <td className="energy-source-values">
                     <div className="bar-background">
                       <div className="bar" id="biofuel-bar"></div>
@@ -139,8 +150,9 @@ class BreakdownContainer extends Component {
                       <span bind="biofuelOutput">0</span> MW
                     </div>
                   </td>
-                  <td className="energy-source-disclosure">
+                      <td className="energy-source-disclosure">
                     <img
+                      id="BIOFUEL"
                       src={ require('./docs/arrow.png') }
                       alt="arrow"
                     />
@@ -184,4 +196,3 @@ class BreakdownContainer extends Component {
 
 
 export default BreakdownContainer;
-

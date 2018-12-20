@@ -131,18 +131,31 @@ body {
   td.energy-source-title {
     font-size: 18px;
     color: #465865;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
   }
 
   td.energy-source-values {
     width:95%;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
   }
 
   .td.energy-source-disclosure {
     width:40px;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
   }
 
   td.energy-source-icon {
     width: 50px;
+     border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
+
   }
 
 
@@ -150,8 +163,13 @@ body {
     width: 30px;
   }
 
+  td.energy-source-disclosure {
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
+  }
 
-  .td.energy-source-disclosure img {
+  td.energy-source-disclosure img {
     width: 15px;
     height: 15px;
     float: right;

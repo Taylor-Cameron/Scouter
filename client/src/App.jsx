@@ -29,6 +29,10 @@ class App extends Component {
     return body;
   };
 
+  handleClick(event) {
+    console.log(event.currentTarget.id)
+  }
+
   render() {
 
     if (!this.state[0]) return (
@@ -42,7 +46,7 @@ class App extends Component {
         </div>
         <div className='content-wrapper'>
           <SummaryContainer summary={this.state[1]}/>
-          <BreakdownContainer generation={this.state[2]}/>
+          <BreakdownContainer generation={this.state[2]} button={this.handleClick}/>
           <PlantBreakdown powerPlants={this.state[3]} generation={this.state[2]}/>
         </div>
         <div className='second-row'>
