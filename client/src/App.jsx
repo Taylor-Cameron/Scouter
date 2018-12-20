@@ -4,6 +4,7 @@ import Header from './Header';
 import SummaryContainer from './SummaryContainer';
 import BreakdownContainer from './BreakDownContainer.jsx';
 import PlantBreakdown from './PlantBreakdown.jsx';
+import Legend from './Legend.jsx';
 import SunburstGraph from './SunburstGraph';
 import Disclaimer from './Disclaimer';
 
@@ -54,8 +55,9 @@ class App extends Component {
         </div>
         <div className='second-row'>
           <SunburstGraph />
-          <Disclaimer />
+          <Legend />
         </div>
+        <Disclaimer />
       </div>
     );
 }

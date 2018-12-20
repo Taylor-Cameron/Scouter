@@ -143,8 +143,7 @@ class BreakdownContainer extends Component {
                           <div className="bar biofuel-bar" style={{ width: `${(this.props.generation.breakdownContainer[4]['BIOMASS AND OTHER'] * 100)}%` }}></div>
                     </div>
                     <div>
-                      {/* TODO change name for "biomass and .." to "BIOMASS" */}
-                          <span bind="biofuelPercentage">{(this.props.generation.breakdownContainer[4]['BIOMASS AND OTHER'] * 100).toFixed(2)}</span>%
+                      <span bind="biofuelPercentage">{(this.props.generation.breakdownContainer[4]['BIOMASS AND OTHER'] * 100).toFixed(2)}</span>%
                     </div>
                     <div>
                       <span bind="biofuelOutput">0</span> MW
@@ -158,33 +157,6 @@ class BreakdownContainer extends Component {
                     />
                   </td>
                 </tr>
-                {/* <tr className="energy-source-breakdown-import-export-cell">
-                  <td colSpan="2">
-                    <img
-                      className="import-export-icon"
-                      src={ require('./docs/albertamap.png') }
-                      alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"
-                    />
-                  </td>
-                  <td>
-                    <div>import</div>
-                    <div className="imports"><span bind="imports">0</span> MW</div>
-                    <br />
-                    <div>export</div>
-                    <div className="exports"><span bind="exports">0</span> MW</div>
-                    <br />
-                    <div>net</div>
-                    <div className="netImportExports">
-                      <span bind="netImportExports">0</span> MW
-                    </div>
-                  </td>
-                  <td className="energy-source-disclosure">
-                    <img
-                      src={ require('./docs/arrow.png') }
-                      alt="Import Export"
-                    />
-                  </td>
-                </tr> */}
               </tbody>
             </table>
           </div>
