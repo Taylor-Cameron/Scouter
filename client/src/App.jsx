@@ -30,9 +30,11 @@ class App extends Component {
   };
 
   render() {
+
     if (!this.state[0]) return (
       <p>{this.state.response}</p>
     );
+    console.log(this.state)
     return (
       <div>
         <div>

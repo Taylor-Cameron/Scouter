@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 
 class BreakdownContainer extends Component {
 
+
+
     render() {
         return(
           <div className="content-wrapper">
@@ -9,9 +11,9 @@ class BreakdownContainer extends Component {
               <div className="block">
                   <div className="breakdown-table-title">GENERATION - FUEL TYPE
                   </div>
-              <table className="energy-source-breakdown-table">
-              <tbody>
-                  <tr energytype="COAL" className="energy-source-breakdown-standard-cell">
+                <table className="energy-source-breakdown-table" onClick={function (e) { console.log(e.target.id) }}>
+              <tbody id= "COAL">
+                  <tr id="COAL" className="energy-source-breakdown-standard-cell">
                   <td className="energy-source-icon">
                       <img
                       src={ require('./docs/coal.png') }
