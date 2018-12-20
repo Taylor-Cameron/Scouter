@@ -231,7 +231,10 @@ body {
   }
 
   .power-plant-breakdown-table-div {
-  -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+    height: 200px;
+    background-color: #ffffff;
+    color: #465865
   }
 
   .power-plant-breakdown-summary {

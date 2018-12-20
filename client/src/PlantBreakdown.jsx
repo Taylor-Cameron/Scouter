@@ -19,9 +19,12 @@ class PlantBreakdown extends Component {
         percentage = (percentage * 100).toFixed(2)
         const plants = powerPlants.plantBreakdown
         const assets = getAssets(energytype, plants);
-        console.log("energytype on plant", energytype)
-        console.log("this is for you", plants);
-        console.log(assets)
+        const plantArr = assets.map(a => a.data.map(x => x.ASSET))
+        const plantInfo = plantArr.map((name) => {
+            return <tr key={name}>
+                <td>{name}</td>
+            </tr>
+        })
         return(
             <div className="content-wrapper">
                 <div className="plant-container">
@@ -44,18 +47,21 @@ class PlantBreakdown extends Component {
                                     </div>
                                 </div>
                                 <div className="power-plant-column-header">
-                                    <table>
-                                        <tr>
-                                            <td className="power-plant-name-data">
-                                                POWER PLANT
-                                            </td>
-                                            <td className="power-plant-output-data">
-                                                output
-                                            </td>
-                                            <td className="power-plant-capability-data">
-                                                capability
-                                            </td>
-                                        </tr>
+                                        <table className="power-plant-breakdown-table-div">
+                                        <tbody>
+                                            <tr>
+                                                <td className="power-plant-name-data">
+                                                    POWER PLANT
+                                                </td>
+                                                <td className="power-plant-output-data">
+                                                    output
+                                                </td>
+                                                <td className="power-plant-capability-data">
+                                                    capability
+                                                </td>
+                                            </tr>
+                                            {plantInfo}
+                                        </tbody>
                                     </table>
                                 </div>
                             </div>
