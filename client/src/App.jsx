@@ -10,7 +10,9 @@ import Disclaimer from './Disclaimer';
 class App extends Component {
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      energytype: 'GAS'
+    };
   }
   // When component mounts call the Api and send response to the client
   componentDidMount() {
@@ -29,8 +31,10 @@ class App extends Component {
     return body;
   };
 
-  handleClick(event) {
-    console.log(event.currentTarget.id)
+  handleClick = (event) => {
+    this.setState({
+      energytype: event.currentTarget.id
+    });
   }
 
   render() {
@@ -38,7 +42,6 @@ class App extends Component {
     if (!this.state[0]) return (
       <p>{this.state.response}</p>
     );
-    console.log(this.state)
     return (
       <div>
         <div>
@@ -47,7 +50,7 @@ class App extends Component {
         <div className='content-wrapper'>
           <SummaryContainer summary={this.state[1]}/>
           <BreakdownContainer generation={this.state[2]} button={this.handleClick}/>
-          <PlantBreakdown powerPlants={this.state[3]} generation={this.state[2]}/>
+          <PlantBreakdown powerPlants={this.state[3]} generation={this.state[2]} energytype={this.state.energytype}/>
         </div>
         <div className='second-row'>
           <SunburstGraph />

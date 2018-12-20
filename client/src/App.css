@@ -19,12 +19,12 @@ body {
   }
 
     .block {
-      height: 530px;
       background: #ffffff;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .content-wrapper {
+    height: 480px;
     display: flex;
     padding-top: 45px;
     justify-content: center;
@@ -32,7 +32,7 @@ body {
 
   .second-row {
     display: flex;
-    padding: 0 25px 10px 25px;
+    padding: 45px 35px 45px 17px;
     justify-content: center;
   }
 
@@ -55,7 +55,8 @@ body {
 
   .date {
     flex: 1;
-    text-align: center
+    text-align: center;
+    padding:25px;
   }
 
   .header .refresh {
@@ -107,7 +108,7 @@ body {
   .breakdown-table-title {
     font-size: 16px;
     text-align: center;
-    line-height: 80px;
+    line-height: 65px;
     padding: 5px 0px 4px 10px;
     color:#465865 !important;
     border-bottom-style: solid;
@@ -155,7 +156,6 @@ body {
      border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
-
   }
 
 
@@ -205,102 +205,27 @@ body {
     float: right;
   }
 
-  .coal{
-  color: #5E5A5F;
-  }
 
-  .hydro{
-    color: #093B6A;
-  }
-
-  .gas{
-    color: #CE632D;
-  }
-
-  .wind{
-    color: #266B6B;
-  }
-
-  .biofuel{
-    color: #FFE66D;
-  }
-
-  #coal{
-    color: #5E5A5F;
-  }
-
-  #hydro{
-    color: #093B6A;
-  }
-
-  #gas{
-    color: #CE632D;
-  }
-
-  #wind{
-    color: #266B6B;
-  }
-
-  #biofuel{
-    color: #FFE66D;
-  }
-
-  #coal-bar {
-    background-color: #5E5A5F;
-  }
-
-  #hydro-bar {
-    background-color: #093B6A;
-  }
-
-  #gas-bar {
-    background-color: #CE632D;
-  }
-
-  #wind-bar {
-    background-color: #266B6B;
-  }
-
-  #biofuel-bar {
+  .biofuel-bar {
     background-color: #FFE66D;
   }
 
-  /*IMPORT SUMMARY*/
 
-  /* .energy-source-breakdown-import-export-cell {
-    font-size: 16px;
-    cursor: pointer;
-    height: 120px;
+  .coal-bar {
+    background-color: #5E5A5F;
   }
 
-  .imports {
-    color:#465865;
-    float: right;
+  .hydro-bar {
+    background-color: #093B6A;
   }
 
-  .exports {
-    color:#465865;
-    float: right;
+  .gas-bar {
+    background-color: #CE632D;
   }
 
-  .netImportExports {
-    float: right;
+  .wind-bar {
+    background-color: #266B6B;
   }
-
-  .import-export-summary {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
-    .import-export-icon{
-    height: 70px;
-    width: 70px;
-    margin-top: 3px;
-    margin-bottom: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  } */
 
   /**************PLANT BREAKDOWN**************/
   .plant-container {
@@ -316,7 +241,6 @@ body {
   }
 
   .power-plant-breakdown-summary {
-    background-color:#5E5A5F;
     height:132px;
     color:#ffffff;
   }

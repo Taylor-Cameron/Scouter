@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import Sunburst from './SunBurst';
 
 const DIVERGING_COLOR_SCALE = ['#00939C', '#85C4C8', '#EC9370', '#C22E00'];
@@ -202,7 +202,7 @@ const data = {
 
     ]
 }
-class SunBurstGraph extends Component {
+class SunBurstGraph extends PureComponent {
     onSelect(event) {
         console.log(event);
     }

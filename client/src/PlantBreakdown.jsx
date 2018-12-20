@@ -3,7 +3,10 @@ import React, {Component} from 'react';
 class PlantBreakdown extends Component {
 
     render() {
-        console.log(this.props.powerPlants.plantBreakdown)
+        console.log(this.props)
+        const percentageObj = this.props.generation.breakdownContainer.find(type => type[this.props.energytype])
+        let percentage = percentageObj ? percentageObj[this.props.energytype] : 0;
+        percentage = (percentage * 100).toFixed(2)
         return(
             <div className="content-wrapper">
                 <div className="plant-container">
@@ -11,15 +14,15 @@ class PlantBreakdown extends Component {
                     <div className="power-plant-breakdown-table-header">
                         <div className="breakdown-table-title">GENERATION - PLANT
                         </div>
-                        <div className="power-plant-breakdown-summary">
+                        <div className={`power-plant-breakdown-summary biofuel-bar ${this.props.energytype.toLowerCase()}-bar`}>
                         <div>
-                                <div className="power-plant-breakdown-summary-title">coal</div>
+                                <div className="power-plant-breakdown-summary-title">{this.props.energytype}</div>
                         <div className="power-plant-breakdown-summary-bar-background">
-                                    <div className="power-plant-breakdown-summary-bar"></div>
+                                    <div className="power-plant-breakdown-summary-bar" style={{width: `${percentage}%`}}></div>
                                 </div>
                                 <div className="power-plant-breakdown-summary-values">
                                     <div>
-                                        <span className="power-plant-breakdown-summary-percentage">{this.props.generation.breakdownContainer[1].COAL * 100}</span>% (of total grid)</div>
+                                            <span className="power-plant-breakdown-summary-percentage">{percentage}</span>% (of total grid)</div>
                                         <div>
                                             <span className="power-plant-breakdown-summary-total">-- </span> MW
                                         </div>
