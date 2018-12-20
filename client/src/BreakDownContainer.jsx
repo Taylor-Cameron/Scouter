@@ -11,6 +11,30 @@ class BreakdownContainer extends Component {
                   </div>
               <table className="energy-source-breakdown-table">
               <tbody>
+              <tr energytype="GAS" className="energy-source-breakdown-standard-cell">
+                  <td className="energy-source-icon">
+                    <img
+                      src={ require('./docs/gas.png') }
+                      alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"
+                    />
+                  </td>
+                  <td className="energy-source-title">gas</td>
+                  <td className="energy-source-values">
+                    <div className="bar-background">
+                      <div className="bar" id="gas-bar" style={{ width: `${(this.props.generation.breakdownContainer[0].GAS * 100)}%` }}></div>
+                    </div>
+                    <div>
+                          <span bind="gasPercentage">{(this.props.generation.breakdownContainer[0].GAS * 100).toFixed(2)}</span>%
+                    </div>
+                    <div><span bind="gasOutput">0</span> MW</div>
+                  </td>
+                  <td className="energy-source-disclosure">
+                    <img
+                      src={ require('./docs/arrow.png') }
+                      alt="arrow"
+                    />
+                  </td>
+                </tr> 
                   <tr energytype="COAL" className="energy-source-breakdown-standard-cell">
                   <td className="energy-source-icon">
                       <img
@@ -37,30 +61,6 @@ class BreakdownContainer extends Component {
                   />
                   </td>
               </tr>
-              <tr energytype="GAS" className="energy-source-breakdown-standard-cell">
-                  <td className="energy-source-icon">
-                    <img
-                      src={ require('./docs/gas.png') }
-                      alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"
-                    />
-                  </td>
-                  <td className="energy-source-title">gas</td>
-                  <td className="energy-source-values">
-                    <div className="bar-background">
-                      <div className="bar" id="gas-bar" style={{ width: `${(this.props.generation.breakdownContainer[0].GAS * 100)}%` }}></div>
-                    </div>
-                    <div>
-                          <span bind="gasPercentage">{(this.props.generation.breakdownContainer[0].GAS * 100).toFixed(2)}</span>%
-                    </div>
-                    <div><span bind="gasOutput">0</span> MW</div>
-                  </td>
-                  <td className="energy-source-disclosure">
-                    <img
-                      src={ require('./docs/arrow.png') }
-                      alt="arrow"
-                    />
-                  </td>
-                </tr>
                 <tr energytype="WIND" className="energy-source-breakdown-standard-cell">
                   <td className="energy-source-icon">
                     <img
@@ -113,7 +113,6 @@ class BreakdownContainer extends Component {
                     />
                   </td>
                 </tr>
-
                 <tr
                   energytype="BIOFUEL"
                   className="energy-source-breakdown-standard-cell"

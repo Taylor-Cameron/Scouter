@@ -11,20 +11,13 @@ body {
     line-height: 20px;
   }
 
-  .row {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 20px;
-    padding:20px 0 0 0;
-  }
-
     .block {
-      height: 480px;
       background: #ffffff;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .content-wrapper {
+    height: 480px;
     display: flex;
     padding-top: 45px;
     justify-content: center;
@@ -32,7 +25,7 @@ body {
 
   .second-row {
     display: flex;
-    padding: 0 25px 10px 25px;
+    padding: 45px 35px 45px 17px;
     justify-content: center;
   }
 
@@ -108,7 +101,7 @@ body {
   .breakdown-table-title {
     font-size: 16px;
     text-align: center;
-    line-height: 50px;
+    line-height: 65px;
     padding: 5px 0px 4px 10px;
     color:#465865 !important;
     border-bottom-style: solid;
@@ -360,6 +353,41 @@ body {
     text-align: center;
   }
 
+  /**************LEGEND**************/
+
+  .legend-container {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 25px;
+    font-weight: 400;  
+  }
+
+  .legend-box {
+    height: 150px;
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    background-color:#ffffff;
+    margin: 0 0 15px 0;
+  }
+
+  .legend-box .title {
+    padding-top: 15px;
+    width: 100%;
+    font-size:16px;
+    color: #465865;
+    display:table;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+
  /**************SUNBURST**************/
 
   .sunburst-wrapper {
@@ -373,8 +401,13 @@ body {
   }
 
 /**************DISCLAIMER**************/
-  .discalimer {
-    align-content: center;
-    display: flex;
-    width: 50%;
+  .disclaimer-box {
+    position: absolute;
+    justify-content: center;
+    box-shadow: 0px 0px 30px 0px rgba(8, 8, 8, 0.1);
+    background:rgba(255,255,255,0.97);
+    height: 100px;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 20px;
   }

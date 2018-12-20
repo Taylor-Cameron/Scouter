@@ -4,6 +4,7 @@ import Header from './Header';
 import SummaryContainer from './SummaryContainer';
 import BreakdownContainer from './BreakdownContainer.jsx';
 import PlantBreakdown from './PlantBreakdown.jsx';
+import Legend from './Legend.jsx';
 //import SunburstGraph from './SunburstGraph';
 import Disclaimer from './Disclaimer';
 
@@ -28,8 +29,9 @@ class App extends Component {
 
     return body;
   };
-
+  
   render() {
+    console.log(this.state)
     if (!this.state[0]) return (
       <p>{this.state.response}</p>
     );
@@ -40,13 +42,14 @@ class App extends Component {
         </div>
         <div className='content-wrapper'>
           <SummaryContainer summary={this.state[1]}/>
-          <BreakdownContainer generation={this.state[2]}/>
+          <BreakdownContainer generation={this.state[2]} />
           <PlantBreakdown powerPlants={this.state[3]} generation={this.state[2]}/>
         </div>
         <div className='second-row'>
+        <Legend />
           {/* <SunburstGraph /> */}
-          <Disclaimer />
         </div>
+        <Disclaimer />
       </div>
     );
 }
