@@ -1,6 +1,10 @@
 const getMostRecentData = require('../server').getMostRecentData;
-const svgFormatter = require('../../controller/helpers/indexHelper').svgFormatter;
+// const svgFormatter = require('../../controller/helpers/indexHelper').svgFormatter;
 
+/**
+ * @param {object} obj
+ * @return {array} Returns a sorted array of an objects keys
+ */
 function sort(obj) {
   return Object.keys(obj).sort(function(a, b) {
     return obj[b] - obj[a];
@@ -13,40 +17,68 @@ const sortArrByMC = (arr) => {
   });
   return arr;
 };
-const returnSortedObject = (obj) => {
-  const json_result = breakDownContainerSchema(obj);
-  const sorted = sort(json_result);
-  const output = sorted.map(function(key) {
-    return {[key]: json_result[key]};
-  });
-  return output;
+const returnSortedObject = (obj, bool) => {
+  if (bool) {
+    const jsonObject = breakDownContainerSchema(obj);
+    const sorted = sort(jsonObject);
+    const output = sorted.map(function(key) {
+      return {[key]: jsonObject[key]};
+    });
+    return output;
+  } else {
+    const sorted = sort(jsonObject);
+    const output = sorted.map(function(key) {
+      return {[key]: jsonObject[key]};
+    });
+    return output;
+  }
 };
 
 const getValuesAtArrayIndex = (summaryArray, requiredIndexArr) => {
   const outArr = [];
-  requiredIndexArr.forEach(reqEle => {
-    outArr.push(summaryArray[reqEle])
+  requiredIndexArr.forEach((reqEle) => {
+    outArr.push(summaryArray[reqEle]);
   });
-  return outArr
-}
+  return outArr;
+};
 module.exports.getData = async () => {
   const outArr = [];
-  const reqArr = [0, 2, 3, 5]
-  let v;
-  v = await getMostRecentData();
+  const reqArr = [0, 2, 3, 5];
+  const v = await getMostRecentData();
   // TODO
-  // const b = svgFormatter(v)
-  const a = v[0].data.TIME
+  const b = getTngSum(v[0].data.MATH.SUMS.sumObj);
+  const a = v[0].data.TIME;
   const z = getValuesAtArrayIndex(v[0].data.SUMMARY, reqArr);
   const x = mainColRefac(v);
-  const y = returnSortedObject(v);
+  const y = returnSortedObject(v, true);
   outArr.push(
       {'time': a},
       {'summaryContainer': z},
-      {'breakdownContainer': y},
+      {'breakdownContainer': [y, b]},
       {'plantBreakdown': x},
   );
   return outArr;
+};
+
+const getTngSum = (inputData) => {
+  const targetValues = ['COAL', 'HYDRO', 'WIND', 'BIOMASS AND OTHER', 'GAS'];
+  const gasVals = ['Simple Cycle', 'Cogeneration', 'Combined Cycle'];
+  let outGas = 0;
+  targetValues.forEach((element) => {
+    if (element !== 'GAS') {
+      inputData[element] = inputData[element].TNG;
+    } else if (element === 'GAS') {
+      for (let i = 0; i < inputData[element].length; i++) {
+        outGas += inputData[element][i][gasVals[i]].TNG;
+      };
+    }
+  });
+  inputData.GAS = outGas;
+  const sorted = sort(inputData);
+  const output = sorted.map(function(key) {
+    return {[key]: inputData[key]};
+  });
+  return output;
 };
 
 const breakDownContainerSchema = (inputData) => {

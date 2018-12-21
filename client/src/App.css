@@ -17,6 +17,7 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
+    
   }
   table tr:last-of-type td{
     padding: 5px 8px;
@@ -35,7 +36,6 @@ body {
     display: flex;
     justify-content: center;
     padding: 45px 0 0 0;
-    border-radius: 5px;
   }
 
   /**************HEADER**************/
@@ -53,6 +53,7 @@ body {
     left: 0;
     right: 0;
     z-index: 998;
+    border-radius: 5px;
   }
 
   .date {
@@ -106,6 +107,7 @@ body {
   .breakdown-container {
     flex: 1;
     width: 600px;
+    border-top-left-radius: 5px;
   }
 
   .breakdown-table-title {
@@ -113,11 +115,10 @@ body {
     text-align: center;
     line-height: 65px;
     padding: 5px 0px 4px 10px;
-    color:#465865 !important;
+    color:#465865;
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
-    border-radius: 5px;
   }
 
   .energy-source-breakdown-table-header {
@@ -126,10 +127,11 @@ body {
     padding: 5px 0px 4px 10px;
     margin: 0px;
     border-radius: 5px;
+    border-top-right-radius: 0;
   }
 
   .energy-source-breakdown-standard-cell {
-    height:93px;
+    height:94px;
     font-size: 16px;
     cursor: pointer;
   }
@@ -211,11 +213,12 @@ body {
   width: 600px;
   background-color: #ffffff;
   border-radius: 5px;
+  border-top-left-radius: 0px;
   }
 
   .power-plant-breakdown-table-header {
     height: 226px;
-    border-radius: 5px;
+    border-top-left-radius: 0px;
   }
 
   .power-plant-breakdown-table-div {
@@ -227,8 +230,7 @@ body {
 
   .power-plant-breakdown-summary {
     height:132px;
-    color:#ffffff;
-    border-radius: 5px;
+    color:#ffffff
   }
 
   .power-plant-breakdown-summary-title {
@@ -237,7 +239,6 @@ body {
     text-align:center;
     text-transform: lowercase;
     font-size: 30px;
-    border-radius: 5px;
   }
 
   .power-plant-breakdown-summary-bar-background {
@@ -416,4 +417,5 @@ body {
     padding: 0 20% 2% 20%;
     margin-top: 30px;
     font-size: 18px;
+    border-radius: 5px;
   }
