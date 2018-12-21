@@ -21,7 +21,7 @@ class PlantBreakdown extends Component {
 
     render() {
         const { energytype, generation, powerPlants } = this.props;
-        const percentageObj = generation.breakdownContainer.find(type => type[energytype])
+        const percentageObj = generation.breakdownContainer[0].find(type => type[energytype])
         let percentage = percentageObj ? percentageObj[energytype] : 0;
         percentage = (percentage * 100).toFixed(2)
         const plants = powerPlants.plantBreakdown

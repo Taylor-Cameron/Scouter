@@ -2,112 +2,112 @@
   {
     "name": "Battle River #3",
     "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
-    "Info": "Battle river power station has been in operation since 1969, and is one section of a three unit station. And has a maximum capacity of 149 megawatts.,",
+    "info": "Battle river power station has been in operation since 1969, and is one section of a three unit station. And has a maximum capacity of 149 megawatts.,",
     "owner": "atco power",
     "website": "atcopower.com"
   },
   {
     "name": "Battle River #4",
     "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
-    "Info": "Battle river power station has been in operation since 1975, and is one section of a three unit station. And has a maximum capacity of 155 megawatts.",
+    "info": "Battle river power station has been in operation since 1975, and is one section of a three unit station. And has a maximum capacity of 155 megawatts.",
     "owner": "atco power",
     "website": "atcopower.com"
   },
   {
     "name": "Battle River #5",
     "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
-    "Info": " Battle river power station has been in operation since 1981, and is one section of a three unit station. And has a maximum capacity of 385 megawatts.",
+    "info": " Battle river power station has been in operation since 1981, and is one section of a three unit station. And has a maximum capacity of 385 megawatts.",
     "owner": "atco power",
     "website": "atcopower.com"
   },
   {
     "name": "Genesee #1",
     "location": "Warburg, AB T0C 2T0",
-    "Info": "Genesee power station unit 1 has been in operation since 1994, and is one section of a 2 unit station. It has a maximum capacity of 400 megawatts. They also have a comprehensive land reclamation plan in place to return mined land back in to agricultural space.",
+    "info": "Genesee power station unit 1 has been in operation since 1994, and is one section of a 2 unit station. It has a maximum capacity of 400 megawatts. They also have a comprehensive land reclamation plan in place to return mined land back in to agricultural space.",
     "owner": "capital power",
     "website": "capitalpower.com"
   },
   {
     "name": "Genesee #2",
     "location": "Warburg, AB T0C 2T0",
-    "Info": "Genesee power station unit 2 has been in operation since 1994, and is one section of a 2 unit station. It has a maximum capacity of 400 megawatts. They also have a comprehensive land reclamation plan in place to return mined land back in to agricultural space.",
+    "info": "Genesee power station unit 2 has been in operation since 1994, and is one section of a 2 unit station. It has a maximum capacity of 400 megawatts. They also have a comprehensive land reclamation plan in place to return mined land back in to agricultural space.",
     "owner": "capital power",
     "website": "capitalpower.com"
   },
   {
     "name": "Genesee #3",
     "location": "Warburg, AB T0C 2T0",
-    "Info": "Genesee power station unit 3 has been in operation since 2005, and is one of the most advanced, fuel-efficient, and environmentally-progressive coal-fired facilities in Canada. It has a maximum capacity of 466 megawatts. It is also Canada's first power generation facility to use supercritical combustion technology for greater fuel efficiency and lower emissions.",
+    "info": "Genesee power station unit 3 has been in operation since 2005, and is one of the most advanced, fuel-efficient, and environmentally-progressive coal-fired facilities in Canada. It has a maximum capacity of 466 megawatts. It is also Canada's first power generation facility to use supercritical combustion technology for greater fuel efficiency and lower emissions.",
     "owner": "capital power and Transalta",
     "website": ["capitalpower.com", "transalta.com"]
   },
   {
     "name": "H.R. Milner",
     "location": "Greenview No. 16, AB",
-    "Info": "Has been in operation since 1972, and uses a dual fuel steam turbine generator capable of burning both natural gas and coal. It has a maximum capacity of 144 megawatts.",
+    "info": "Has been in operation since 1972, and uses a dual fuel steam turbine generator capable of burning both natural gas and coal. It has a maximum capacity of 144 megawatts.",
     "owner": "maxim power",
     "website": "maximpowercorp.com"
   },
   {
     "name": "Keephills #1",
     "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
-    "Info": "Keephills #1 has been in operation since 1983 and is one part of a 3 unit station. It has a maximum capacity of 395 megawatts",
+    "info": "Keephills #1 has been in operation since 1983 and is one part of a 3 unit station. It has a maximum capacity of 395 megawatts",
     "owner": " Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Keephills #2",
     "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
-    "Info": "Keephills #2 has been in operation since 1983 and is one part of a 3 unit station. It has a maximum capacity of 395 megawatts",
+    "info": "Keephills #2 has been in operation since 1983 and is one part of a 3 unit station. It has a maximum capacity of 395 megawatts",
     "owner": " Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Keephills #3",
     "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
-    "Info": "Keephills #3 has been in operation since 2011, and is one of Canada’s largest and cleanest coal-fired facilities and one of the most advanced facilities of its kind in the world. And was built to replace the previously existing Wabamun 4 station",
+    "info": "Keephills #3 has been in operation since 2011, and is one of Canada’s largest and cleanest coal-fired facilities and one of the most advanced facilities of its kind in the world. And was built to replace the previously existing Wabamun 4 station",
     "owner": "capital power and Transalta",
     "website": ["capitalpower.com", "transalta.com"]
   },
   {
     "name": "Sheerness #1",
     "location": "Veterans Memorial Hwy, Sunnynook, AB T0J 3J0",
-    "Info": "It has been in operation since 1986, and is one part of a two unit station. It has a maximum capacity of 400 megawatts, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
+    "info": "It has been in operation since 1986, and is one part of a two unit station. It has a maximum capacity of 400 megawatts, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
     "owner": "atco power and Transalta",
     "website": ["transalta.com", "atcopower.com"]
   },
   {
     "name": "Sheerness #2",
     "location": "Veterans Memorial Hwy, Sunnynook, AB T0J 3J0",
-    "Info": "It has been in operation since 1990, and is one part of a two unit station. It has a maximum capacity of 400 megawatts, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
+    "info": "It has been in operation since 1990, and is one part of a two unit station. It has a maximum capacity of 400 megawatts, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
     "owner": "atco power and Transalta",
     "website": ["transalta.com", "atcopower.com"]
   },
   {
     "name": "Sundance #3",
     "location": "Parkland County, AB T0E 0V0",
-    "Info": "Was built in 1976 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 368 megawatts.",
+    "info": "Was built in 1976 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 368 megawatts.",
     "owner": " Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Sundance #4",
     "location": "Parkland County, AB T0E 0V0",
-    "Info": "Was built in 1977 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 406 megawatts.",
+    "info": "Was built in 1977 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 406 megawatts.",
     "owner": " Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Sundance #5",
     "location": "Parkland County, AB T0E 0V0",
-    "Info": "Was built in 1978 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 406 megawatts.",
+    "info": "Was built in 1978 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 406 megawatts.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
-    "name": "Sundance #3",
+    "name": "Sundance #6",
     "location": "Parkland County, AB T0E 0V0",
-    "Info": "Was built in 1980 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 401 megawatts.",
+    "info": "Was built in 1980 and is one unit of a now 5 part station after Sundance 1 was decommissioned in January 2018. It has a maximum capacity of 401 megawatts.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
