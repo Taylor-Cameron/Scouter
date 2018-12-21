@@ -15,6 +15,14 @@ body {
       border-radius: 5px;
   }
 
+  table tr td {
+    padding: 5px 8px;
+    line-height: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
+  }
+
   .content-wrapper {
     height: 550px;
     display: flex;
@@ -97,6 +105,7 @@ body {
     flex: 1;
     width: 600px;
     height: 550px;
+    border-radius: 5px;
   }
 
   .breakdown-table-title {
@@ -108,6 +117,7 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
+    border-radius: 5px;
   }
 
   .energy-source-breakdown-table-header {
@@ -115,6 +125,7 @@ body {
     line-height: 41px;
     padding: 5px 0px 4px 10px;
     margin: 0px;
+    border-radius: 5px;
   }
 
   .energy-source-breakdown-standard-cell {
@@ -126,41 +137,18 @@ body {
   td.energy-source-title {
     font-size: 18px;
     color: #465865;
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
 
   td.energy-source-values {
     width:95%;
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
-  }
-
-  .td.energy-source-disclosure {
-    width:40px;
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
 
   td.energy-source-icon {
     width: 50px;
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
-
 
   td.energy-source-icon img {
     width: 30px;
-  }
-
-  td.energy-source-disclosure {
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
 
   td.energy-source-disclosure img {
@@ -221,7 +209,6 @@ body {
     background-color: #266B6B;
   }
 
-
   /**************PLANT BREAKDOWN**************/
   .plant-container {
   flex: 1;
@@ -280,14 +267,6 @@ body {
     margin-top: 10px;
     height: 40px;
     font-size: 16px;
-  }
-
-  table tr td {
-    padding: 5px 8px;
-    line-height: 20px;
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
 
   .power-plant-breakdown-table-div tbody{
@@ -434,5 +413,5 @@ body {
     height: 100px;
     width: 100%;
     padding-bottom: 30px;
-    font-size: 20px;
+    font-size: 18px;
   }
