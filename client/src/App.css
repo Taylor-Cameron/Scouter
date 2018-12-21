@@ -385,8 +385,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: 700px;
     font-weight: 400;
+    height: 700px;
   }
 
   .map-title {
@@ -400,6 +400,21 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
+  }
+
+  .map-content {
+    height: 625px;
+  }
+
+  .map-pic {
+    align-content: center;
+    padding-left: 10%;
+    padding-top: 15%;
+  }
+
+  .map-info {
+    padding-left: 15%;
+    font-weight: 150;
   }
 
   /**************DISCLAIMER**************/

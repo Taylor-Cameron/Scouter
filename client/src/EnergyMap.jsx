@@ -9,12 +9,15 @@ class EnergyMap extends Component {
             <div className="map-title">
             PLANT MAP
             </div>
+            <div className="map-content">
             <img
+              className="map-pic"
               src={ require('./docs/fakemap.png') }
               alt='REPLACE THIS MAP'/>
               <div className="map-info">
-                Contents of this map are not exact.
+                *Contents of this map are not exact.
               </div>
+            </div>
           </div>
         </div>
       </div>        
