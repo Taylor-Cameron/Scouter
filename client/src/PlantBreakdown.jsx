@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+const data = require("./plantinfo.json");
 
 function getAssets(type, plants) {
     const outputArr = [];
@@ -11,6 +12,12 @@ function getAssets(type, plants) {
     return [{"data": plants[type]}]; // this is an array
 }
 class PlantBreakdown extends Component {
+    showDetail = (info) => (event) => {
+        const plantDetails = data.find(detail => {
+            return info.includes(detail.name)
+        })
+        this.props.setModalData(plantDetails);
+    }
 
     render() {
         const { energytype, generation, powerPlants } = this.props;
@@ -20,10 +27,12 @@ class PlantBreakdown extends Component {
         const plants = powerPlants.plantBreakdown
         const assets = getAssets(energytype, plants);
         const plantArr = assets.map(a => a.data.map((info) => {
+            console.log(info);
             return <tr>
-                        <td>{info.ASSET}</td>
+                        <td><a href="#_" onClick={this.showDetail(info.ASSET)} >{info.ASSET}</a></td>
                         <td>{info.TNG}</td>
                         <td>{info.MC}</td>
+
                     </tr>
         }))
 

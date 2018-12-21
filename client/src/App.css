@@ -338,7 +338,7 @@ body {
       border-left-color: #efefef;
       border-radius: 5px;
     }
-  
+
     .legend-title {
       color: #465865;
       font-size: 16px;
@@ -349,7 +349,7 @@ body {
       padding: 5px 0px 4px 10px;
       border-radius: 5px;
     }
-  
+
     .classification {
       font-size: 18px;
       font-weight: 200;
@@ -360,14 +360,14 @@ body {
       border-top-color: #efefef;
       border-top-width: 1px;
       }
-  
+
     .legend-img {
       display: block;
       align-content: center;
       padding: 10px 0 20px 0;
       margin-left: 30px;
     }
-  
+
   /**************MAP**************/
 
   .map-container {
@@ -419,3 +419,32 @@ body {
     font-size: 18px;
     border-radius: 5px;
   }
+
+
+  /**************Modal**************/
+
+  .modal-body {
+    position: fixed;
+    background-color: #999;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    position: fixed;
+    background-color: white;
+    min-height: 400px;
+    width: 600px;
+    z-index: 10001;
+    top: 200px;
+    left: 50%;
+    margin-left: -300px;
+  }
+
