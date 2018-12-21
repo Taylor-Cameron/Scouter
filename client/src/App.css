@@ -3,30 +3,39 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   color: #465865;
   font-size: 16px;
-    font-weight: 300;
+  font-weight: 300;
+  }
+
+  .block {
+      background: #ffffff;
+      border-radius: 5px;
   }
 
   table tr td {
     padding: 5px 8px;
     line-height: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
   }
-
-    .block {
-      background: #ffffff;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  table tr:last-of-type td{
+    padding: 5px 8px;
+    line-height: 20px;
+    border-bottom: none;
   }
 
   .content-wrapper {
-    height: 480px;
+    height: 550px;
     display: flex;
-    padding-top: 45px;
+    padding-top: 55px;
     justify-content: center;
   }
 
   .second-row {
     display: flex;
-    padding: 45px 35px 45px 17px;
     justify-content: center;
+    padding: 45px 0 0 0;
+    border-radius: 5px;
   }
 
   /**************HEADER**************/
@@ -72,6 +81,7 @@ body {
     width: 100%;
     background-color:#ffffff;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
   }
 
   .summary-box .title {
@@ -107,6 +117,7 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
+    border-radius: 5px;
   }
 
   .energy-source-breakdown-table-header {
@@ -114,10 +125,11 @@ body {
     line-height: 41px;
     padding: 5px 0px 4px 10px;
     margin: 0px;
+    border-radius: 5px;
   }
 
   .energy-source-breakdown-standard-cell {
-    height:80px;
+    height:93px;
     font-size: 16px;
     cursor: pointer;
   }
@@ -125,51 +137,24 @@ body {
   td.energy-source-title {
     font-size: 18px;
     color: #465865;
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
 
   td.energy-source-values {
     width:95%;
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
-  }
-
-  .td.energy-source-disclosure {
-    width:40px;
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
 
   td.energy-source-icon {
     width: 50px;
-     border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
-
 
   td.energy-source-icon img {
     width: 30px;
-  }
-
-  td.energy-source-disclosure {
-    border-bottom-style: solid;
-    border-bottom-color: #efefef;
-    border-bottom-width: 1px;
   }
 
   td.energy-source-disclosure img {
     width: 15px;
     height: 15px;
     float: right;
-  }
-
-  .energy-source-selected td{
-    background-color: #fafafa;
   }
 
   .bar-background {
@@ -181,6 +166,7 @@ body {
     margin-bottom: 10px;
     background-color:#DBDBDB;
     z-index:1;
+    border-radius: 5px;
   }
 
   .bar {
@@ -192,6 +178,7 @@ body {
     margin-bottom: 10px;
     background-color:#0a0a0a;
     z-index:2;
+    border-radius: 5px;
   }
 
   .percentage {
@@ -218,30 +205,30 @@ body {
     background-color: #266B6B;
   }
 
-
   /**************PLANT BREAKDOWN**************/
   .plant-container {
   flex: 1;
   width: 600px;
   background-color: #ffffff;
-  overflow: auto;
-  padding-bottom: 5px;
+  border-radius: 5px;
   }
 
   .power-plant-breakdown-table-header {
     height: 226px;
+    border-radius: 5px;
   }
 
   .power-plant-breakdown-table-div {
-    overflow: scroll;
     height: 200px;
     background-color: #ffffff;
     color: #465865;
+    overflow: auto;
   }
 
   .power-plant-breakdown-summary {
     height:132px;
     color:#ffffff;
+    border-radius: 5px;
   }
 
   .power-plant-breakdown-summary-title {
@@ -250,6 +237,7 @@ body {
     text-align:center;
     text-transform: lowercase;
     font-size: 30px;
+    border-radius: 5px;
   }
 
   .power-plant-breakdown-summary-bar-background {
@@ -259,6 +247,7 @@ body {
     margin-top: 10px;
     background-color:#DBDBDB;
     z-index:1;
+    border-radius: 5px;
   }
 
   .power-plant-breakdown-summary-bar {
@@ -267,6 +256,7 @@ body {
     height: 10px;
     background-color:#ffffff;
     z-index:2;
+    border-radius: 5px;
   }
 
   .power-plant-breakdown-summary-values {
@@ -278,112 +268,145 @@ body {
     font-size: 16px;
   }
 
-  .power-plant-column-header {
-    line-height: 44px;
-    height: 44px;
+  .power-plant-breakdown-table-div tbody{
+    display: block;
+    overflow: auto;
+    height: 200%;
+  }
+
+  .power-plant-breakdown-table-div td {
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .power-plant-breakdown-table-div td:first-of-type {
+    text-align: left;
+  }
+
+  th {
+    font-weight: 150;
+    width: 200px;
+    height:50px;
     border-bottom-style: solid;
-    border-bottom:1pt solid #efeff4;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
   }
 
-  .power-plant-breakdown-table tr:after {
-    content: ' ';
+  thead tr{
     display: block;
-    visibility: hidden;
-    clear: both;
   }
-
-  .power-plant-breakdown-table thead th {
-    height: 44px;
-    line-height: 44px;
-    font-size: 16px;
-    padding-left: 10px;
-    text-transform: lowercase;
-  }
-
-  .power-plant-breakdown-table tbody td{
-    height: 44px;
-    line-height: 44px;
-    border-bottom:1pt solid #efeff4;
-    vertical-align: middle;
-  }
-
-  td.power-plant-name-data {
-    height: 44px;
-    line-height: 33px;
-    text-transform: uppercase;
-    width: 50%;
-    font-size: 14px;
-    padding-left: 10px;
-  }
-
-  td.power-plant-name-data a {
-  font-weight: 200;
-  }
-
-  td.power-plant-output-data {
-    height: 44px;
-    line-height: 33px;
-    width: 25%;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  td.power-plant-capability-data {
-    height: 44px;
-    line-height: 33px;
-    width: 25%;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  /**************LEGEND**************/
-
-  .legend-container {
-    display: flex;
-    flex-direction: column;
-    width: 225px;
-    padding-right: 25px;
-    font-weight: 400;
-  }
-
-  .legend-box {
-    height: 150px;
-    width: 100%;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    background-color:#ffffff;
-    margin: 0 0 15px 0;
-  }
-
-  .legend-box .title {
-    padding-top: 15px;
-    width: 100%;
-    font-size:16px;
-    color: #465865;
-    display:table;
-    text-align: center;
-  }
-
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-  }
-
 
  /**************SUNBURST**************/
 
   .sunburst-wrapper {
-    align-content: center;
     display: flex;
+    align-content: center;
     width: 700px;
     height: 700px;
-    padding-top: 30px;
-    padding-right: 25px;
-    padding-left: 30px;
+    margin: 45px 0 0 0 ;
+    border-top-style: solid;
+    border-top-color: #efefef;
+    border-top-width: 1px;
+    border-radius: 5px;
   }
 
-/**************DISCLAIMER**************/
+  .sunburst-title {
+    color: #465865;
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    line-height: 65px;
+    padding: 5px 0px 4px 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
+    border-radius: 5px;
+  }
+
+    /**************LEGEND**************/
+
+    .legend-container {
+      flex-direction: column;
+      width: 125px;
+      font-weight: 400;
+      margin-left: 0px;
+      background-color:#ffffff;
+      border-left-style: solid;
+      border-left-color: #efefef;
+      border-radius: 5px;
+    }
+
+    .legend-title {
+      color: #465865;
+      font-size: 16px;
+      font-weight: 300;
+      font-size: 16px;
+      text-align: center;
+      line-height: 65px;
+      padding: 5px 0px 4px 10px;
+      border-radius: 5px;
+    }
+
+    .classification {
+      font-size: 18px;
+      font-weight: 200;
+      color: #465865;
+      text-align: center;
+      line-height: 32px;
+      border-top-style: solid;
+      border-top-color: #efefef;
+      border-top-width: 1px;
+      }
+
+    .legend-img {
+      display: block;
+      align-content: center;
+      padding: 10px 0 20px 0;
+      margin-left: 30px;
+    }
+
+  /**************MAP**************/
+
+  .map-container {
+    padding: 0 45px 0 45px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-weight: 400;
+    height: 700px;
+  }
+
+  .map-title {
+    color: #465865;
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    line-height: 65px;
+    padding: 5px 0px 4px 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
+  }
+
+  .map-content {
+    height: 625px;
+  }
+
+  .map-pic {
+    align-content: center;
+    padding-left: 10%;
+    padding-top: 15%;
+  }
+
+  .map-info {
+    padding-left: 15%;
+    font-weight: 150;
+  }
+
+  /**************DISCLAIMER**************/
   .disclaimer-box {
     position: absolute;
     justify-content: center;
@@ -422,5 +445,4 @@ body {
     left: 50%;
     margin-left: -300px;
   }
-
 

@@ -6,8 +6,10 @@ import BreakdownContainer from './BreakDownContainer';
 import PlantBreakdown from './PlantBreakdown';
 import Legend from './Legend.jsx';
 import SunburstGraph from './SunburstGraph';
+import EnergyMap from './EnergyMap';
 import Disclaimer from './Disclaimer';
 import Modal from './Modal';
+
 
 class App extends Component {
   constructor() {
@@ -68,6 +70,7 @@ class App extends Component {
         <div className="second-row">
           <SunburstGraph />
           <Legend />
+          <EnergyMap />
         </div>
         <Disclaimer />
         <Modal data={this.state.modalData} closeModal={this.closeModal} />
