@@ -27,7 +27,6 @@ class PlantBreakdown extends Component {
         const plants = powerPlants.plantBreakdown
         const assets = getAssets(energytype, plants);
         const plantArr = assets.map(a => a.data.map((info) => {
-            console.log(info);
             return <tr>
                         <td><a href="#_" onClick={this.showDetail(info.ASSET)} >{info.ASSET}</a></td>
                         <td>{info.TNG}</td>
