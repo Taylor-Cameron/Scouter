@@ -5,6 +5,7 @@ class BreakdownContainer extends Component {
 
 
     render() {
+      console.log(this.props)
         return(
           <div className="content-wrapper">
             <div className="breakdown-container">
@@ -81,10 +82,10 @@ class BreakdownContainer extends Component {
                       </td>
                       <td className="energy-source-values">
                         <div className="bar-background">
-                          <div className="bar wind-bar" style={{ width: `${(this.props.generation.breakdownContainer[2].WIND * 100)}%` }}></div>
+                          <div className="bar wind-bar" style={{ width: `${(this.props.generation.breakdownContainer[0][2].WIND * 100)}%` }}></div>
                         </div>
                         <div>
-                          <span bind="windPercentage">{(this.props.generation.breakdownContainer[2].WIND * 100).toFixed(2)}</span>%
+                          <span bind="windPercentage">{(this.props.generation.breakdownContainer[0][2].WIND * 100).toFixed(2)}</span>%
                     </div>
                         <div>
                           <span bind="windOutput">0</span> MW
@@ -110,10 +111,10 @@ class BreakdownContainer extends Component {
                   </td>
                   <td className="energy-source-values">
                     <div className="bar-background">
-                          <div className="bar hydro-bar" style={{ width: `${(this.props.generation.breakdownContainer[3].HYDRO * 100)}%` }}></div>
+                          <div className="bar hydro-bar" style={{ width: `${(this.props.generation.breakdownContainer[0][3].HYDRO * 100)}%` }}></div>
                     </div>
                     <div>
-                          <span bind="hydroPercentage">{(this.props.generation.breakdownContainer[3].HYDRO * 100).toFixed(2)}</span>%
+                          <span bind="hydroPercentage">{(this.props.generation.breakdownContainer[0][3].HYDRO * 100).toFixed(2)}</span>%
                     </div>
                     <div>
                       <span bind="hydroOutput">0</span> MW
@@ -140,10 +141,10 @@ class BreakdownContainer extends Component {
                   </td>
                   <td className="energy-source-values">
                     <div className="bar-background">
-                          <div className="bar biofuel-bar" style={{ width: `${(this.props.generation.breakdownContainer[4]['BIOMASS AND OTHER'] * 100)}%` }}></div>
+                          <div className="bar biofuel-bar" style={{ width: `${(this.props.generation.breakdownContainer[0][4]['BIOMASS AND OTHER'] * 100)}%` }}></div>
                     </div>
                     <div>
-                      <span bind="biofuelPercentage">{(this.props.generation.breakdownContainer[4]['BIOMASS AND OTHER'] * 100).toFixed(2)}</span>%
+                      <span bind="biofuelPercentage">{(this.props.generation.breakdownContainer[0][4]['BIOMASS AND OTHER'] * 100).toFixed(2)}</span>%
                     </div>
                     <div>
                       <span bind="biofuelOutput">0</span> MW
