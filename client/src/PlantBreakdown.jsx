@@ -28,25 +28,25 @@ class PlantBreakdown extends Component {
         return(
             <div className="content-wrapper">
                 <div className="plant-container">
-                    <div className="block">
                     <div className="power-plant-breakdown-table-header">
                         <div className="breakdown-table-title">GENERATION - PLANT
                         </div>
                         <div className={`power-plant-breakdown-summary biofuel-bar ${energytype.toLowerCase()}-bar`}>
-                        <div>
+                            <div>
                                 <div className="power-plant-breakdown-summary-title">{energytype}</div>
-                        <div className="power-plant-breakdown-summary-bar-background">
-                                    <div className="power-plant-breakdown-summary-bar" style={{width: `${percentage}%`}}></div>
+                                    <div className="power-plant-breakdown-summary-bar-background">
+                                        <div className="power-plant-breakdown-summary-bar" style={{width: `${percentage}%`}}></div>
                                 </div>
                                 <div className="power-plant-breakdown-summary-values">
                                     <div>
-                                            <span className="power-plant-breakdown-summary-percentage">{percentage}</span>% (of total grid)</div>
+                                        <span className="power-plant-breakdown-summary-percentage">{percentage}</span>% (of total grid)</div>
                                         <div>
                                             {/* <div className="power-plant-breakdown-summary-total">-- </div> MW */}
                                         </div>
                                     </div>
                                 </div>
-                                <div className="power-plant-column-header">
+                                    <div className="power-plant-column-header">
+                                        <div className="power-plant-breakdown-table-div">
                                         <table className="power-plant-breakdown-table-div">
                                         <tbody>
                                             <tr>
@@ -64,9 +64,9 @@ class PlantBreakdown extends Component {
                                         </tbody>
                                     </table>
                                 </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
             </div>
         )
