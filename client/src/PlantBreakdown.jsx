@@ -26,23 +26,6 @@ class PlantBreakdown extends Component {
                         <td>{info.MC}</td>
                     </tr>
         }))
-        // const plantMCArr = assets.map(i => i.data.map(b => b.MC))
-        // const plantTNGArr = assets.map(l => l.data.map(c => c.TNG))
-        // const plantName = plantNameArr.map((name) => {
-        //     return <tr>
-        //             <td key={name}>{name}</td>
-        //             </tr>
-        // })
-        // const plantOutput = plantTNGArr.map((TNG) => {
-        //   return <tr>
-        //             <td key={TNG}>{TNG}</td>;
-        //         </tr>
-        // })
-        // const plantMaxOutput = plantMCArr.map((MC) => {
-        //     return <tr>
-        //             <td key={MC}>{MC}</td>;
-        //         </tr>
-        // })
         return <div className="content-wrapper">
             <div className="plant-container">
               <div className="block">

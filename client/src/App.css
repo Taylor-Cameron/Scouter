@@ -219,13 +219,15 @@ body {
   }
 
 
-
-
   /**************PLANT BREAKDOWN**************/
   .plant-container {
   flex: 1;
   width: 600px;
+  background-color: #ffffff;
+  overflow: auto;
+  padding-bottom: 5px;
   }
+
   .power-plant-breakdown-table-header {
     height: 226px;
   }
@@ -234,7 +236,7 @@ body {
     overflow: scroll;
     height: 200px;
     background-color: #ffffff;
-    color: #465865
+    color: #465865;
   }
 
   .power-plant-breakdown-summary {
