@@ -29,12 +29,11 @@ class PlantBreakdown extends Component {
 
         return <div className="content-wrapper">
             <div className="plant-container">
-                    <div className="power-plant-breakdown-table-header">
-                        <div className="breakdown-table-title">GENERATION - PLANT</div>
+                <div className="power-plant-breakdown-table-header">
+                    <div className="breakdown-table-title">GENERATION - PLANT</div>
                         <div className={`power-plant-breakdown-summary biofuel-bar ${energytype.toLowerCase()}-bar`}>
                             <div className="power-plant-breakdown-summary-title">
                             {energytype}
-                            </div>
                             <div className="power-plant-breakdown-summary-bar-background">
                                 <div className="power-plant-breakdown-summary-bar" style={{ width: `${percentage}%` }} />
                                 </div>
@@ -62,6 +61,7 @@ class PlantBreakdown extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
             </div>;
     }
 }
