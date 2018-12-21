@@ -6,7 +6,9 @@ import BreakdownContainer from './BreakDownContainer.jsx';
 import PlantBreakdown from './PlantBreakdown.jsx';
 import Legend from './Legend.jsx';
 import SunburstGraph from './SunburstGraph';
+import EnergyMap from './EnergyMap';
 import Disclaimer from './Disclaimer';
+
 
 class App extends Component {
   constructor() {
@@ -56,6 +58,7 @@ class App extends Component {
         <div className='second-row'>
           <SunburstGraph />
           <Legend />
+          <EnergyMap />
         </div>
         <Disclaimer />
       </div>

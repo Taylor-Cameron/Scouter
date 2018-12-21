@@ -11,7 +11,7 @@ body {
     line-height: 20px;
   }
 
-    .block {
+  .block {
       background: #ffffff;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
@@ -19,14 +19,14 @@ body {
   .content-wrapper {
     height: 480px;
     display: flex;
-    padding-top: 45px;
+    padding-top: 55px;
     justify-content: center;
   }
 
   .second-row {
     display: flex;
-    padding: 45px 35px 45px 17px;
     justify-content: center;
+    margin: 45px 0 45px 0;
   }
 
   /**************HEADER**************/
@@ -146,7 +146,7 @@ body {
 
   td.energy-source-icon {
     width: 50px;
-     border-bottom-style: solid;
+    border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
   }
@@ -336,54 +336,101 @@ body {
     text-align: center;
   }
 
-  /**************LEGEND**************/
-
-  .legend-container {
-    display: flex;
-    flex-direction: column;
-    width: 225px;
-    padding-right: 25px;
-    font-weight: 400;
-  }
-
-  .legend-box {
-    height: 150px;
-    width: 100%;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    background-color:#ffffff;
-    margin: 0 0 15px 0;
-  }
-
-  .legend-box .title {
-    padding-top: 15px;
-    width: 100%;
-    font-size:16px;
-    color: #465865;
-    display:table;
-    text-align: center;
-  }
-
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-  }
-
-
  /**************SUNBURST**************/
 
   .sunburst-wrapper {
-    align-content: center;
     display: flex;
+    align-content: center;
     width: 700px;
     height: 700px;
-    padding-top: 30px;
-    padding-right: 25px;
-    padding-left: 30px;
+    margin: 45px 0 0 0 ;
+    border-top-style: solid;
+    border-top-color: #efefef;
+    border-top-width: 1px;
   }
 
-/**************DISCLAIMER**************/
+  .sunburst-title {
+    color: #465865;
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    line-height: 65px;
+    padding: 5px 0px 4px 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
+  }
+
+    /**************LEGEND**************/
+
+    .legend-container {
+      flex-direction: column;
+      width: 125px;
+      font-weight: 400;
+      margin-left: 0px;
+      background-color:#ffffff;
+      border-left-style: solid;
+      border-left-color: #efefef;
+      border-left-width: 1px;
+      border-top-style: solid;
+      border-top-color: #efefef;
+      border-top-width: 1px;
+    }
+  
+    .legend-title {
+      color: #465865;
+      font-size: 16px;
+      font-weight: 300;
+      font-size: 16px;
+      text-align: center;
+      line-height: 65px;
+      padding: 5px 0px 4px 10px;
+    }
+  
+    .classification {
+      font-size: 16px;
+      text-align: center;
+      line-height: 32px;
+      padding: 5px 0px 4px 10px;
+      margin: 0px;
+      border-top-style: solid;
+      border-top-color: #efefef;
+      border-top-width: 1px;
+      }
+  
+    img {
+      display: block;
+      align-content: center;
+      padding: 10px 0 10px 0;
+
+    }
+  
+  /**************MAP**************/
+
+  .map-container {
+    padding: 0 45px 0 45px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    font-weight: 400;
+  }
+
+  .map-title {
+    color: #465865;
+    font-size: 16px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    line-height: 65px;
+    padding: 5px 0px 4px 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
+  }
+
+  /**************DISCLAIMER**************/
   .disclaimer-box {
     position: absolute;
     justify-content: center;

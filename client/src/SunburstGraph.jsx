@@ -212,6 +212,9 @@ class SunBurstGraph extends PureComponent {
             <div className="second-row'">
                 <div className="sunburst-wrapper">
                     <div className="block">
+                        <div className="sunburst-title">
+                            ENERGY DISTRIBUTION
+                        </div>
                         <Sunburst
                             data={data}
                             colorType={'category'}
