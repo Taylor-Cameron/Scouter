@@ -3,21 +3,19 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   color: #465865;
   font-size: 16px;
-    font-weight: 300;
-  }
-
-  table tr td {
-    padding: 5px 8px;
-    line-height: 20px;
+  font-weight: 300;
   }
 
   .block {
       background: #ffffff;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      border-bottom-style: solid;
+      border-bottom-color: #efefef;
+      border-bottom-width: 1px;
   }
 
   .content-wrapper {
-    height: 480px;
+    height: 550px;
     display: flex;
     padding-top: 55px;
     justify-content: center;
@@ -96,6 +94,7 @@ body {
   .breakdown-container {
     flex: 1;
     width: 600px;
+    height: 550px;
   }
 
   .breakdown-table-title {
@@ -117,7 +116,7 @@ body {
   }
 
   .energy-source-breakdown-standard-cell {
-    height:80px;
+    height:93px;
     font-size: 16px;
     cursor: pointer;
   }
@@ -224,8 +223,6 @@ body {
   flex: 1;
   width: 600px;
   background-color: #ffffff;
-  overflow: auto;
-  padding-bottom: 5px;
   }
 
   .power-plant-breakdown-table-header {
@@ -233,10 +230,10 @@ body {
   }
 
   .power-plant-breakdown-table-div {
-    overflow: scroll;
     height: 200px;
     background-color: #ffffff;
     color: #465865;
+    overflow: auto;
   }
 
   .power-plant-breakdown-summary {
@@ -278,62 +275,40 @@ body {
     font-size: 16px;
   }
 
-  .power-plant-column-header {
-    line-height: 44px;
-    height: 44px;
+  table tr td {
+    padding: 5px 8px;
+    line-height: 20px;
     border-bottom-style: solid;
-    border-bottom:1pt solid #efeff4;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
   }
 
-  .power-plant-breakdown-table tr:after {
-    content: ' ';
+  .power-plant-breakdown-table-div tbody{
     display: block;
-    visibility: hidden;
-    clear: both;
+    overflow: auto;
+    height: 245px;
   }
 
-  .power-plant-breakdown-table thead th {
-    height: 44px;
-    line-height: 44px;
-    font-size: 16px;
-    padding-left: 10px;
-    text-transform: lowercase;
-  }
-
-  .power-plant-breakdown-table tbody td{
-    height: 44px;
-    line-height: 44px;
-    border-bottom:1pt solid #efeff4;
-    vertical-align: middle;
-  }
-
-  td.power-plant-name-data {
-    height: 44px;
-    line-height: 33px;
-    text-transform: uppercase;
-    width: 50%;
-    font-size: 14px;
-    padding-left: 10px;
-  }
-
-  td.power-plant-name-data a {
-  font-weight: 200;
-  }
-
-  td.power-plant-output-data {
-    height: 44px;
-    line-height: 33px;
-    width: 25%;
-    font-size: 16px;
+  .power-plant-breakdown-table-div td {
+    width: 200px;
     text-align: center;
   }
 
-  td.power-plant-capability-data {
-    height: 44px;
-    line-height: 33px;
-    width: 25%;
-    font-size: 16px;
-    text-align: center;
+  .power-plant-breakdown-table-div td:first-of-type {
+    text-align: left;
+  }
+
+  th {
+    font-weight: 150;
+    width: 200px;
+    height:50px;
+    border-bottom-style: solid;
+    border-bottom-color: #efefef;
+    border-bottom-width: 1px;
+  }
+
+  thead tr{
+    display: block;
   }
 
  /**************SUNBURST**************/
@@ -373,9 +348,6 @@ body {
       border-left-style: solid;
       border-left-color: #efefef;
       border-left-width: 1px;
-      border-top-style: solid;
-      border-top-color: #efefef;
-      border-top-width: 1px;
     }
   
     .legend-title {
@@ -389,21 +361,21 @@ body {
     }
   
     .classification {
-      font-size: 16px;
+      font-size: 18px;
+      font-weight: 200;
+      color: #465865;
       text-align: center;
       line-height: 32px;
-      padding: 5px 0px 4px 10px;
-      margin: 0px;
       border-top-style: solid;
       border-top-color: #efefef;
       border-top-width: 1px;
       }
   
-    img {
+    .legend-img {
       display: block;
       align-content: center;
-      padding: 10px 0 10px 0;
-
+      padding: 10px 0 20px 0;
+      margin-left: 30px
     }
   
   /**************MAP**************/

@@ -26,52 +26,43 @@ class PlantBreakdown extends Component {
                         <td>{info.MC}</td>
                     </tr>
         }))
+
         return <div className="content-wrapper">
             <div className="plant-container">
-              <div className="block">
-                <div className="power-plant-breakdown-table-header">
-                  <div className="breakdown-table-title">
-                    GENERATION - PLANT
-                  </div>
-                  <div className={`power-plant-breakdown-summary biofuel-bar ${energytype.toLowerCase()}-bar`}>
-                    <div>
-                      <div className="power-plant-breakdown-summary-title">
-                        {energytype}
-                      </div>
-                      <div className="power-plant-breakdown-summary-bar-background">
-                        <div className="power-plant-breakdown-summary-bar" style={{ width: `${percentage}%` }} />
-                      </div>
-                      <div className="power-plant-breakdown-summary-values">
-                        <div>
-                          <span className="power-plant-breakdown-summary-percentage">
-                            {percentage}
-                          </span>% (of total grid)
-                        </div>
-                      </div>
-                    </div>
-                    <div className="power-plant-column-header">
-                        <table className="power-plant-breakdown-table-div">
-                            <tbody>
+                    <div className="power-plant-breakdown-table-header">
+                        <div className="breakdown-table-title">GENERATION - PLANT</div>
+                        <div className={`power-plant-breakdown-summary biofuel-bar ${energytype.toLowerCase()}-bar`}>
+                            <div className="power-plant-breakdown-summary-title">
+                            {energytype}
+                            </div>
+                            <div className="power-plant-breakdown-summary-bar-background">
+                                <div className="power-plant-breakdown-summary-bar" style={{ width: `${percentage}%` }} />
+                                </div>
+                                <div className="power-plant-breakdown-summary-values">
+                                    <div>
+                                        <span className="power-plant-breakdown-summary-percentage">
+                                            {percentage}
+                                        </span>% (of total grid)
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="power-plant-column-header">
+                                <table className="power-plant-breakdown-table-div">
+                                <thead>
                                 <tr>
-                                    <th className="power-plant-name-data">
-                                        POWER PLANT
-                                    </th>
-                                    <th className="power-plant-output-data">
-                                        output
-                                    </th>
-                                    <th className="power-plant-capability-data">
-                                        capability
-                                    </th>
-                                </tr>
-                                {plantArr}
-                            </tbody>
-                        </table>
+                                    <th className="power-plant-name-data">POWER PLANT</th>
+                                    <th className="power-plant-output-data">output</th>
+                                    <th className="power-plant-capability-data">capability</th>
+                                        </tr>
+                                </thead>
+                                    <tbody>
+                                    {plantArr}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>;
+            </div>;
     }
 }
 
