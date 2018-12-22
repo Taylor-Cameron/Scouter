@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 
 export default ({ data, closeModal }) => {
-  console.log("this is for you", data)
   if (!data) return null;
   return <div>
       <div className="modal-body" role="dialog" onClick={closeModal} />
