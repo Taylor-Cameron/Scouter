@@ -39,7 +39,7 @@
     "location": "Warburg, AB T0C 2T0",
     "info": "Genesee power station unit 3 has been in operation since 2005, and is one of the most advanced, fuel-efficient, and environmentally-progressive coal-fired facilities in Canada. It has a maximum capacity of 466 megawatts. It is also Canada's first power generation facility to use supercritical combustion technology for greater fuel efficiency and lower emissions.",
     "owner": "capital power and Transalta",
-    "website": ["capitalpower.com", "transalta.com"]
+    "website": "capitalpower.com"
   },
   {
     "name": "H.R. Milner",
@@ -67,21 +67,21 @@
     "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
     "info": "Keephills #3 has been in operation since 2011, and is one of Canada’s largest and cleanest coal-fired facilities and one of the most advanced facilities of its kind in the world. And was built to replace the previously existing Wabamun 4 station",
     "owner": "capital power and Transalta",
-    "website": ["capitalpower.com", "transalta.com"]
+    "website": "capitalpower.com"
   },
   {
     "name": "Sheerness #1",
     "location": "Veterans Memorial Hwy, Sunnynook, AB T0J 3J0",
     "info": "It has been in operation since 1986, and is one part of a two unit station. It has a maximum capacity of 400 megawatts, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
     "owner": "atco power and Transalta",
-    "website": ["transalta.com", "atcopower.com"]
+    "website": "transalta.com"
   },
   {
     "name": "Sheerness #2",
     "location": "Veterans Memorial Hwy, Sunnynook, AB T0J 3J0",
     "info": "It has been in operation since 1990, and is one part of a two unit station. It has a maximum capacity of 400 megawatts, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
     "owner": "atco power and Transalta",
-    "website": ["transalta.com", "atcopower.com"]
+    "website": "transalta.com"
   },
   {
     "name": "Sundance #3",
@@ -186,24 +186,21 @@
     "location": "Provost, Alberta",
     "info": "It was built in 2015 and is comprised of 17 GE wind turbines, with a combined maximum capacity of 29 megawatts.",
     "owner": "BluEarth renewables inc.",
-    "website": "blueearthrenewables.com"
+    "website": "bluearthrenewables.com"
   },
   {
     "name": "BUL2 Bull Creek",
     "location": "Provost, Alberta",
     "info": "It was built in 2015 and is comprised of 17 GE wind turbines, with a combined maximum capacity of 29 megawatts.",
     "owner": "BluEarth renewables inc.",
-    "website": "blueearthrenewables.com"
+    "website": "bluearthrenewables.com"
   },
   {
     "name": "Blackspring Ridge",
     "location": "Vulcan County, Alberta",
     "info": "It was built in 2014 and is comprised of 166 turbines, and is the largest investment of renewable energy in western Canada. And a maximum capacity of 300 megawatts.",
     "owner": "EDF Renewables and Enbridge",
-    "website": [
-      "edf-re.ca",
-      "enbridge.com"
-    ]
+    "website": "edfenergy.com"
   },
   {
     "name": "Blue Trail Wind",
