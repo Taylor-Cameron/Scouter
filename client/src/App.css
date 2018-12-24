@@ -35,7 +35,7 @@ body {
   .second-row {
     display: flex;
     justify-content: center;
-    padding: 45px 0 0 0;
+    margin: 45px 0 0 0;
   }
 
   /**************HEADER**************/
@@ -298,6 +298,50 @@ body {
     display: block;
   }
 
+   /**************MODAL**************/
+
+   .modal-body {
+    position: fixed;
+    background-color: #999;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-container {
+    position: fixed;
+    background-color: white;
+    min-height: 400px;
+    width: 600px;
+    z-index: 10001;
+    top: 200px;
+    left: 50%;
+    margin-left: -300px;
+    border-radius: 5px;
+  }
+
+  .modal-title {
+    padding: 0 50px 0 50px;
+  }
+
+  .modal-info {
+    padding: 0 50px 20px 50px;
+  }
+
+  .modal-footer {
+    padding: 0 50px 0 50px;
+  }
+
+  hover .modal-title {
+    color: orange;
+  }
+
  /**************SUNBURST**************/
 
   .sunburst-wrapper {
@@ -420,31 +464,4 @@ body {
     border-radius: 5px;
   }
 
-
-  /**************Modal**************/
-
-  .modal-body {
-    position: fixed;
-    background-color: #999;
-    height: 100%;
-    width: 100%;
-    z-index: 10000;
-    top: 0;
-    left: 0;
-    opacity: .9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .modal-content {
-    position: fixed;
-    background-color: white;
-    min-height: 400px;
-    width: 600px;
-    z-index: 10001;
-    top: 200px;
-    left: 50%;
-    margin-left: -300px;
-  }
 

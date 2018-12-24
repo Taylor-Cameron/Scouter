@@ -5,20 +5,19 @@ export default ({ data, closeModal }) => {
   return <div>
       <div className="modal-body" role="dialog" onClick={closeModal} />
 
-      <div className="modal-content">
+      <div className="modal-container">
         <div className="modal-header">
           <button type="button" className="close" onClick={closeModal}>
             &times;
           </button>
-          <h4 className="modal-title">{data.name}</h4>
+          <h2 className="modal-title">{data.name}</h2>
         </div>
         <div className="modal-info">
-          <p>{data.location}</p>
-          <p>{data.info}</p>
-          <p>Owner: {data.owner}</p>
-          <a target="_blank" href={`http://${data.website}`}>
-            {data.website}
-          </a>
+          <p><b>Location: </b>{data.location}</p>
+          <p><b>About: </b>{data.info}</p>
+          <p><b>Owner: </b> {data.owner}</p>
+          <p><b>Website: </b><a target="_blank" href={`http://${data.website}`}>{data.website}
+          </a></p>
         </div>
         <div className="modal-footer">
           <button type="button" className="btn btn-default" onClick={closeModal}>
