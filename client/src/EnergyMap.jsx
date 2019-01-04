@@ -2,8 +2,15 @@ import React, {Component} from 'react';
 import GoogleMapReact from "google-map-react";
 import Geocode from 'react-geocode';
 
-const data = require("./plantinfo.json");
+const data = require('./plantinfo.json');
+const LatLngData = require('./locationLatLng.json')
 
+const latArr = [];
+const lngArr = [];
+LatLngData.map((x) => {
+  latArr.push(x.lat)
+  lngArr.push(x.lng)
+})
 function geoLocation(data) {
   const geoLocation = [];
   data.forEach((x) => {
@@ -43,15 +50,19 @@ export default class EnergyMap extends Component {
                 defaultZoom={defaultProps.zoom}
                 yesIWantToUseGoogleMapApiInternals
                 onGoogleApiLoaded={({ map, maps }) => {
-                    const locations = [];
                     const points = geoLocation(data);
-                    const heatLocations = points.map(x => {
-                      locations.push(new maps.LatLng(x.lat, x.lng))
-                    })
-                    console.log("SDFSDFASD", heatLocations);
-                    const heatmap = new maps.visualization.HeatmapLayer({
-                      data: [new maps.LatLng(54.91141, -114.528817)]
-                    });
+                    console.log(points);
+                    let dataArr = [];
+                    for (let i = 0; i < latArr.length; i++) {
+                      dataArr.push(new maps.LatLng(latArr[i], lngArr[i]))
+                    }
+                    const heatmap = new maps.visualization.HeatmapLayer(
+                      {
+                        data: dataArr,
+                        radius: 20,
+                        maxIntensity: 6
+                      }
+                    );
 
                     heatmap.setMap(map);
                   }}>
