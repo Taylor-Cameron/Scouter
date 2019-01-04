@@ -39,6 +39,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-geocode": "^0.1.2",
+    "recompose": "^0.30.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },

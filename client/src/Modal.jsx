@@ -16,7 +16,7 @@ export default ({ data, closeModal }) => {
           <p><b>Location: </b>{data.location}</p>
           <p><b>About: </b>{data.info}</p>
           <p><b>Owner: </b> {data.owner}</p>
-          <p><b>Website: </b><a target="_blank" href={`http://${data.website}`}>{data.website}
+        <p><b>Website: </b><a target="_blank" rel="noopener noreferrer" href={`http://${data.website}`}>{data.website}
           </a></p>
         </div>
         <div className="modal-footer">

@@ -3,10 +3,17 @@
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
+    "@types/googlemaps": "^3.30.16",
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/react": "^16.7.18",
+    "babel-core": "^6.26.3",
     "d3": "^5.7.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.0.5"
+    "react-geocode": "^0.1.2",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "2.0.5",
+    "recompose": "^0.30.0"
   },
   "devDependencies": {
     "babel-eslint": "9.0.0",

@@ -1,133 +1,133 @@
 [
   {
     "name": "Battle River #3",
-    "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
+    "location": "Paintearth County No. 18, Alberta",
     "info": "Battle river power station has been in operation since 1969, and is one section of a three unit station and has a maximum capacity of 149MW.",
     "owner": "ATCO Power",
     "website": "atcopower.com"
   },
   {
     "name": "Battle River #4",
-    "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
+    "location": "Paintearth County No. 18, Alberta",
     "info": "Battle river power station has been in operation since 1975, and is one section of a three unit station and has a maximum capacity of 155MW.",
     "owner": "ATCO power",
     "website": "atcopower.com"
   },
   {
     "name": "Battle River #5",
-    "location": "12 Miles South Hwy 855, Paintearth County No. 18, AB T0B 1N0",
+    "location": "Paintearth County No. 18, Alberta",
     "info": "Battle River Power Station has been in operation since 1981 and is one section of a three unit station. It has a maximum capacity of 385MW.",
     "owner": "ATCO power",
     "website": "atcopower.com"
   },
   {
     "name": "Genesee #1",
-    "location": "Warburg, AB T0C 2T0",
+    "location": "Warburg, Alberta",
     "info": "Unit 1 of the Genesee Power Station has been in operation since 1994. It has a maximum capacity of 400MW. Capital Power has a comprehensive land reclamation plan in place to return mined land back in to agricultural space.",
     "owner": "Capital Power",
     "website": "capitalpower.com"
   },
   {
     "name": "Genesee #2",
-    "location": "Warburg, AB T0C 2T0",
+    "location": "Warburg, Alberta",
     "info": "Unit 2 of the Genesee power station has been in operation since 1994. It has a maximum capacity of 400MW. Capital Power has a comprehensive land reclamation plan in place to return mined land back in to agricultural space.",
     "owner": "capital power",
     "website": "capitalpower.com"
   },
   {
     "name": "Genesee #3",
-    "location": "Warburg, AB T0C 2T0",
+    "location": "Warburg, Alberta",
     "info": "Unit 3 of the Genesee power station has been in operation since 2005, and is one of the most advanced, fuel-efficient, and environmentally-progressive coal-fired facilities in Canada. It has a maximum capacity of 466MW. It is also Canada's first power generation facility to use supercritical combustion technology for greater fuel efficiency and lower emissions.",
     "owner": "capital power and Transalta",
     "website": "capitalpower.com"
   },
   {
     "name": "H.R. Milner",
-    "location": "Greenview No. 16, AB",
-    "info": "H.R. Milner been in operation since 1972 and uses a dual fuel steam turbine generator capable of burning both natural gas and coal. It has a maximum capacity of 144MW.",
+    "location": "Greenview No. 16, Alberta",
+    "info": "H.R. Milner been in operation since 1972 and uses a dual fuel steam turbine generator capAlbertale of burning both natural gas and coal. It has a maximum capacity of 144MW.",
     "owner": "Maxim Power",
     "website": "maximpowercorp.com"
   },
   {
     "name": "Keephills #1",
-    "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
+    "location": "Kapasiwin, Alberta",
     "info": "Keephills #1 has been in operation since 1983 and is one part of a three unit station. It has a maximum capacity of 395MW",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Keephills #2",
-    "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
+    "location": "Kapasiwin, Alberta",
     "info": "Keephills #2 has been in operation since 1983 and is one part of a three unit station. It has a maximum capacity of 395MW",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Keephills #3",
-    "location": "Range Rd 40, Kapasiwin, AB T0E 2Y0",
-    "info": "Keephills #3 has been in operation since 2011, and is one of Canada’s largest and cleanest coal-fired facilities and one of the most advanced facilities of its kind in the world. It was built to replace the previously existing Wabamun 4 station",
+    "location": "Kapasiwin, Alberta",
+    "info": "Keephills #3 has been in operation since 2011, and is one of Canada’s largest and cleanest coal-fired facilities and one of the most advanced facilities of its kind in the world. It was built to replace the previously existing WAlbertaamun 4 station",
     "owner": "Capital Power and Transalta",
     "website": "capitalpower.com"
   },
   {
     "name": "Sheerness #1",
-    "location": "Veterans Memorial Hwy, Sunnynook, AB T0J 3J0",
+    "location": "Sunnynook, Alberta",
     "info": "Sheerness #1 has been in operation since 1986, and is one part of a two unit station. It has a maximum capacity of 400MW, and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
     "owner": "ATCO power and Transalta",
     "website": "ATCOpower.com"
   },
   {
     "name": "Sheerness #2",
-    "location": "Veterans Memorial Hwy, Sunnynook, AB T0J 3J0",
+    "location": "Sunnynook, Alberta",
     "info": "Sheerness #2 has been in operation since 1990, and is one part of a two unit station. It has a maximum capacity of 400MW and has received its registration with the International Organization for Standardization’s Model for environmental management systems under ISO 14001.",
     "owner": "ATCO power and Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Sundance #3",
-    "location": "Parkland County, AB T0E 0V0",
+    "location": "Parkland County, Alberta",
     "info": "Sundancee #3 was built in 1976 and is one unit of a now five part station after Sundance #1 was decommissioned in January 2018. It has a maximum capacity of 368MW.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Sundance #4",
-    "location": "Parkland County, AB T0E 0V0",
+    "location": "Parkland County, Alberta",
     "info": "Sundance #4 wass built in 1977 and is one unit of a now five part station after Sundance #1 was decommissioned in January 2018. It has a maximum capacity of 406MW.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Sundance #5",
-    "location": "Parkland County, AB T0E 0V0",
+    "location": "Parkland County, Alberta",
     "info": "Sundace #5 was built in 1978 and is one unit of a now five part station after Sundance #1 was decommissioned in January 2018. It has a maximum capacity of 406MW.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Sundance #6",
-    "location": "Parkland County, AB T0E 0V0",
+    "location": "Parkland County, Alberta",
     "info": "Sundance #6 was built in 1980 and is one unit of a now five part station after Sundance #1 was decommissioned in January 2018. It has a maximum capacity of 401MW.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Bighorn Hydro",
-    "location": "Nordegg, AB",
+    "location": "Nordegg, Alberta",
     "info": "Bighorn Hydro been in operation since 1972 and is primarily used to introduce hydro power within minutes to balance out shortages due to unexpected outages or to provide power at times of high demand. It has a maximum capacity of 120MW.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Bow River Hydro",
-    "location": "Calgary, AB",
+    "location": "Calgary, Alberta",
     "info": "Bow River Hydro was built in 1954 and is primarily used to introduce hydro power within minutes to balance out shortages due to unexpected outages or to provide power at times of high demand. It has a maximum capacity of 320MW.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Brazeau Hydro",
-    "location": "Drayton Valley, AB",
+    "location": "Drayton Valley, Alberta",
     "info": "Brazeau Hydro was built in 1965 and is Transalta's biggest hydro plant. It is primarily used to introduce hydro power within minutes to balance out shortages due to unexpected outages, or to provide power at times of high demand. It has a maximum capacity of 350MW",
     "owner": "Transalta",
     "website": "transalta.com"
@@ -141,42 +141,42 @@
   },
   {
     "name": "Chin Chute",
-    "location": "Taber, Alberta",
+    "location": "Edmonton, Alberta",
     "info": "Chin Chute is a small scale irrigation pipe turbine with a maximum capacity of 15MW.",
     "owner": "Acciona",
     "website": "acciona.ca"
   },
   {
     "name": "Dickson Dam",
-    "location": "Red Deer County, AB",
-    "info": "Dickson Dam was built in 1992. The dam was created to control for floods and low winter flows, improve quality of the river, and create a recreational resource and to provide a reliable, year-round water supply. It has a maximum capacity of 15MW.",
+    "location": "Red Deer County, Alberta",
+    "info": "Dickson Dam was built in 1992. The dam was created to control for floods and low winter flows, improve quality of the river, and create a recreational resource and to provide a reliAlbertale, year-round water supply. It has a maximum capacity of 15MW.",
     "owner": "government of Alberta",
-    "website": "alberta.ca" 
+    "website": "alberta.ca"
   },
   {
     "name": "Irrican Hydro",
-    "location": "Calgary, AB",
+    "location": "Calgary, Alberta",
     "info": "Irrican Hydro was built in 1896 and is a small scale run-of-canal hydro plant in southern Alberta on the St. Mary’s Irrigation System.",
     "owner": "Klohn Crippen Berger",
     "website": "klohn.com"
   },
   {
     "name": "Raymond Reservoir",
-    "location": "Warner County No. 5, AB T0K 2S0",
+    "location": "Warner County No. 5, Alberta",
     "info": "A small hydro plant located beside the Raymond Reservoir, it was built in 1994. And has a maximum capacity of 21MW.",
     "owner": "Irrican Power",
     "website": ""
   },
   {
     "name": "Taylor Hydro",
-    "location": "Magrath, AB",
+    "location": "Magrath, Alberta",
     "info": "Taylor Hydro was built in 2000, and operates during the six-month irrigation season each year from April to October. It has a maximum capcity of 14MW.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
   {
     "name": "Ardenville Wind",
-    "location": "Fort Macleod, AB",
+    "location": "Fort Macleod, Alberta",
     "info": "Ardenville Wind was built in 2010 and is comprised of 23 80m wind turbines. It has a maximum capacity of 167MW",
     "owner": "Transalta",
     "website": "transalta.com"
@@ -185,21 +185,21 @@
     "name": "BUL1 Bull Creek",
     "location": "Provost, Alberta",
     "info": "BUL1 Bull Creek was built in 2015 and is comprised of 17 GE wind turbines with a combined maximum capacity of 29MW.",
-    "owner": "BluEarth Renewables inc.",
-    "website": "blueearthrenewables.com"
+    "owner": "BluEarth RenewAlbertales inc.",
+    "website": "blueearthrenewAlbertales.com"
   },
   {
     "name": "BUL2 Bull Creek",
     "location": "Provost, Alberta",
     "info": "BUL2 Bull Creek was built in 2015 and is comprised of 17 GE wind turbines with a combined maximum capacity of 29MW.",
-    "owner": "BluEarth renewables inc.",
-    "website": "bluearthrenewables.com"
+    "owner": "BluEarth renewAlbertales inc.",
+    "website": "bluearthrenewAlbertales.com"
   },
   {
     "name": "Blackspring Ridge",
     "location": "Vulcan County, Alberta",
-    "info": "Blackspring Ridge was built in 2014 and is comprised of 166 turbines and is the largest investment of renewable energy in Western Canada. It has a maximum capacity of 300MW.",
-    "owner": "EDF Renewables and Enbridge",
+    "info": "Blackspring Ridge was built in 2014 and is comprised of 166 turbines and is the largest investment of renewAlbertale energy in Western Canada. It has a maximum capacity of 300MW.",
+    "owner": "EDF RenewAlbertales and Enbridge",
     "website": "edfenergy.com"
   },
   {
@@ -207,14 +207,14 @@
     "location": "Fort Macleod, Alberta",
     "info": "Blue Trail was built in 2009 and is comprised of 22, 3MW towers. It has a total maximum capacity of 167MW.",
     "owner": "Transalta",
-    "website": "transaltarenewables.com"
+    "website": "transaltarenewAlbertales.com"
   },
   {
     "name": "Castle River #1",
     "location": "Pincher Creek, Alberta",
     "info": "Castle River began operating in 1997 with more units being installed between 2000 and 2001. It is comprised of 60 turbines and seven addition turbines located nearby with a total maximum capacity of 44MW.",
     "owner": "Transalta",
-    "website": "transaltarenewables.com"
+    "website": "transaltarenewAlbertales.com"
   },
   {
     "name": "Castle Rock Wind Farm",
@@ -231,17 +231,17 @@
     "website": "N/A"
   },
   {
-    "name": "Enmax Taber",
-    "location": "Taber, Alberta",
-    "info": "The Taber Wind farm has been in operation since 2007. It is comprised of 37 Enercon Turibines, which are one of the most sofisticated turbine in the world. It has a total maximum capacity of 81MW.",
+    "name": "Enmax TAlbertaer",
+    "location": "Edmonton, Alberta",
+    "info": "The TAlbertaer Wind farm has been in operation since 2007. It is comprised of 37 Enercon Turibines, which are one of the most sofisticated turbine in the world. It has a total maximum capacity of 81MW.",
     "owner": "Enmax",
     "website": "enmax.com"
   },
   {
     "name": "Ghost Pine",
     "location": "Kneehill County, Alberta",
-    "info": "Ghost Pine Wind farm was built in 2010, it is comprised of 51 turbines that are capable of generating enough power for 24 - 300 homes. it has a total maximum capacity of 82MW.",
-    "owner": "EDF Renewables",
+    "info": "Ghost Pine Wind farm was built in 2010, it is comprised of 51 turbines that are capAlbertale of generating enough power for 24 - 300 homes. it has a total maximum capacity of 82MW.",
+    "owner": "EDF RenewAlbertales",
     "website": "nexteraenergyresources.com"
   },
   {
@@ -277,33 +277,33 @@
     "location": "Fort Macleod, Alberta",
     "info": "Built in 2006, Soderglen Wind is compirsed of  47 turbines, each 65m tall. It has a total maximum capacity of 71MW.",
     "owner": "Transalta",
-    "website": "transaltarenewables.com"
+    "website": "transaltarenewAlbertales.com"
   },
   {
     "name": "Summerview 1",
     "location": "Pincher Creek, Alberta",
     "info": "Built in 2004, it is comprised of 33 67me turbines. Ut has a total maximum capacity of 66MW.",
     "owner": "Transalta",
-    "website": "transaltarenewables.com"
+    "website": "transaltarenewAlbertales.com"
   },
   {
     "name": "Summerview 2",
     "location": "Pincher Creek, Alberta",
     "info": "Built in 2010, Summerview 2 is the second unit for the Summerview Project. Comprised of 22 turbines, it has a total maximum capacity of 66MW.",
     "owner": "Transalta",
-    "website": "transaltarenewables.com"
+    "website": "transaltarenewAlbertales.com"
   },
   {
     "name": "Suncor Chin Chute",
-    "location": "Taber, Alberta",
-    "info": "Built in 2006, and with 20 turbines, the Chin Chute wind farm has the capability of generating power of 11,000 homes. and has a total maximum capacity of 30MW.",
+    "location": "Edmonton, Alberta",
+    "info": "Built in 2006, and with 20 turbines, the Chin Chute wind farm has the capAlbertaility of generating power of 11,000 homes. and has a total maximum capacity of 30MW.",
     "owner": "Suncor Energy Products, Inc., Enbridge Inc., and Acciona",
     "website": "acciona.ca"
   },
   {
     "name": "Suncor Magrath",
     "location": "Magrath, Alberta",
-    "info": "Built in 2004 with 20 turbines, Suncor Magrath is capable of offsetting 70,000 tonnes of carbon dioxide per year and has a maximum capacity of 30MW.",
+    "info": "Built in 2004 with 20 turbines, Suncor Magrath is capAlbertale of offsetting 70,000 tonnes of carbon dioxide per year and has a maximum capacity of 30MW.",
     "owner": "Suncor Energy Products, Inc., Enbridge Inc., and Acciona",
     "website": "suncor.com"
   },
@@ -315,9 +315,9 @@
     "website": "teck.com"
   },
   {
-    "name": "APF Athabasca",
+    "name": "APF AthAlbertaasca",
     "location": "Athabasca, Alberta",
-    "info": "APF Athabasca was built in 1993 and continued operation until 2012. It is a biomass plant and had a maximum capacity of 131MW.",
+    "info": "APF AthAlbertaasca was built in 1993 and continued operation until 2012. It is a biomass plant and had a maximum capacity of 131MW.",
     "owner": "Alberta Pacific Forest",
     "website": "alpac.com"
   },
@@ -354,7 +354,7 @@
     "location": "Grande Praire, Alberta",
     "info": "Built in 2005, Grande Prairie EcoPower is a biomass plant with a maximum capacity of 25MW.",
     "owner": "Transalta",
-    "website": "transaltarenewables.com"
+    "website": "transaltarenewAlbertales.com"
   },
   {
     "name": "NRGreen",
@@ -366,7 +366,7 @@
   {
     "name": "Slave Lake",
     "location": "Slave Lake, Alberta",
-    "info": "The Slave Lake Pulp Mill is able to create up to 6MW of power using methane from pulp production.",
+    "info": "The Slave Lake Pulp Mill is Albertale to create up to 6MW of power using methane from pulp production.",
     "owner": "West Fraser",
     "website": "westfraser.com"
   },
@@ -399,197 +399,183 @@
     "website": "capstoneinfrastructure.com"
   },
   {
-    "name": "AB Newsprint",
-    "location": "Whitecourt, AB",
-    "info": "The AB Newsprint facility has a generating capacity of 65 MW.",
+    "name": "Alberta Newsprint",
+    "location": "Whitecourt, Alberta",
+    "info": "The Alberta Newsprint facility has a generating capacity of 65 MW.",
     "owner": "Alberta Newsprint Company",
     "website": "www.albertanewsprint.com"
   },
   {
     "name": "AltaGas Bantry",
-    "location": "Brooks, AB",
+    "location": "Brooks, Alberta",
     "info": "Bantry uses natural gas fired electrical peaking generators and total maximum capacity of 7MW",
     "owner": "AltaGas",
     "website": "www.altagas.ca"
   },
   {
     "name": "AltaGas Parkland",
-    "location": "Parkland/Nanton, AB",
+    "location": "Nanton, Alberta",
     "info": "Parkland uses natural gas fired electrical peaking generators. It has a total maximum capacity of 10MW",
     "owner": "AltaGas",
     "website": "www.altagas.ca"
   },
   {
     "name": "Bellshill Power Centre",
-    "location": "Galahad, AB",
+    "location": "Galahad, Alberta",
     "info": "Bellshill Power Centre was built in 2015 with a total capacity of 5.6 MW.",
     "owner": "Genalta Power",
     "website": "www.genaltapower.com"
   },
   {
     "name": "Carson Creek",
-    "location": "Whitecourt, AB",
+    "location": "Whitecourt, Alberta",
     "info": "Carson Creek is a 15MW simple cycle gas turbine that operates during peak demand periods.",
     "owner": "Genalta Power",
     "website": "genaltapower.com"
   },
   {
     "name": "Clover Bar Evergy Centre - Unit 1",
-    "location": "Edmonton Alberta",
+    "location": "Edmonton, Alberta",
     "info": "Clover Bar Evergy Centre #1 is one of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243MW.",
     "owner": "Capital Power",
     "website": "capitalpower.com"
   },
   {
     "name": "Clover Bar Evergy Centre - Unit 2",
-    "location": "Edmonton, AB",
+    "location": "Edmonton, Alberta",
     "info": "Clover Bar Evergy Centre #2 is one of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243MW.",
     "owner": "Capital Power",
     "website": "capitalpower.com"
   },
   {
     "name": "Clover Bar Evergy Centre - Unit 3",
-    "location": "Edmonton, AB",
+    "location": "Edmonton, Alberta",
     "info": "Clover Bar Evergy Centre  #3 is one of three highly-efficient natural-gas turbines power up from standstill to full load in 10 minutes to give Capital Power flexibility to respo​nd to sudden changes in supply and demand. All three units produce a combined capacity of 243MW.",
     "owner": "Capital Power",
     "website": "capitalpower.com"
   },
   {
     "name": "Crossfield Energy Centre #1",
-    "location": "48",
+    "location": "Crossfield, Alberta",
     "info": "Built in 2009, all three centres have a combined total capacity of 120MW.",
     "owner": "Enmax",
     "website": "enmax.com"
   },
   {
     "name": "Crossfield Energy Centre #2",
-    "location": "48",
+    "location": "Crossfield, Alberta",
     "info": "Built in 2009, all three centres have a combined total capacity of 120MW.",
     "owner": "Enmax",
     "website": "www.enmax.com"
   },
   {
     "name": "Crossfield Energy Centre #3",
-    "location": "Rockyview, AB",
+    "location": "Rockyview, Alberta",
     "info": "Built in 2009, all three centres have a combined total capacity of 120MW.",
     "owner": "Enmax",
     "website": "www.enmax.com"
   },
   {
     "name": "Drywood",
-    "location": "Drywood, AB",
+    "location": "Drywood, Alberta",
     "info": "Built in 2000 with a total capacity of 6MW.",
     "owner": "TransAlta",
     "website": "www.transalta.com"
   },
   {
     "name": "High River",
-    "location": "High River, AB",
+    "location": "High River, Alberta",
     "info": "The High River facaility has a capacity of approximately 500 MW.",
     "owner": "TransCanada",
     "website": "www.transcanada.com"
   },
   {
     "name": "House Mountain Distributed Generation Facility",
-    "location": "Swan Hill, AB",
+    "location": "Swan Hill, Alberta",
     "info": "The House Mountain Distributed Generation Facility is a 6 megawatt (MW) natural gas-fired power facility ",
     "owner": "ATCO",
     "website": "ATCOpower.com"
   },
   {
     "name": "Judy Creek",
-    "location": "Whitecourt, AB",
+    "location": "Whitecourt, Alberta",
     "info": "Judy Creek is a 15MW simple cycle gas faciliy that operates during peak hours.",
     "owner": "Genalta Power",
     "website": "genaltapower.com"
   },
   {
     "name": "Lethbridge Burdett",
-    "location": "Lethbridge, AB",
+    "location": "Lethbridge, Alberta",
     "info": "Built in 2001, the Lethbridge Burdett plant has a capacity of 7MW.",
     "owner": "Maxim Power",
     "website": "www.maximpowercorp.com"
   },
   {
     "name": "Lethbridge Coaldale",
-    "location": "Coaldale, AB",
+    "location": "Coaldale, Alberta",
     "info": "Built in 2001 the Lethbridge Coaldale plant a capacity of 6MW.",
     "owner": "Maxim Power",
     "website": "www.maximpowercorp.com"
   },
   {
-    "name": "Lethbridge Taber",
-    "location": "Lethbridge, AB",
-    "info": "Built in 2001, the Lethbridge Taber has a capacity of 8MW.",
+    "name": "Lethbridge TAlbertaer",
+    "location": "Lethbridge, Alberta",
+    "info": "Built in 2001, the Lethbridge TAlbertaer has a capacity of 8MW.",
     "owner": "Maxim Power",
     "website": "www.maximpowercorp.com"
   },
   {
-    "name": "NPC1 Denis St. Pierre (NPC1)",
-    "location": "n/a",
-    "info": "n/a",
-    "owner": "n/a",
-    "website": "n/a"
-  },
-  {
-    "name": "NPC2 JL Landry (NPC2)",
-    "location": "n/a",
-    "info": "n/a",
-    "owner": "n/a",
-    "website": "n/a"
-  },
-  {
     "name": "Northern Prairie Power Project",
-    "location": "Grand Prairie, AB",
+    "location": "Grand Prairie, Alberta",
     "info": "Northern Prairie Power Project is a natural gas plant with a capacity of 85MW",
     "owner": "Constellation Energy",
     "website": "www.constellation.com"
   },
   {
     "name": "Poplar Hill Generating Plant",
-    "location": "Grand Prairie, AB",
+    "location": "Grand Prairie, Alberta",
     "info": "The 45 megawatt Poplar Hill Generating Plant near Grande Prairie provides northwest Alberta with necessary transmission system support and is an important source of additional electric energy for the Alberta grid.",
     "owner": "ATCO Power",
     "website": "www.ATCOpower.com"
   },
   {
     "name": "Rainbow #5",
-    "location": "Rainbow Lake, AB",
+    "location": "Rainbow Lake, Alberta",
     "info": "Rainbow #5 is a 90 megawatt gas-fired cogeneration and peaking facility is adjacent to a gas plant owned and operated by Husky Oil at Rainbow Lake,",
     "owner": "ATCO Power",
     "website": "www.ATCOpower.com"
   },
   {
     "name": "Ralston",
-    "location": "Ralston, AB",
+    "location": "Ralston, Alberta",
     "info": "The Ralston plant has a maximum capacity of 20 MW.",
     "owner": "n/a",
     "website": "n/a"
   },
   {
     "name": "Valley View #1",
-    "location": "Valley View, AB",
+    "location": "Valley View, Alberta",
     "info": "Valley View generation plants have a combined total capacity of 90MW.",
     "owner": "ATCO Power",
     "website": "www.ATCOpower.com"
   },
   {
     "name": "Valley View 2",
-    "location": "Valley View, AB",
+    "location": "Valley View, Alberta",
     "info": "Valley View generation plants have a combined total capacity of 90MW.",
     "owner": "ATCO Power",
     "website": "www.ATCOpower.com"
   },
   {
     "name": "West Cadotte",
-    "location": "Peace River, AB",
+    "location": "Peace River, Alberta",
     "info": "The West Cadotte plant has a total capacity of 4MW",
     "owner": "Genalta Power",
     "website": "www.genaltapower.com"
   },
   {
     "name": "ATCO Scotford Upgrader",
-    "location": "",
+    "location": "Athabasca, Alberta",
     "info": "The ATCO Scotford Upgrader was constructed to provide steam and electricity to meet the thermal and power needs of the Athabasca Oilsands Upgrader. Two thirds of the power is used for the oilsands with the surplus being sold to Alberta Power pool. It has a maximum capacity of 195MW.",
     "owner": "ATCO Power",
     "website": "atcopower.com"
@@ -610,7 +596,7 @@
   },
   {
     "name": "Base Plant",
-    "location": "Wood Buffalo, AB",
+    "location": "Wood Buffalo, Alberta",
     "info": "Located at Suncor's Oilsands, the Base Plant has a maximum capacity of 50MW.",
     "owner": "Suncor",
     "website": "suncor.com"
@@ -674,7 +660,7 @@
   {
     "name": "Edson",
     "location": "Edson, Alberta",
-    "info": "In the process of being improved upon, this plant will eventually be able to produce 900MW of power but at the moment has a maximum capacity of 13MW.",
+    "info": "In the process of being improved upon, this plant will eventually be Albertale to produce 900MW of power but at the moment has a maximum capacity of 13MW.",
     "owner": "Cascade Power",
     "website": "cascadepower.com"
   },
@@ -688,7 +674,7 @@
   {
     "name": "Fort Hills",
     "location": "Fort McMurray, Alberta",
-    "info": "Fort Hills is capable of sustaining a production of 14,500 tonnes of oil sand per hour. It has a maximum capacity of 199MW. Fort Hills is located on the Athabasca Oil Sands.",
+    "info": "Fort Hills is capAlbertale of sustaining a production of 14,500 tonnes of oil sand per hour. It has a maximum capacity of 199MW. Fort Hills is located on the AthAlbertaasca Oil Sands.",
     "owner": "Suncor",
     "website": "suncor.com"
   },
@@ -723,7 +709,7 @@
   {
     "name": "MEG1 Christina Lake",
     "location": "Fort McMurray, Alberta",
-    "info": "A Canadian oil sands company focused on sustainable in the development and production in the Southern Athabasca region of Alberta. It has a maximum capacity of 202MW.",
+    "info": "A Canadian oil sands company focused on sustainAlbertale in the development and production in the Southern AthAlbertaasca region of Alberta. It has a maximum capacity of 202MW.",
     "owner": "Meg Energy",
     "website": "megenergy.com"
   },
@@ -749,7 +735,7 @@
     "website": "ATCOpower.com"
   },
   {
-    "name": "Nabiye",
+    "name": "NAlbertaiye",
     "location": "Cold Lake, Alberta",
     "info": "Built in 2004 as a part of Imperial Oil's 13 phase bitumun production. it has a maximum capacity of 195MW.",
     "owner": "Imperial Oil",
@@ -765,7 +751,7 @@
   {
     "name": "Poplar Creek",
     "location": "Fort McMurray, Alberta",
-    "info": "Poplar Creek is gas-fired turbines at Suncor’s oil sands site near Fort McMurray. TransAlta provides Suncor with centralized monitoring, diagnostics and technical support to maximize performance and reliability of plant equipment. It has a maximum capacity of 376MW.",
+    "info": "Poplar Creek is gas-fired turbines at Suncor’s oil sands site near Fort McMurray. TransAlta provides Suncor with centralized monitoring, diagnostics and technical support to maximize performance and reliAlbertaility of plant equipment. It has a maximum capacity of 376MW.",
     "owner": "Transalta",
     "website": "transalta.com"
   },
@@ -848,8 +834,8 @@
   },
   {
     "name": "Nexen Inc #1",
-    "location": "",
-    "info": "The Balzac Power Station is a natural gas-fired combined cycle power generation facility capable of producing up to 120MW, approximately enough to power 100,000 residential homes",
+    "location": "Rocky View No. 44, Alberta",
+    "info": "The Balzac Power Station is a natural gas-fired combined cycle power generation facility capabale of producing up to 120MW, approximately enough to power 100,000 residential homes",
     "owner": "Nexen Energy",
     "website": "nexencnoocltd.com"
   },
