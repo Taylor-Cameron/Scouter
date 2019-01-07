@@ -12,11 +12,13 @@ const client = redis.createClient(6380, process.env.REDISCACHEHOSTNAME, {
 
 
 // Perform cache operations using the cache connection object...
+
 const redisDat = async () => {
   client.on('error', function(err) {
     console.log('Something went wrong ', err);
   });
   return client.getAsync('redisData').then(function(res) {
+    console.log(res);
     const output = showData(res);
     return output;
   });

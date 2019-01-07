@@ -46,6 +46,8 @@ module.exports.showData = (res) => {
   Object.keys(jObj).forEach((element) => {
     if (element === 'summary' || element === 'interchange') {
       outArr.push({[element]: returnFormattedSpec(jObj[element])});
+    } else if (element === 'timestamp') {
+      outArr.push({[element]: jObj[element]});
     } else {
       outArr.push({[element]: returnFormattedData(jObj[element])});
     }
