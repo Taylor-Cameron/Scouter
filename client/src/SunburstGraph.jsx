@@ -211,7 +211,6 @@ class SunBurstGraph extends PureComponent {
         return (
             <div className="second-row'">
                 <div className="sunburst-wrapper">
-                    <div className="block">
                         <div className="sunburst-title">
                             CURRENT ENERGY OUTPUT
                         </div>
@@ -231,7 +230,6 @@ class SunBurstGraph extends PureComponent {
                         />
                     </div>
                 </div>
-            </div>
         );
     }
 }

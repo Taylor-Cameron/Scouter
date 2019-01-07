@@ -1,5 +1,4 @@
 #Me: 
-  remove .block from modules
   create modal for sunburst
 
 #Remind Alex:

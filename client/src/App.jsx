@@ -9,6 +9,7 @@ import SunburstGraph from './SunburstGraph';
 import EnergyMap from './EnergyMap';
 import Disclaimer from './Disclaimer';
 import Modal from './Modal';
+import Directions from './Directions';
 
 
 class App extends Component {

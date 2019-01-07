@@ -24,8 +24,7 @@ export default class EnergyMap extends Component {
   render() {
     return <div className="second-row">
         <div className="map-container">
-          <div className="block">
-            <div className="map-title">PLANT MAP</div>
+          <div className="map-title">PLANT MAP</div>
             <div className="map-content">
               <div style={{ height: "550px", width: "100%" }}>
                 <GoogleMapReact bootstrapURLKeys={{ key: "AIzaSyBd3oYQ2kl-BCQdt3MJANibAKu21Mbu0wg", libraries: "visualization" }}
@@ -55,8 +54,7 @@ export default class EnergyMap extends Component {
               </div>
             </div>
           </div>
-        </div>
-      </div>;
+        </div>;
   }
 }
 
