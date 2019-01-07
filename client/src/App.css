@@ -14,11 +14,6 @@ body {
     color: orange;
   }
 
-  .block {
-      background: #ffffff;
-      border-radius: 5px;
-  }
-
   table tr td {
     padding: 5px 8px;
     line-height: 20px;
@@ -44,6 +39,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 45px 0 0 0;
+    border-radius: 5px;
   }
 
   /**************HEADER**************/
@@ -115,7 +111,11 @@ body {
   .breakdown-container {
     flex: 1;
     width: 600px;
-    border-top-left-radius: 5px;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .breakdown-table-title {
@@ -222,6 +222,8 @@ body {
   background-color: #ffffff;
   border-radius: 5px;
   border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .power-plant-breakdown-table-header {
@@ -238,7 +240,7 @@ body {
 
   .power-plant-breakdown-summary {
     height:132px;
-    color:#ffffff
+    color:#ffffff;
   }
 
   .power-plant-breakdown-summary-title {
@@ -308,7 +310,7 @@ body {
 
    /**************MODAL**************/
 
-   .modal-body {
+  .modal-body {
     position: fixed;
     background-color: #999;
     height: 100%;
@@ -349,6 +351,7 @@ body {
  /**************SUNBURST**************/
 
   .sunburst-wrapper {
+    background-color: #ffffff;
     display: flex;
     align-content: center;
     width: 700px;
@@ -358,6 +361,7 @@ body {
     border-top-color: #efefef;
     border-top-width: 1px;
     border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .sunburst-title {
@@ -371,7 +375,6 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
-    border-radius: 5px;
   }
 
     /**************LEGEND**************/
@@ -380,11 +383,12 @@ body {
       flex-direction: column;
       width: 125px;
       font-weight: 400;
-      margin-left: 0px;
+      margin-right: 30px;
       background-color:#ffffff;
       border-left-style: solid;
       border-left-color: #efefef;
       border-radius: 5px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     }
 
     .legend-title {
@@ -395,7 +399,6 @@ body {
       text-align: center;
       line-height: 65px;
       padding: 5px 0px 4px 10px;
-      border-radius: 5px;
     }
 
     .classification {
@@ -419,12 +422,14 @@ body {
   /**************MAP**************/
 
   .map-container {
+    background-color: #ffffff;
     padding: 0 45px 0 45px;
     display: flex;
     flex-direction: column;
     width: 500px;
     font-weight: 400;
     height: 700px;
+    border-radius: 5px;
   }
 
   .map-title {
@@ -438,6 +443,7 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .map-content {
