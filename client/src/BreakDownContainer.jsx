@@ -9,7 +9,7 @@ class BreakdownContainer extends Component {
         return(
           <div className="content-wrapper">
             <div className="breakdown-container">
-                  <div className="breakdown-table-title">GENERATION - FUEL TYPE
+                  <div className="breakdown-table-title">POWER GENERATION - FUEL TYPE
                   </div>
                 <table className="energy-source-breakdown-table">
               <tbody>
