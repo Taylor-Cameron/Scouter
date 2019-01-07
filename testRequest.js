@@ -18,7 +18,6 @@ const getNewData = () => {
         client.on('error', function(err) {
           console.log('Something went wrong ', err);
         });
-        console.log(htmlString);
         client.set('redisData', htmlString);
       })
       .catch(function(err) {

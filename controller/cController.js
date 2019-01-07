@@ -18,7 +18,7 @@ const redisDat = async () => {
     console.log('Something went wrong ', err);
   });
   return client.getAsync('redisData').then(function(res) {
-    console.log(res);
+    // console.log(res);
     const output = showData(res);
     return output;
   });

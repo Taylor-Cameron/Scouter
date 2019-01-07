@@ -9,29 +9,28 @@ import SunburstGraph from './SunburstGraph';
 import EnergyMap from './EnergyMap';
 import Disclaimer from './Disclaimer';
 import Modal from './Modal';
-
+import sortIncoming from './helpers/sortIncoming'
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      energytype: "GAS"
+      scrapedData: false
     };
   }
   // When component mounts call the Api and send response to the client
   componentDidMount() {
     this.callApi()
       .then(res =>
-        this.setState(function() {
-          return res.express;
-        })
+        this.setState({scrapedData: res})
       )
       .catch(err => console.log(err));
   }
   // Fetch data from the backend served at localhost:5000
   async callApi() {
     const response = await fetch("http://localhost:5000/api");
-    const body = await response.json();
+    const jsonResponse = await response.json();
+    const body = sortIncoming(jsonResponse);
     if (response.status !== 200) throw Error(body.message);
 
     return body;
@@ -47,35 +46,40 @@ class App extends Component {
 
   closeModal = () => this.setState({ modalData: undefined })
   render() {
-    console.log(this.state);
-    if (!this.state[0]) return <p>{this.state.response}</p>;
-    return (
+    console.log(this.state)
+    // if (!this.state[0]) return <p>{this.state.response}</p>;
+    return(
       <div>
-        <div>
-          <Header date={this.state[0]} />
-        </div>
-        <div className="content-wrapper">
-          <SummaryContainer summary={this.state[1]} />
-          <BreakdownContainer
-            generation={this.state[2]}
-            button={this.handleClick}
-          />
-          <PlantBreakdown
-            powerPlants={this.state[3]}
-            generation={this.state[2]}
-            energytype={this.state.energytype}
-            setModalData={this.setModal}
-          />
-        </div>
-        <div className="second-row">
-          <SunburstGraph />
-          <Legend />
-          <EnergyMap />
-        </div>
-        <Disclaimer />
-        <Modal data={this.state.modalData} closeModal={this.closeModal} />
+        <p>hi</p>
       </div>
-    );
+    )
+    // return (
+    //   <div>
+    //     <div>
+    //       <Header date={this.state[0]} />
+    //     </div>
+    //     <div className="content-wrapper">
+    //       <SummaryContainer summary={this.state[1]} />
+    //       <BreakdownContainer
+    //         generation={this.state[2]}
+    //         button={this.handleClick}
+    //       />
+    //       <PlantBreakdown
+    //         powerPlants={this.state[3]}
+    //         generation={this.state[2]}
+    //         energytype={this.state.energytype}
+    //         setModalData={this.setModal}
+    //       />
+    //     </div>
+    //     <div className="second-row">
+    //       <SunburstGraph />
+    //       <Legend />
+    //       <EnergyMap />
+    //     </div>
+    //     <Disclaimer />
+    //     <Modal data={this.state.modalData} closeModal={this.closeModal} />
+    //   </div>
+    // );
   }
 }
 
