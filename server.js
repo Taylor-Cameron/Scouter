@@ -3,13 +3,13 @@ const express = require('express');
 const path = require('path');
 const morgan = require('morgan');
 const compression = require('compression');
-const cors = require('cors')
+const cors = require('cors');
 
 // Set port 8080
 const PORT = process.env.PORT || 5000;
 
 // Router Imports
-const indexRouter = require('./controller/indexRouter');
+const apiRouter = require('./controller/routes/redisApiRoute');
 
 // Creates an express application
 const app = express();
@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(compression());
 
 // Use Router
-app.use('/', indexRouter);
+app.use('/', apiRouter);
 
 if (process.env.NODE_ENV === 'production') {
   // Serve any static files
