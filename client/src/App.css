@@ -20,7 +20,7 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
-    
+
   }
   table tr:last-of-type td{
     padding: 5px 8px;
@@ -196,7 +196,7 @@ body {
   }
 
   .biofuel-bar {
-    background-color: #FFE66D;
+    background-color: #ffdb28;
   }
 
   .coal-bar {
@@ -204,7 +204,7 @@ body {
   }
 
   .hydro-bar {
-    background-color: #093B6A;
+    background-color: #0B4F8E;
   }
 
   .gas-bar {

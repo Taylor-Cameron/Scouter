@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import GoogleMapReact from "google-map-react";
-import Geocode from 'react-geocode';
 
 const data = require('./plantinfo.json');
 const LatLngData = require('./locationLatLng.json')
@@ -11,21 +10,6 @@ LatLngData.map((x) => {
   latArr.push(x.lat)
   lngArr.push(x.lng)
 })
-function geoLocation(data) {
-  const geoLocation = [];
-  data.forEach((x) => {
-    Geocode.fromAddress(x.location)
-      .then(
-        response => {
-          const { lat, lng } = response.results[0].geometry.location
-          geoLocation.push({lat, lng});
-        }
-      )
-  })
-  return geoLocation
-}
-
-Geocode.setApiKey("AIzaSyBd3oYQ2kl-BCQdt3MJANibAKu21Mbu0wg");
 
 const defaultProps = {
   center: {
@@ -38,7 +22,6 @@ const defaultProps = {
 export default class EnergyMap extends Component {
 
   render() {
-    Geocode.enableDebug();
     return <div className="second-row">
         <div className="map-container">
           <div className="block">
@@ -50,8 +33,6 @@ export default class EnergyMap extends Component {
                 defaultZoom={defaultProps.zoom}
                 yesIWantToUseGoogleMapApiInternals
                 onGoogleApiLoaded={({ map, maps }) => {
-                    const points = geoLocation(data);
-                    console.log(points);
                     let dataArr = [];
                     for (let i = 0; i < latArr.length; i++) {
                       dataArr.push(new maps.LatLng(latArr[i], lngArr[i]))

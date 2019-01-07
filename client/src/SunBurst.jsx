@@ -109,20 +109,25 @@ class Sunburst extends React.Component {
       const self = this, // eslint-disable-line
         gWidth = props.width,
         gHeight = props.height,
-        light = ['#CE632D', '#FFDB00', '#266B6B', '#093B6A', '#5E5A5F', '#fff'],
-        mid = ['#5E5A5F', '#093B6A', '#CE632D', '#CE632D', '#CE632D'],
+        light = ["#CE632D", "#ffdb28", "#266B6B", "#0B4F8E", "#5E5A5F", "#fff"],
+        mid = ["#5E5A5F", "#093B6A", "#CE632D", "#CE632D", "#CE632D"],
         palettes = [light, mid],
         firstPalette = palettes
           .map(d => d.reverse())
           .reduce((a, b) => a.concat(b)),
         color = d3.scaleOrdinal(firstPalette),
-
-        radius = (Math.min(gWidth, gHeight) / 2) - 10,
-        svg = d3.select('svg').append('g').attr('transform', `translate(${gWidth / 2},${gHeight / 2})`),
+        radius = Math.min(gWidth, gHeight) / 2 - 10,
+        svg = d3
+          .select("svg")
+          .append("g")
+          .attr("transform", `translate(${gWidth / 2},${gHeight / 2})`),
         x = d3.scaleLinear().range([0, 2 * Math.PI]),
-        y = props.scale === 'linear' ? d3.scaleLinear().range([0, radius]) : d3.scaleSqrt().range([0, radius]),
+        y = props.scale === "linear" ? d3
+                .scaleLinear()
+                .range([0, radius]) : d3.scaleSqrt().range([0, radius]),
         partition = d3.partition(),
-        arc = d3.arc()
+        arc = d3
+          .arc()
           .startAngle(d => Math.max(0, Math.min(2 * Math.PI, x(d.x0))))
           .endAngle(d => Math.max(0, Math.min(2 * Math.PI, x(d.x1))))
           .innerRadius(d => Math.max(0, y(d.y0)))
