@@ -11,6 +11,10 @@ class SummaryContainer extends Component {
                         <div className="value"><span bind="powerGenerated">{this.props.summary.summaryContainer[0].VALUE}</span> MW</div>
             </div>
             <div className="summary-box">
+                <div className="title">ENERGY IMPORTED</div>
+                        <div className="value"><span bind="powerGenerated"></span> MW</div>
+            </div>
+            <div className="summary-box">
                 <div className="title">ALBERTA'S DEMAND</div>
                         <div className="value"><span bind="albertaDemand">{this.props.summary.summaryContainer[1].VALUE}</span> MW</div>
             </div>
