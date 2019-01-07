@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Header';
-import SummaryContainer from './SummaryContainer';
+import Header from './Nav/Header';
+import SummaryContainer from './Summary/SummaryContainer';
 import BreakdownContainer from './BreakDownContainer';
 import PlantBreakdown from './PlantBreakdown';
 import Legend from './Legend.jsx';
@@ -46,11 +46,18 @@ class App extends Component {
 
   closeModal = () => this.setState({ modalData: undefined })
   render() {
-    console.log(this.state)
-    // if (!this.state[0]) return <p>{this.state.response}</p>;
+    
+    if (!this.state.scrapedData.summary) return <p>loading</p>;
+    if (this.state.scrapedData.summary) {
+      // summary [0] = total power
+      // summary [2] = total load
+      // summary [3] = net to grid
+      console.log(this.state.scrapedData.summary)
+    }
     return(
       <div>
-        <p>hi</p>
+        <Header date={this.state.scrapedData.timestamp} />
+        <SummaryContainer summary={this.state.scrapedData.summary} />
       </div>
     )
     // return (
