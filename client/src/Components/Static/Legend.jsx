@@ -9,27 +9,27 @@ class Legend extends Component {
             <div className="classification">Gas</div>
                 <img
                   className="legend-img"
-                  src={ require('./docs/gas.png') }
+                  src={ require('../../docs/gas.png') }
                   alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
                 <div className="classification">Coal</div>
                   <img
                     className="legend-img"
-                    src={ require('./docs/coal.png') }
+                    src={ require('../../docs/coal.png') }
                     alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
                 <div className="classification">Wind</div>
                   <img
                     className="legend-img"
-                    src={ require('./docs/wind.png') }
+                    src={ require('../../docs/wind.png') }
                     alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
                 <div className="classification">Hydro</div>
                   <img
                     className="legend-img"
-                    src={ require('./docs/hydro.png') }
+                    src={ require('../../docs/hydro.png') }
                     alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
                 <div className="classification">Biomass</div>
                 <img
                   className="legend-img"
-                  src={ require('./docs/biomass.png') }
+                  src={ require('../../docs/biomass.png') }
                   alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
           </div>
         </div>    

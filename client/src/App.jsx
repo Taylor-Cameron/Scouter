@@ -4,11 +4,11 @@ import Header from './Titles/Header';
 import SummaryContainer from './Summary/SummaryContainer';
 import BreakdownContainer from './BreakDownContainer/BreakDownContainer';
 import PlantBreakdown from './PlantBreakdown/PlantBreakdown';
-import Legend from './Legend.jsx';
-import SunburstGraph from './SunburstGraph';
-import EnergyMap from './EnergyMap';
-import Disclaimer from './Disclaimer';
-import Modal from './Modal';
+import Legend from './Components/Static/Legend.jsx';
+import SunburstGraph from './Components/Graphs/SunburstGraph';
+import EnergyMap from './Components/Maps/EnergyMap';
+import Disclaimer from './Components/Static/Disclaimer';
+import Modal from './Components/Modal';
 import sortIncoming from './helpers/sortIncoming';
 
 class App extends Component {
@@ -87,6 +87,12 @@ class App extends Component {
             setModalData={this.setModal}
           />
         </div>
+        <div className="second-row">
+          <SunburstGraph />
+          <Legend />
+          <EnergyMap />
+        </div>
+        <Disclaimer/>
       </div>
     );
     // WIP component

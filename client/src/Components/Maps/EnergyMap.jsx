@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import GoogleMapReact from "google-map-react";
 
-const data = require('./PlantBreakdown/plantinfo.json');
+const data = require('../PlantBreakdown/plantinfo.json');
 const LatLngData = require('./locationLatLng.json')
 
 const latArr = [];
