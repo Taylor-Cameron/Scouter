@@ -1,5 +1,6 @@
 export default (incomingData) => {
   const outObj = {};
+  const sunburstObj = {};
   incomingData.forEach((element) => {
     Object.entries(element).forEach((ele) => {
       outObj[ele[0]] = ele[1];
@@ -15,6 +16,7 @@ export default (incomingData) => {
   });
   outObj.summary = getSumArr(outObj.summary);
   outObj.breakdown = totalToPercent(outObj.total);
+  console.log(outObj);
   return outObj;
 };
 const getSumArr = (sumArr) => {
