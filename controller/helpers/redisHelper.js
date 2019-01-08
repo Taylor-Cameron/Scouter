@@ -5,6 +5,7 @@ const bluebird = require('bluebird');
 bluebird.promisifyAll(redis.RedisClient.prototype);
 bluebird.promisifyAll(redis.Multi.prototype);
 
+// Blueprint Obj
 const powerObj = {
   Asset: false,
   Mc: false,
@@ -12,6 +13,7 @@ const powerObj = {
   Dcr: false,
 };
 
+// Convert scrape obj to array of obj
 const returnFormattedData = (obj) => {
   const outArr = [];
   Object.entries(obj).forEach((ele) => {
@@ -25,10 +27,13 @@ const returnFormattedData = (obj) => {
   return outArr;
 };
 
+// Blueprint Obj
 const specObj = {
   KEY: false,
   VALUE: false,
 };
+
+// Convert non standard scrape obj to array of KVP
 const returnFormattedSpec = (obj) => {
   const outArr = [];
   Object.entries(obj).forEach((ele) => {
@@ -40,6 +45,7 @@ const returnFormattedSpec = (obj) => {
   return outArr;
 };
 
+// Cleans incoming data and prepares for react
 module.exports.showData = (res) => {
   jObj = JSON.parse(res);
   const outArr = [];
