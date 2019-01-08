@@ -70,30 +70,24 @@ class App extends Component {
   }
   closeModal = () => this.setState({ modalData: undefined });
   render() {
+    console.log(this.state)
     if (!this.state.currentPlantBreakdown) return <p>loading</p>;
-    return (
-      <div>
+    return <div>
         <div>
           <Header date={this.state.scrapedData.timestamp} />
         </div>
         <div className="content-wrapper">
           <SummaryContainer summary={this.state.scrapedData.summary} />
           <BreakdownContainer breakdownData={this.state.scrapedData.breakdown} clickHandle={this.handleClick} />
-          <PlantBreakdown
-            energytype={this.state.currentPlantBreakdown.target}
-            plantArr={this.state.currentPlantBreakdown.targetDataList}
-            targetPercent={this.state.currentPlantBreakdown.targetPercent}
-            setModalData={this.setModal}
-          />
+          <PlantBreakdown energytype={this.state.currentPlantBreakdown.target} plantArr={this.state.currentPlantBreakdown.targetDataList} targetPercent={this.state.currentPlantBreakdown.targetPercent} setModalData={this.setModal} />
         </div>
         <div className="second-row">
-          <SunburstGraph />
+        <SunburstGraph sunburstData={this.state.scrapedData.sunburstData}/>
           <Legend />
           <EnergyMap />
         </div>
-        <Disclaimer/>
-      </div>
-    );
+        <Disclaimer />
+      </div>;
   }
 }
 
