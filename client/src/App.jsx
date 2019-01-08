@@ -45,6 +45,7 @@ class App extends Component {
   };
 
   setModal = modalData => this.setState({ modalData });
+  setDirections = () => this.setState({ directionsModal: !this.state.directionsModal });
 
   closeModal = () => this.setState({ modalData: undefined })
   render() {
@@ -69,12 +70,12 @@ class App extends Component {
           />
         </div>
         <div className="second-row">
-          <SunburstGraph />
+          <SunburstGraph setModalData={this.setDirections}/>
           <Legend />
           <EnergyMap />
         </div>
         <Disclaimer />
-        <Modal data={this.state.modalData} closeModal={this.closeModal} />
+        <Modal data={this.state.modalData} closeModal={this.closeModal} directionsModal={this.state.directionsModal}/>
       </div>
     );
   }

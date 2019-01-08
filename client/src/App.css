@@ -357,7 +357,6 @@ body {
 
   .sunburst-wrapper {
     background-color: #ffffff;
-    display: flex;
     align-content: center;
     width: 700px;
     height: 700px;
@@ -365,7 +364,8 @@ body {
     border-top-style: solid;
     border-top-color: #efefef;
     border-top-width: 1px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
@@ -380,7 +380,6 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
     /**************LEGEND**************/
@@ -393,7 +392,8 @@ body {
       background-color:#ffffff;
       border-left-style: solid;
       border-left-color: #efefef;
-      border-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     }
 
@@ -456,12 +456,6 @@ body {
     height: 625px;
   }
 
-  .map-pic {
-    align-content: center;
-    padding-left: 10%;
-    padding-top: 15%;
-  }
-
   .map-info {
     padding: 20px 0 0 20px;
     font-weight: 150;
@@ -479,5 +473,3 @@ body {
     font-size: 18px;
     border-radius: 5px;
   }
-
-

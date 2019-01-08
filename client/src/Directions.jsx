@@ -1,29 +1,25 @@
 import React, { PureComponent } from "react";
-
-export default ({ data, closeModal }) => {
-  if (!data) return null;
+export default () => {
+  // if (!data) return null;
   return <div>
-      <div className="modal-body" role="dialog" onClick={closeModal} />
+      {/* <div className="modal-body" role="dialog" onClick={closeModal} /> */}
 
       <div className="modal-container">
-        <div className="modal-header">
-          <button type="button" className="close" onClick={closeModal}>
-            &times;
-          </button>
-          <h2 className="modal-title">{data.name}</h2>
-        </div>
-        <div className="modal-info">
-          <p><b>Location: </b>{data.location}</p>
-          <p><b>About: </b>{data.info}</p>
-          <p><b>Owner: </b> {data.owner}</p>
-        <p><b>Website: </b><a target="_blank" rel="noopener noreferrer" href={`http://${data.website}`}>{data.website}
-          </a></p>
-        </div>
-        <div className="modal-footer">
-          <button type="button" className="btn btn-default" onClick={closeModal}>
-            Close
-          </button>
+        <div className="modal-content">
+          <div className="modal-header">
+            {/* <button type="button" className="close" onClick={closeModal}>
+              &times;
+            </button> */}
+            <h2 className="modal-title">Energy Output Sunburst Graph</h2>
+          </div>
+          <div className="modal-info">
+            <p>This is a sunburst graph that shows the total energy output of all form of energy production in Alberta at a given time.
+              The interior layer is a breakdown of the different energy resources. 
+              The next layer further breaksdown the resource, either by type or plant. 
+              To navigate, click on any layer of the graph to see more information. To go back, simply click on the centre of the sunburst graph.
+            </p>
+          </div>
         </div>
       </div>
-    </div>;
+    </div>
 }
