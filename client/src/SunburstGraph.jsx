@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import Sunburst from './SunBurst';
-import Directions from './Directions';
 
 const DIVERGING_COLOR_SCALE = ['#00939C', '#85C4C8', '#EC9370', '#C22E00'];
 const data = {
@@ -171,19 +170,19 @@ const data = {
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
-                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
-                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
-                         { "name": "COAL", "size": 34 },
+                        { "name": "COAL", "size": 34 },
+                        { "name": "COAL", "size": 34 },
+                        { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
                         { "name": "COAL", "size": 34 },
@@ -214,11 +213,9 @@ class SunBurstGraph extends PureComponent {
                 <div className="sunburst-wrapper">
                         <div className="sunburst-title">
                             CURRENT ENERGY OUTPUT
-                            <div className="directions">
-                                    <img onClick={this.showDirections}
-                                        src={require('./docs/logo.png')}
-                                        alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
-                            </div>
+                            <img className="directions-button" onClick={this.showDirections}
+                                src={require('./docs/directions.png')}
+                                alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
                         </div>
                         <Sunburst
                             data={data}

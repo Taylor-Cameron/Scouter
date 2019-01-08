@@ -71,10 +71,16 @@ body {
   }
 
   .date {
-    text-align: center;
-    align-items: flex-end;
-    padding: 25px;
-    font-size: 21px;
+    flex: 1;
+    padding: 25px 260px;
+    font-size: 20px;
+  }
+
+  .header-icon {
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    padding-right: 30px;
   }
 
   /**************SUMMARY BOXES**************/
@@ -160,6 +166,7 @@ body {
 
   td.energy-source-icon {
     width: 50px;
+    padding-left: 30px;
   }
 
   td.energy-source-icon img {
@@ -332,7 +339,7 @@ body {
   .modal-container {
     position: fixed;
     background-color: white;
-    min-height: 400px;
+    min-height: 250px;
     width: 600px;
     z-index: 10001;
     top: 200px;
@@ -350,7 +357,7 @@ body {
   }
 
   .modal-footer {
-    padding: 0 50px 0 50px;
+    padding: 0 50px 50px 50px;
   }
 
  /**************SUNBURST**************/
@@ -358,7 +365,7 @@ body {
   .sunburst-wrapper {
     background-color: #ffffff;
     align-content: center;
-    width: 700px;
+    width: 625px;
     height: 700px;
     margin: 45px 0 0 0 ;
     border-top-style: solid;
@@ -376,10 +383,16 @@ body {
     font-size: 16px;
     text-align: center;
     line-height: 65px;
-    padding: 5px 0px 4px 10px;
+    padding: 5px 0px 4px 90px;
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
+  }
+
+  .directions-button {
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
   }
 
     /**************LEGEND**************/
@@ -436,6 +449,7 @@ body {
     font-weight: 400;
     height: 700px;
     border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .map-title {
@@ -449,7 +463,6 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .map-content {

@@ -1,8 +1,10 @@
 import React, { PureComponent } from "react";
 import Directions from './Directions';
+import Information from './Information';
 
-export default ({ data, closeModal, directionsModal }) => {
+export default ({ data, closeModal, directionsModal, informationModal }) => {
   if (directionsModal) return <Directions />
+  if (informationModal) return <Information />
   if (!data) return null;
   return <div>
       <div className="modal-body" role="dialog" onClick={closeModal} />
@@ -10,9 +12,6 @@ export default ({ data, closeModal, directionsModal }) => {
       <div className="modal-container">
         <div className="modal-content">
           <div className="modal-header">
-            <button type="button" className="close" onClick={closeModal}>
-              &times;
-            </button>
                 <h2 className="modal-title">{data.name}</h2>
           </div>
           <div className="modal-info">

@@ -9,7 +9,6 @@ import SunburstGraph from './SunburstGraph';
 import EnergyMap from './EnergyMap';
 import Disclaimer from './Disclaimer';
 import Modal from './Modal';
-import Directions from './Directions';
 
 
 class App extends Component {
@@ -46,15 +45,18 @@ class App extends Component {
 
   setModal = modalData => this.setState({ modalData });
   setDirections = () => this.setState({ directionsModal: !this.state.directionsModal });
+  setInformation = () => this.setState({ informationModal: !this.state.informationModal });
 
-  closeModal = () => this.setState({ modalData: undefined })
+  closeModal = () => this.setState({ modalData: undefined , directionsModal: false})
+  
   render() {
     console.log(this.state);
     if (!this.state[0]) return <p>{this.state.response}</p>;
     return (
       <div>
         <div>
-          <Header date={this.state[0]} />
+          <Header date={this.state[0]}
+                  setModalData={this.setInformation}/>
         </div>
         <div className="content-wrapper">
           <SummaryContainer summary={this.state[1]} />
@@ -70,12 +72,14 @@ class App extends Component {
           />
         </div>
         <div className="second-row">
-          <SunburstGraph setModalData={this.setDirections}/>
+          <SunburstGraph setModalData={this.setDirections} />
           <Legend />
           <EnergyMap />
         </div>
         <Disclaimer />
-        <Modal data={this.state.modalData} closeModal={this.closeModal} directionsModal={this.state.directionsModal}/>
+        <Modal data={this.state.modalData} closeModal={this.closeModal} 
+          directionsModal={this.state.directionsModal}
+          informationModal={this.state.informationModal}/>
       </div>
     );
   }

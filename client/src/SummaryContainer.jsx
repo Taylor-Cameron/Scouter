@@ -12,7 +12,7 @@ class SummaryContainer extends Component {
                 </div>
                 <div className="summary-box">
                     <div className="title">ENERGY IMPORTED</div>
-                            <div className="value"><span bind="powerGenerated"></span> MW</div>
+                            <div className="value"><span bind="powerImported">{this.props.summary.summaryContainer[3].VALUE}</span> MW</div>
                 </div>
                 <div className="summary-box">
                     <div className="title">ALBERTA'S DEMAND</div>
