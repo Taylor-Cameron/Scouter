@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Titles/Header';
 import SummaryContainer from './Summary/SummaryContainer';
 import BreakdownContainer from './BreakDownContainer/BreakDownContainer';
-import PlantBreakdown from './PlantBreakdown';
+import PlantBreakdown from './PlantBreakdown/PlantBreakdown';
 import Legend from './Legend.jsx';
 import SunburstGraph from './SunburstGraph';
 import EnergyMap from './EnergyMap';
@@ -15,15 +15,19 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      scrapedData: false
+      scrapedData: false,
+      currentPlantBreakdown: false
     };
   }
   // When component mounts call the Api and send response to the client
   componentDidMount() {
     this.callApi()
-      .then(res =>
-        this.setState({scrapedData: res})
-      )
+      .then(res => {
+        this.setState({scrapedData: res,})
+        return this.state
+      }).then(() => {
+        this.prepPlantBreakdown("coal")
+      })
       .catch(err => console.log(err));
   }
   // Fetch data from the backend served at localhost:5000
@@ -37,33 +41,59 @@ class App extends Component {
   }
 
   handleClick = event => {
-    this.setState({
-      energytype: event.currentTarget.id
-    });
+    const newTarget = event.currentTarget.id.toLowerCase();
+    this.prepPlantBreakdown(newTarget)
   };
 
   setModal = modalData => this.setState({ modalData });
-
+  prepPlantBreakdown(targetArg) {
+    const curTarget = targetArg;
+    const targetDataList = this.state.scrapedData[curTarget];
+    const getTargetPercent = (targPercent, targList) => {
+      let outputPercent;
+      targList.forEach(element => {
+        if (element.Asset === targPercent.toUpperCase()){
+          outputPercent = element.percentTng
+        }
+      });
+      return outputPercent;
+    }
+    const targetPercent = getTargetPercent(curTarget, this.state.scrapedData.breakdown);
+    this.setState({
+      currentPlantBreakdown: {
+        target: curTarget,
+        targetDataList: targetDataList,
+        targetPercent: targetPercent,
+      }
+    });
+  }
   closeModal = () => this.setState({ modalData: undefined })
   render() {
     
-    if (!this.state.scrapedData.summary) return <p>loading</p>;
-    if (this.state.scrapedData.summary) {
-      // summary [0] = total power
-      // summary [2] = total load
-      // summary [3] = net to grid
-    }
+    if (!this.state.currentPlantBreakdown) return <p>loading</p>;
     return(
       <div>
-        <Header date={this.state.scrapedData.timestamp} />
-      </div>
+        <div>
+          <Header date={this.state.scrapedData.timestamp} />
+        </div>
+        <div className="content-wrapper">
+          <SummaryContainer summary={this.state.scrapedData.summary} />
+          <BreakdownContainer
+          breakdownData={this.state.scrapedData.breakdown}
+          clickHandle={this.handleClick}
+          />
+          <PlantBreakdown
+          energytype={this.state.currentPlantBreakdown.target}
+          plantArr={this.state.currentPlantBreakdown.targetDataList}
+          targetPercent={this.state.currentPlantBreakdown.targetPercent}
+          setModalData={this.setModal}
+          />
+        </div>
+        </div>
     )
     // WIP component
     /*
-          <BreakdownContainer
-          breakdownData={this.state.scrapedData.breakdown}
-          button={this.handleClick}
-          />
+
         <SummaryContainer summary={this.state.scrapedData.summary} />
 
         />

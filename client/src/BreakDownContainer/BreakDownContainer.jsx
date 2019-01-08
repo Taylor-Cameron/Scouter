@@ -3,7 +3,6 @@ import BreakDownRow from './breakDownRow';
 import SubTitle from '../Titles/Subtitle';
 class BreakdownContainer extends Component {
   render() {
-    console.log(this.props.breakdownData)
     return (
       <div className="content-wrapper">
         <div className="breakdown-container">
@@ -12,7 +11,7 @@ class BreakdownContainer extends Component {
               <tbody>
                 {this.props.breakdownData.map(data => {
                   return (
-                    <BreakDownRow bdcData={data}/>
+                    <BreakDownRow key={data.Asset} clickHandle={this.props.clickHandle} bdcData={data}/>
                   );
                 })}
               </tbody>

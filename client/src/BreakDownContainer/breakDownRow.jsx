@@ -6,7 +6,7 @@ class BreakDownRow extends Component {
     const lowerTitle = this.props.bdcData.Asset.toLowerCase();
     const firstCapital =  lowerTitle.charAt(0).toUpperCase() + lowerTitle.slice(1);
     return (
-      <tr id={this.props.bdcData.Asset} className="energy-source-breakdown-standard-cell" onClick={this.props.button}>
+      <tr id={this.props.bdcData.Asset} className="energy-source-breakdown-standard-cell" onClick={this.props.clickHandle}>
         <td className="energy-source-icon">
           <img src={require(`../docs/${(this.props.bdcData.Asset).toLowerCase()}.png`)} alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com" />
         </td>
