@@ -4,7 +4,7 @@ import Header from './Components/Titles/Header';
 import SummaryContainer from './Components/Summary/SummaryContainer';
 import BreakdownContainer from './Components/BreakDownContainer/BreakDownContainer';
 import PlantBreakdown from './Components/PlantBreakdown/PlantBreakdown';
-import Legend from './Components/Static/Legend.jsx';
+import Legend from './Components/Static/Legend/Legend.jsx';
 import SunburstGraph from './Components/Graphs/SunburstGraph';
 import EnergyMap from './Components/Maps/EnergyMap';
 import Disclaimer from './Components/Static/Disclaimer';
@@ -49,7 +49,6 @@ class App extends Component {
   setModal = (modalData) => this.setState({ modalData });
   prepPlantBreakdown(targetArg) {
     const curTarget = targetArg;
-    console.log(this.state);
     const targetDataList = this.state.scrapedData[curTarget];
     const getTargetPercent = (targPercent, targList) => {
       let outputPercent;
@@ -95,40 +94,6 @@ class App extends Component {
         <Disclaimer/>
       </div>
     );
-    // WIP component
-    /*
-
-        <SummaryContainer summary={this.state.scrapedData.summary} />
-
-        />
-    */
-    /*
-     */
-    // WORKING COMPONENTS
-    // <SummaryContainer summary={this.state.scrapedData.summary} />
-
-    // return (
-    //   <div>
-    //     <div>
-    //       <Header date={this.state[0]} />
-    //     </div>
-    //     <div className="content-wrapper">
-    //       <PlantBreakdown
-    //         powerPlants={this.state[3]}
-    //         generation={this.state[2]}
-    //         energytype={this.state.energytype}
-    //         setModalData={this.setModal}
-    //       />
-    //     </div>
-    // <div className="second-row">
-    //   <SunburstGraph />
-    //   <Legend />
-    //   <EnergyMap />
-    // </div>
-    //     <Disclaimer />
-    //     <Modal data={this.state.modalData} closeModal={this.closeModal} />
-    //   </div>
-    // );
   }
 }
 

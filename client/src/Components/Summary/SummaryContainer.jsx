@@ -1,28 +1,17 @@
 import React, {Component} from 'react';
+import SummaryBox from './SummaryBox';
 
 class SummaryContainer extends Component {
 
     render() {
+        const summaryStaticArr = ["POWER GENERATED", "ENERGY IMPORTED", "ALBERTA'S DEMAND", "NET TO GRID"];
         return(
-        <div className="content-wrapper">
-        <div className="summary-container" id="summary-container">
-            <div className="summary-box">
-                <div className="title">POWER GENERATED</div>
-                        <div className="value"><span bind="powerGenerated">{this.props.summary[0]}</span> MW</div>
-            </div>
-            <div className="summary-box">
-                <div className="title">ENERGY IMPORTED</div>
-                        <div className="value"><span bind="powerGenerated">{this.props.summary[1]}</span> MW</div>
-            </div>
-            <div className="summary-box">
-                <div className="title">ALBERTA'S DEMAND</div>
-                        <div className="value"><span bind="albertaDemand">{this.props.summary[2]}</span> MW</div>
-            </div>
-            <div className="summary-box">
-                <div className="title">NET TO GRID</div>
-                        <div className="value"><span bind="powerGenerated">{this.props.summary[3]}</span> MW</div>
-            </div>
-        </div>
+        <div id="summary-container" className="content-wrapper summary-container">
+          {this.props.summary.map((ele, index) => {
+            return (
+              <SummaryBox key={index} title={summaryStaticArr[index]} val={ele}/>
+            );
+          })}
         </div>
         )
     }

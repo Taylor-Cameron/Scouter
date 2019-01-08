@@ -15,7 +15,6 @@ export default (incomingData) => {
   });
   outObj.summary = getSumArr(outObj.summary);
   outObj.breakdown = totalToPercent(outObj.total);
-  console.log(outObj);
   return outObj;
 };
 const getSumArr = (sumArr) => {
