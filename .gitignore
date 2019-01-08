@@ -5,6 +5,7 @@ server/data
 /tmp
 # dependencies
 node_modules
+testRequest.js
 
 # testing
 coverage
