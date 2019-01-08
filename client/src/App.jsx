@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Nav/Header';
+import Header from './Titles/Header';
 import SummaryContainer from './Summary/SummaryContainer';
 import BreakdownContainer from './BreakDownContainer/BreakDownContainer';
 import PlantBreakdown from './PlantBreakdown';
@@ -56,21 +56,19 @@ class App extends Component {
     return(
       <div>
         <Header date={this.state.scrapedData.timestamp} />
-        <BreakdownContainer
-        breakdownData={this.state.scrapedData.breakdown}
-        button={this.handleClick}
-        />
       </div>
     )
     // WIP component
     /*
+          <BreakdownContainer
+          breakdownData={this.state.scrapedData.breakdown}
+          button={this.handleClick}
+          />
+        <SummaryContainer summary={this.state.scrapedData.summary} />
 
+        />
     */
     /*
-            <BreakdownContainer
-          generation={this.state[2]}
-          button={this.handleClick}
-        />
     */
     // WORKING COMPONENTS
     // <SummaryContainer summary={this.state.scrapedData.summary} />
@@ -82,11 +80,6 @@ class App extends Component {
     //       <Header date={this.state[0]} />
     //     </div>
     //     <div className="content-wrapper">
-    //       <SummaryContainer summary={this.state[1]} />
-    //       <BreakdownContainer
-    //         generation={this.state[2]}
-    //         button={this.handleClick}
-    //       />
     //       <PlantBreakdown
     //         powerPlants={this.state[3]}
     //         generation={this.state[2]}
