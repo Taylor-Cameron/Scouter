@@ -5,8 +5,17 @@ export default (incomingData) => {
       outObj[ele[0]] = ele[1];
     });
   });
+  const combin = outObj.combined;
+  const cogen = outObj.cogeneration;
+  const simp = outObj.simple;
+  const gasObj = {...combin, ...cogen, ...simp};
+  outObj.gas = [];
+  Object.values(gasObj).forEach((ele) => {
+    outObj.gas.push(ele);
+  });
   outObj.summary = getSumArr(outObj.summary);
   outObj.breakdown = totalToPercent(outObj.total);
+  console.log(outObj);
   return outObj;
 };
 const getSumArr = (sumArr) => {
