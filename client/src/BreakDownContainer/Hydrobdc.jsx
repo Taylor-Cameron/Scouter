@@ -1,29 +1,31 @@
 import React, { Component } from 'react';
 
 class Hydrobdc extends Component {
+
   render() {
-    console.log(this.props.hydroPercentData[2]);
+    const lowerTitle = this.props.bdcData.Asset.toLowerCase();
+    const firstCapital =  lowerTitle.charAt(0).toUpperCase() + lowerTitle.slice(1);
     return (
-      <tr id="HYDRO" className="energy-source-breakdown-standard-cell" onClick={this.props.button}>
+      <tr id={this.props.bdcData.Asset} className="energy-source-breakdown-standard-cell" onClick={this.props.button}>
         <td className="energy-source-icon">
-          <img src={require('../docs/hydro.png')} alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com" />
+          <img src={require(`../docs/${(this.props.bdcData.Asset).toLowerCase()}.png`)} alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com" />
         </td>
         <td className="energy-source-title">
-          <p>Hydro</p>
+          <p>{firstCapital}</p>
         </td>
         <td className="energy-source-values">
           <div className="bar-background">
-            <div className="bar hydro-bar" style={{ width: `${this.props.hydroPercentData[2].HYDRO.Tng}%` }} />
+            <div className={`bar ${lowerTitle}-bar`} style={{ width: `${this.props.bdcData.percentTng}%` }} />
           </div>
           <div>
-            <span bind="hydroPercentage">{this.props.hydroPercentData[2].HYDRO.Tng}</span>%
+            <span bind={`${lowerTitle}Percentage`}>{this.props.bdcData.percentTng}</span>%
           </div>
           <div>
-            <span bind="hydroOutput">{this.props.hydroData}</span> MW
+            <span bind={`${lowerTitle}Output`}>{this.props.bdcData.Tng}</span> MW
           </div>
         </td>
         <td className="energy-source-disclosure">
-          <img id="HYDRO" src={require('../docs/arrow.png')} alt="arrow" />
+          <img id={this.props.bdcData.Asset} src={require('../docs/arrow.png')} alt="arrow" />
         </td>
       </tr>
     );

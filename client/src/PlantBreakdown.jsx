@@ -39,7 +39,7 @@ class PlantBreakdown extends Component {
             <div className="plant-container">
                 <div className="power-plant-breakdown-table-header">
                     <div className="breakdown-table-title">GENERATION - PLANT</div>
-                        <div className={`power-plant-breakdown-summary biofuel-bar ${energytype.toLowerCase()}-bar`}>
+                        <div className={`power-plant-breakdown-summary biomass-bar ${energytype.toLowerCase()}-bar`}>
                             <div className="power-plant-breakdown-summary-title">
                             {energytype}
                             <div className="power-plant-breakdown-summary-bar-background">

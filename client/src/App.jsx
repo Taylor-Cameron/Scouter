@@ -57,14 +57,15 @@ class App extends Component {
       <div>
         <Header date={this.state.scrapedData.timestamp} />
         <BreakdownContainer
-        totals={this.state.scrapedData.total}
-        totalPercent={this.state.scrapedData.percentTotal}
+        breakdownData={this.state.scrapedData.breakdown}
         button={this.handleClick}
         />
-
       </div>
     )
     // WIP component
+    /*
+
+    */
     /*
             <BreakdownContainer
           generation={this.state[2]}

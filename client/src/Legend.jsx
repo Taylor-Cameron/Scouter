@@ -26,10 +26,10 @@ class Legend extends Component {
                     className="legend-img"
                     src={ require('./docs/hydro.png') }
                     alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
-                <div className="classification">Biofuel</div>
+                <div className="classification">Biomass</div>
                 <img
                   className="legend-img"
-                  src={ require('./docs/bio.png') }
+                  src={ require('./docs/biomass.png') }
                   alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com"/>
           </div>
         </div>    

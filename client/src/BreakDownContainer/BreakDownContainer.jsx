@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
-import EnegySourceBreakdown from './EnergySourceBreakdown'
+import Hydrobdc from './Hydrobdc';
+
 class BreakdownContainer extends Component {
   render() {
-    console.log(this.props.totals[2].Tng)
+    console.log(this.props.breakdownData)
     return (
       <div className="content-wrapper">
         <div className="breakdown-container">
           <div className="breakdown-table-title">GENERATION - FUEL TYPE</div>
-          <EnegySourceBreakdown totalPercentBreakdown={this.props.totalPercent} totalBreakdown={this.props.totals[2].Tng}/>
+            <table className="energy-source-breakdown-table">
+              <tbody>
+                <Hydrobdc bdcData={this.props.breakdownData[2]}/>
+                <Hydrobdc bdcData={this.props.breakdownData[0]}/>
+                <Hydrobdc bdcData={this.props.breakdownData[1]}/>
+                <Hydrobdc bdcData={this.props.breakdownData[3]}/>
+                <Hydrobdc bdcData={this.props.breakdownData[4]}/>
+              </tbody>
+            </table>
         </div>
       </div>
     );
