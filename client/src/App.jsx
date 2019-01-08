@@ -52,22 +52,29 @@ class App extends Component {
       // summary [0] = total power
       // summary [2] = total load
       // summary [3] = net to grid
-      console.log(this.state.scrapedData.summary)
     }
     return(
       <div>
         <Header date={this.state.scrapedData.timestamp} />
- 
         <BreakdownContainer
+        totals={this.state.scrapedData.total}
+        totalPercent={this.state.scrapedData.percentTotal}
+        button={this.handleClick}
+        />
+
+      </div>
+    )
+    // WIP component
+    /*
+            <BreakdownContainer
           generation={this.state[2]}
           button={this.handleClick}
         />
-      </div>
-    )
+    */
     // WORKING COMPONENTS
     // <SummaryContainer summary={this.state.scrapedData.summary} />
 
-    
+
     // return (
     //   <div>
     //     <div>
