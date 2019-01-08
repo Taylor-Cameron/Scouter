@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Titles/Header';
-import SummaryContainer from './Summary/SummaryContainer';
-import BreakdownContainer from './BreakDownContainer/BreakDownContainer';
-import PlantBreakdown from './PlantBreakdown/PlantBreakdown';
+import Header from './Components/Titles/Header';
+import SummaryContainer from './Components/Summary/SummaryContainer';
+import BreakdownContainer from './Components/BreakDownContainer/BreakDownContainer';
+import PlantBreakdown from './Components/PlantBreakdown/PlantBreakdown';
 import Legend from './Components/Static/Legend.jsx';
 import SunburstGraph from './Components/Graphs/SunburstGraph';
 import EnergyMap from './Components/Maps/EnergyMap';

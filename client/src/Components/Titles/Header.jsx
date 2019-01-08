@@ -9,7 +9,7 @@ class Header extends Component {
                 {this.props.date}
             </div>
             <button value="Refresh Page" className="refresh" onClick={() => {window.location.reload()}}>
-            <img src={ require('../docs/refresh.png') } alt="refresh"/>
+            <img src={ require('../../docs/refresh.png') } alt="refresh"/>
             </button>
         </div>
         )
