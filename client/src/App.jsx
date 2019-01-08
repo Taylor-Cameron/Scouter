@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Nav/Header';
 import SummaryContainer from './Summary/SummaryContainer';
-import BreakdownContainer from './BreakDownContainer';
+import BreakdownContainer from './BreakDownContainer/BreakDownContainer';
 import PlantBreakdown from './PlantBreakdown';
 import Legend from './Legend.jsx';
 import SunburstGraph from './SunburstGraph';
@@ -57,9 +57,17 @@ class App extends Component {
     return(
       <div>
         <Header date={this.state.scrapedData.timestamp} />
-        <SummaryContainer summary={this.state.scrapedData.summary} />
+ 
+        <BreakdownContainer
+          generation={this.state[2]}
+          button={this.handleClick}
+        />
       </div>
     )
+    // WORKING COMPONENTS
+    // <SummaryContainer summary={this.state.scrapedData.summary} />
+
+    
     // return (
     //   <div>
     //     <div>
