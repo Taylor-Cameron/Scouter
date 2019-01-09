@@ -33,9 +33,12 @@ class App extends Component {
   }
   // Fetch data from the backend served at localhost:5000
   async callApi() {
-    const response = await fetch("http://localhost:5000/api");
-    const jsonResponse = await response.json();
-    const body = sortIncoming(jsonResponse);
+    const response = await fetch("https://scouterscrape.azurewebsites.net/api/RequestScrapeData?code=Fv2vV9aGCvlI2FK9/Dtv5CUPJlYUlrKGvYddEABqO/2baT5Eie7w3w==")
+                           .then(function(res){
+                             console.log(res.json())
+                           });
+    // const jsonResponse = await response.json();
+    const body = sortIncoming(response);
     if (response.status !== 200) throw Error(body.message);
 
     return body;
