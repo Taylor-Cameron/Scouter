@@ -47,7 +47,6 @@ body {
   .header {
     position: fixed;
     display: flex;
-    justify-content: center;
     font-size: 25px;
     box-shadow: 0px 0px 30px 0px rgba(8, 8, 8, 0.1);
     background:rgba(255,255,255,0.97);
@@ -60,16 +59,28 @@ body {
     border-radius: 5px;
   }
 
-  .date {
-    flex: 1;
-    text-align: center;
-    padding:25px;
+  .logo {
+    align-self: center;
+    justify-content: center;
+    margin: 0 0 0 3%;
   }
 
-  .header .refresh {
+  .site-title {
     align-self: center;
-    padding: 0 40px 0 0;
-    border: none;
+    padding: 0 0 0 30px;
+  }
+
+  .date {
+    flex: 1;
+    padding: 25px 260px;
+    font-size: 20px;
+  }
+
+  .header-icon {
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    padding-right: 30px;
   }
 
   /**************SUMMARY BOXES**************/
@@ -155,6 +166,7 @@ body {
 
   td.energy-source-icon {
     width: 50px;
+    padding-left: 30px;
   }
 
   td.energy-source-icon img {
@@ -195,7 +207,7 @@ body {
     float: right;
   }
 
-  .biomass-bar {
+  .biofuel-bar {
     background-color: #ffdb28;
   }
 
@@ -232,7 +244,7 @@ body {
   }
 
   .power-plant-breakdown-table-div {
-    height: 200px;
+    height: 220px;
     background-color: #ffffff;
     color: #465865;
     overflow: auto;
@@ -327,7 +339,7 @@ body {
   .modal-container {
     position: fixed;
     background-color: white;
-    min-height: 400px;
+    min-height: 250px;
     width: 600px;
     z-index: 10001;
     top: 200px;
@@ -345,22 +357,22 @@ body {
   }
 
   .modal-footer {
-    padding: 0 50px 0 50px;
+    padding: 0 50px 50px 50px;
   }
 
  /**************SUNBURST**************/
 
   .sunburst-wrapper {
     background-color: #ffffff;
-    display: flex;
     align-content: center;
-    width: 700px;
+    width: 625px;
     height: 700px;
     margin: 45px 0 0 0 ;
     border-top-style: solid;
     border-top-color: #efefef;
     border-top-width: 1px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
@@ -371,10 +383,16 @@ body {
     font-size: 16px;
     text-align: center;
     line-height: 65px;
-    padding: 5px 0px 4px 10px;
+    padding: 5px 0px 4px 90px;
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
+  }
+
+  .directions-button {
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
   }
 
     /**************LEGEND**************/
@@ -387,7 +405,8 @@ body {
       background-color:#ffffff;
       border-left-style: solid;
       border-left-color: #efefef;
-      border-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     }
 
@@ -430,6 +449,7 @@ body {
     font-weight: 400;
     height: 700px;
     border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .map-title {
@@ -443,21 +463,14 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #efefef;
     border-bottom-width: 1px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
 
   .map-content {
     height: 625px;
   }
 
-  .map-pic {
-    align-content: center;
-    padding-left: 10%;
-    padding-top: 15%;
-  }
-
   .map-info {
-    padding-left: 15%;
+    padding: 20px 0 0 20px;
     font-weight: 150;
   }
 
@@ -468,10 +481,8 @@ body {
     box-shadow: 0px 0px 30px 0px rgba(8, 8, 8, 0.1);
     background:rgba(255,255,255,0.97);
     height: 100px;
-    padding: 0 20% 2% 20%;
+    padding: 0 20% 4% 20%;
     margin-top: 30px;
     font-size: 18px;
     border-radius: 5px;
   }
-
-

@@ -16,24 +16,24 @@ class App extends Component {
     super();
     this.state = {
       scrapedData: false,
-      currentPlantBreakdown: false,
+      currentPlantBreakdown: false
     };
   }
   // When component mounts call the Api and send response to the client
   componentDidMount() {
     this.callApi()
-      .then((res) => {
+      .then(res => {
         this.setState({ scrapedData: res });
         return this.state;
       })
       .then(() => {
-        this.prepPlantBreakdown('coal');
+        this.prepPlantBreakdown("coal");
       })
-      .catch((err) => console.log(err));
+      .catch(err => console.log(err));
   }
   // Fetch data from the backend served at localhost:5000
   async callApi() {
-    const response = await fetch('http://localhost:5000/api');
+    const response = await fetch("http://localhost:5000/api");
     const jsonResponse = await response.json();
     const body = sortIncoming(jsonResponse);
     if (response.status !== 200) throw Error(body.message);
@@ -41,53 +41,88 @@ class App extends Component {
     return body;
   }
 
-  handleClick = (event) => {
+  handleClick = event => {
     const newTarget = event.currentTarget.id.toLowerCase();
     this.prepPlantBreakdown(newTarget);
   };
-
-  setModal = (modalData) => this.setState({ modalData });
   prepPlantBreakdown(targetArg) {
     const curTarget = targetArg;
     const targetDataList = this.state.scrapedData[curTarget];
     const getTargetPercent = (targPercent, targList) => {
       let outputPercent;
-      targList.forEach((element) => {
+      targList.forEach(element => {
         if (element.Asset === targPercent.toUpperCase()) {
           outputPercent = element.percentTng;
         }
       });
       return outputPercent;
     };
-    const targetPercent = getTargetPercent(curTarget, this.state.scrapedData.breakdown);
+    const targetPercent = getTargetPercent(
+      curTarget,
+      this.state.scrapedData.breakdown
+    );
     this.setState({
       currentPlantBreakdown: {
         target: curTarget,
         targetDataList: targetDataList,
-        targetPercent: targetPercent,
-      },
+        targetPercent: targetPercent
+      }
     });
   }
-  closeModal = () => this.setState({ modalData: undefined });
+  setModal = modalData => this.setState({ modalData });
+  setDirections = () =>
+    this.setState({ directionsModal: !this.state.directionsModal });
+  setInformation = () =>
+    this.setState({ informationModal: !this.state.informationModal });
+
+  closeModal = () =>
+    this.setState({
+      modalData: undefined,
+      informationModal: false,
+      directionsModal: false
+    });
   render() {
-    console.log(this.state)
+    console.log(this.state);
     if (!this.state.currentPlantBreakdown) return <p>loading</p>;
-    return <div>
+    return (
+      <div>
         <div>
-          <Header date={this.state.scrapedData.timestamp} />
+          <Header
+            date={this.state.scrapedData.timestamp}
+            setModalData={this.setInformation}
+            closeModal={this.closeModal}
+          />
         </div>
         <div className="content-wrapper">
           <SummaryContainer summary={this.state.scrapedData.summary} />
-          <BreakdownContainer breakdownData={this.state.scrapedData.breakdown} clickHandle={this.handleClick} />
-          <PlantBreakdown energytype={this.state.currentPlantBreakdown.target} plantArr={this.state.currentPlantBreakdown.targetDataList} targetPercent={this.state.currentPlantBreakdown.targetPercent} setModalData={this.setModal} />
+          <BreakdownContainer
+            breakdownData={this.state.scrapedData.breakdown}
+            clickHandle={this.handleClick}
+          />
+          <PlantBreakdown
+            energytype={this.state.currentPlantBreakdown.target}
+            plantArr={this.state.currentPlantBreakdown.targetDataList}
+            targetPercent={this.state.currentPlantBreakdown.targetPercent}
+            setModalData={this.setModal}
+          />
         </div>
         <div className="second-row">
-        <SunburstGraph sunburstData={this.state.scrapedData.sunburstData}/>
+          <SunburstGraph
+            sunburstData={this.state.scrapedData.sunburstData}
+            setModalData={this.setDirections}
+          />
           <Legend />
           <EnergyMap />
         </div>
         <Disclaimer />
-      </div>;
+        <Modal
+          data={this.state.modalData}
+          closeModal={this.closeModal}
+          directionsModal={this.state.directionsModal}
+          informationModal={this.state.informationModal}
+        />
+      </div>
+    );
   }
 }
 

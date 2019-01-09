@@ -1,15 +1,17 @@
 import React, { PureComponent } from "react";
+import Directions from "../Directions.jsx";
+import Information from "../Information.jsx";
 
-export default ({ data, closeModal }) => {
+export default ({ data, closeModal, directionsModal, informationModal}) => {
+  if (directionsModal) return <Directions closeModal={closeModal} />;
+  if (informationModal) return <Information closeModal={closeModal} />;
   if (!data) return null;
+
   return <div>
       <div className="modal-body" role="dialog" onClick={closeModal} />
 
       <div className="modal-container">
         <div className="modal-header">
-          <button type="button" className="close" onClick={closeModal}>
-            &times;
-          </button>
           <h2 className="modal-title">{data.name}</h2>
         </div>
         <div className="modal-info">

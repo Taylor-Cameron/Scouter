@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PlantList from './PlantList';
-const data = require('./plantinfo.json');
+const data = require("./plantinfo.json");
 
 class PlantBreakdown extends Component {
   render() {
@@ -33,10 +33,11 @@ class PlantBreakdown extends Component {
                   <tbody>
                   {this.props.plantArr.map(data => {
                     return (
-                      <PlantList 
+                      <PlantList
                       Asset={data.Asset}
                       Mc = {data.Mc}
                       Tng = {data.Tng}
+                      setModalData={this.props.setModalData}
                       />
                     );
                   })}
