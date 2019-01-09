@@ -6,7 +6,7 @@ export default () => {
       <div className="modal-container">
         <div className="modal-content">
           <div className="modal-header">
-            <h2 className="modal-title">About This Sunburst Graph</h2>
+            <h2 className="modal-title">About this Sunburst Graph</h2>
           </div>
           <div className="modal-info">
             <p>This sunburst graph displays the breakdown of total energy output in Alberta by resource and powerplant.<br></br><br></br>
