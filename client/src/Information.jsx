@@ -24,3 +24,4 @@ export default ({closeModal}) => {
       </div>
     </div>;
 }
+
