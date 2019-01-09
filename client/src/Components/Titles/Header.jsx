@@ -17,7 +17,7 @@ class Header extends Component {
                     POWER SCOUTER
             </div>
                 <div className="date">
-                    {this.props.date.time}
+                    {this.props.date}
                 </div>
                 <img
                     className="header-icon"
