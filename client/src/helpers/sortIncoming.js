@@ -1,4 +1,5 @@
 export default (incomingData) => {
+  console.log(incomingData.Response)
   const outObj = {};
   incomingData.forEach((element) => {
     Object.entries(element).forEach((ele) => {

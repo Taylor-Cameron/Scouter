@@ -10,6 +10,7 @@ import EnergyMap from './Components/Maps/EnergyMap';
 import Disclaimer from './Components/Static/Disclaimer';
 import Modal from './Components/Modal';
 import sortIncoming from './helpers/sortIncoming';
+import showData from './helpers/incomingFormat';
 
 class App extends Component {
   constructor() {
@@ -33,23 +34,16 @@ class App extends Component {
   }
   // Fetch data from the backend served at localhost:5000
   async callApi() {
-    const response = await fetch("https://scoutdata.azurewebsites.net/api/HttpTrigger").then(
-      function(res) {
-        res.json().then(value => {
-          const jsonData = [];
-          const values = Object.entries(value);
-          values.forEach(([key, value]) => {
-            const values = JSON.stringify(value);
-            jsonData.push(`{${key}: ${values}}`);
-          });
-          console.log(jsonData);
-        });
-      }
-    );
+    const response = await fetch("https://scoutdata.azurewebsites.net/api/HttpTrigger")
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(myJson) {
+        return showData(myJson);
+      });
+      // console.log(response)
     // const jsonResponse = await response.json();
     const body = sortIncoming(response);
-    if (response.status !== 200) throw Error(body.message);
-
     return body;
   }
 
