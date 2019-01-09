@@ -82,7 +82,6 @@ class App extends Component {
       directionsModal: false
     });
   render() {
-    console.log(this.state);
     if (!this.state.currentPlantBreakdown) return <p>loading</p>;
     return (
       <div>
