@@ -79,7 +79,7 @@ class Sunburst extends React.Component {
       .on('mouseover', function (d) {
         if (self.props.tooltip) {
           d3.select(this).style('cursor', 'pointer');
-          tooltip.html(() => { const name = utils.formatNameTooltip(d); return name; });
+          tooltip.html(() => { const name = utils.formatNameTooltip(d); return name + " MW"; });
           return tooltip.transition().duration(50).style('opacity', 1);
         }
         return null;
